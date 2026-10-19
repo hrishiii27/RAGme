@@ -1,4 +1,4 @@
-# BharatVault 🇮🇳
+# BharatVault
 ### Sovereign Document Intelligence Gateway Over 46,690 Official Indian Public Records (681,220 Vectors)
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -10,9 +10,7 @@
 [![Observability](https://img.shields.io/badge/Telemetry-Langfuse-E11D48.svg)](https://langfuse.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**BharatVault** is a portfolio-grade, production-calibrated Sovereign Document Retrieval-Augmented Generation (RAG) system built over 46,690 verified, official Indian government documents (**681,220 indexed vectors**) from `ankitjh4/bharat-government-documents`. Every architectural phase—chunking, embedding, lexical vs. dense retrieval, human-in-the-loop judge calibration, prompt engineering, and agentic routing—has been systematically evaluated and documented with empirical benchmark reports.
-
-The user interface draws inspiration from **Elsewhere** and **21st.dev** component aesthetics, featuring a floating glass pill navbar with spring indicators, interactive cursor-following radial spotlight cards, fluid height motion accordions, verified inline citation pills (`[1]`), a slide-out source inspector drawer, and dark glassmorphic styling with `Plus Jakarta Sans` and `JetBrains Mono` typography.
+**BharatVault** is a production-calibrated Sovereign Document Retrieval-Augmented Generation (RAG) system built over 46,690 verified, official Indian government documents (**681,220 indexed vectors**) from `ankitjh4/bharat-government-documents`. Every architectural phase—chunking, embedding, lexical vs. dense retrieval, human-in-the-loop judge calibration, prompt engineering, and agentic routing—has been systematically evaluated and documented with empirical benchmark reports.
 
 ---
 
