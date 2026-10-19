@@ -160,6 +160,7 @@ export default function App() {
   const [stats, setStats] = useState<any>(null)
   const [benchmarkTab, setBenchmarkTab] = useState<"prompt" | "retrieval" | "chunking" | "human">("prompt")
   const [activeSection, setActiveSection] = useState<string>("hero")
+  const [activeView, setActiveView] = useState<"landing" | "chat">("landing")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   // Floating controls state
@@ -240,6 +241,7 @@ export default function App() {
     const promptText = userPrompt.trim()
     setQuery("")
     setLoading(true)
+    setActiveView("chat")
 
     const userMsgId = `usr-${Date.now()}`
     const assistantMsgId = `ast-${Date.now()}`
@@ -445,39 +447,49 @@ export default function App() {
           21ST.DEV FLOATING GLASS PILL NAVBAR
       ───────────────────────────────────────────────────────────── */}
       <Navbar21st
-        activeSection={messages.length > 0 ? "console" : activeSection}
+        activeSection={activeView === "chat" ? "console" : activeSection}
         onNavigate={(id) => {
-          if (id === "hero") {
-            if (messages.length > 0) {
-              setMessages([])
-              setQuery("")
-            }
+          if (id === "console") {
+            setActiveView("chat")
             window.scrollTo({ top: 0, behavior: "smooth" })
             return
           }
-          if (id === "console") {
-            if (messages.length === 0) {
-              const input = document.querySelector<HTMLInputElement>("input[placeholder*='Ask anything']")
-              input?.focus()
-            } else {
-              window.scrollTo({ top: 0, behavior: "smooth" })
-            }
+          if (activeView === "chat") {
+            setActiveView("landing")
+            setTimeout(() => {
+              if (id === "hero") {
+                window.scrollTo({ top: 0, behavior: "smooth" })
+              } else {
+                document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
+              }
+            }, 60)
+            return
+          }
+          if (id === "hero") {
+            window.scrollTo({ top: 0, behavior: "smooth" })
             return
           }
           document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
         }}
         onOpenBenchmarks={() => {
-          document.getElementById("benchmarks")?.scrollIntoView({ behavior: "smooth" })
+          if (activeView === "chat") {
+            setActiveView("landing")
+            setTimeout(() => {
+              document.getElementById("benchmarks")?.scrollIntoView({ behavior: "smooth" })
+            }, 60)
+          } else {
+            document.getElementById("benchmarks")?.scrollIntoView({ behavior: "smooth" })
+          }
         }}
         totalVectors={stats?.total_chunks || 681220}
         isNight={isNight}
       />
 
       {/* ─────────────────────────────────────────────────────────────
-          1. HERO OR ACTIVE 21ST.DEV CHAT CANVAS (Seamless Transition)
+          1. CHAT CANVAS (STANDALONE FULL SCREEN) OR LANDING SECTIONS
       ───────────────────────────────────────────────────────────── */}
-      <AnimatePresence mode="wait">
-        {messages.length > 0 ? (
+      {activeView === "chat" ? (
+        <AnimatePresence mode="wait">
           <ChatScreen21st
             key="active-chat-screen"
             messages={messages}
@@ -490,8 +502,7 @@ export default function App() {
               setQuery("")
             }}
             onBackToLanding={() => {
-              setMessages([])
-              setQuery("")
+              setActiveView("landing")
               window.scrollTo({ top: 0, behavior: "smooth" })
             }}
             onOpenSources={handleOpenSources}
@@ -506,7 +517,9 @@ export default function App() {
             stats={stats}
             isNight={isNight}
           />
-        ) : (
+        </AnimatePresence>
+      ) : (
+        <div key="landing-content-flow">
           <ElsewhereHero
             key="landing-hero-view"
             brand="BharatVault"
@@ -518,16 +531,14 @@ export default function App() {
             }
             onSearchSubmit={(val) => executeSearch(val)}
           />
-        )}
-      </AnimatePresence>
 
-      {/* ─────────────────────────────────────────────────────────────
-          2. SECTION: OVERVIEW & MISSION (#overview)
-      ───────────────────────────────────────────────────────────── */}
-      <section
-        id="overview"
-        className="relative min-h-[90vh] py-28 px-4 sm:px-8 bg-transparent flex items-center justify-center scroll-mt-16"
-      >
+          {/* ─────────────────────────────────────────────────────────────
+              2. SECTION: OVERVIEW & MISSION (#overview)
+          ───────────────────────────────────────────────────────────── */}
+          <section
+            id="overview"
+            className="relative min-h-[90vh] py-28 px-4 sm:px-8 bg-transparent flex items-center justify-center scroll-mt-16"
+          >
         <div className="relative z-10 max-w-6xl mx-auto w-full">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="ew-eyebrow mb-3">
@@ -1040,6 +1051,8 @@ export default function App() {
           Open Source MIT • Built with verified government datasets (.gov.in / .nic.in) • Inspired by Elsewhere Design System
         </p>
       </footer>
+        </div>
+      )}
 
       {/* ─────────────────────────────────────────────────────────────
           8. VERIFIED SOURCE DRAWER

@@ -11,7 +11,7 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 
 from app.schemas import ChatRequest, ChatResponse, SourceChunk
-from app.services import extract_follow_ups, get_pipeline
+from app.services import build_enriched_source_chunk, extract_follow_ups, get_pipeline
 from rag.eval.tracer import RAGTracer
 from rag.generate.prompt import SYSTEM_PROMPT_WINNER, build_rag_prompt, format_context
 
@@ -39,14 +39,7 @@ async def chat_endpoint(request: ChatRequest):
     fused_chunks = pipeline.retrieve(standalone_q, top_k=request.top_k)
 
     sources = [
-        SourceChunk(
-            chunk_id=c.chunk_id,
-            doc_id=c.doc_id,
-            title=c.metadata.get("title") or "Official Bharat Document",
-            url=c.metadata.get("url") or "",
-            score=round(float(score), 4),
-            snippet=c.text[:280] + ("..." if len(c.text) > 280 else ""),
-        )
+        build_enriched_source_chunk(c, score)
         for c, score in fused_chunks
     ]
 

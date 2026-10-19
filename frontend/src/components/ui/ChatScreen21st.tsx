@@ -82,9 +82,37 @@ export default function ChatScreen21st({
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
-  // Auto-scroll to latest message or token
+  const isAutoScrollActive = useRef(true)
+
+  // Track user scroll position: if the user scrolls up to read earlier history, pause auto-scroll
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+    const handleScroll = () => {
+      const threshold = 180
+      const scrollPos = window.scrollY + window.innerHeight
+      const bottomPos = document.documentElement.scrollHeight
+      isAutoScrollActive.current = bottomPos - scrollPos < threshold
+    }
+    window.addEventListener("scroll", handleScroll, { passive: true })
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
+  // Jitter-free scrolling: During streaming, scroll instantly via rAF without fighting animation frames
+  useEffect(() => {
+    if (!isAutoScrollActive.current) return
+
+    if (loading) {
+      // Use instant scrolling with rAF to eliminate all browser scroll-jitter
+      const frame = requestAnimationFrame(() => {
+        window.scrollTo({
+          top: document.documentElement.scrollHeight,
+          behavior: "auto",
+        })
+      })
+      return () => cancelAnimationFrame(frame)
+    } else {
+      // Gentle smooth scroll only when streaming finishes or on initial query submission
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+    }
   }, [messages, loading])
 
   // Auto-resize textarea
@@ -165,6 +193,18 @@ export default function ChatScreen21st({
 
       {/* ── Message Thread Stream ── */}
       <div className="flex-1 space-y-6">
+        {messages.length === 0 && (
+          <div className="text-center py-24 max-w-lg mx-auto space-y-4">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-400/30 flex items-center justify-center mx-auto text-amber-300 shadow-[0_0_24px_rgba(245,158,11,0.2)]">
+              <Sparkles className="w-6 h-6" />
+            </div>
+            <h3 className="text-xl font-bold text-white tracking-tight">Sovereign Document Intelligence</h3>
+            <p className="text-xs text-[#f5f3ec]/65 leading-relaxed font-sans">
+              Ask any question across {totalVectors.toLocaleString()} verified statutory acts, central gazettes, and official notifications. Every response is grounded with verbatim citation lineage.
+            </p>
+          </div>
+        )}
+
         {messages.map((msg) => {
           const isUser = msg.role === "user"
 
@@ -244,30 +284,68 @@ export default function ChatScreen21st({
                 )}
               </div>
 
-              {/* Retrieval Sources Strip */}
+              {/* Grounded Citation Dossier Cards */}
               {msg.sources && msg.sources.length > 0 && (
-                <div className="pt-3.5 border-t border-white/10 flex flex-wrap items-center gap-2">
-                  <span className="text-[10px] font-mono font-bold text-[#f5f3ec]/40 uppercase tracking-widest">
-                    Grounded In:
-                  </span>
-                  {msg.sources.map((s, idx) => {
-                    let hostname = "gov.in"
-                    try {
-                      if (s.url) hostname = new URL(s.url).hostname
-                    } catch (_) {}
-                    return (
-                      <button
-                        key={idx}
-                        onClick={() => onOpenSources(msg.sources!, idx + 1)}
-                        className="text-[11px] font-mono bg-white/5 hover:bg-white/10 text-[#f5f3ec]/80 border border-white/10 px-2.5 py-1 rounded-md transition-colors cursor-pointer flex items-center gap-1.5"
-                      >
-                        <span className="w-3.5 h-3.5 rounded-full bg-amber-400/20 text-amber-300 text-[9px] font-bold flex items-center justify-center">
-                          {idx + 1}
-                        </span>
-                        <span>{hostname}</span>
-                      </button>
-                    )
-                  })}
+                <div className="pt-4 border-t border-white/10 space-y-2.5">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-mono font-bold text-amber-300/80 uppercase tracking-widest flex items-center gap-1.5">
+                      <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                      <span>Verified Sovereign Sources ({msg.sources.length}):</span>
+                    </span>
+                    <button
+                      onClick={() => onOpenSources(msg.sources!, 1)}
+                      className="text-[11px] font-mono text-stone-400 hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer"
+                    >
+                      <span>View All Excerpts</span>
+                      <ArrowRight className="w-3 h-3" />
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {msg.sources.slice(0, 4).map((s, idx) => {
+                      let hostname = "gov.in"
+                      try {
+                        if (s.url) hostname = new URL(s.url).hostname
+                      } catch (_) {}
+
+                      return (
+                        <button
+                          key={idx}
+                          type="button"
+                          onClick={() => onOpenSources(msg.sources!, idx + 1)}
+                          className="group p-3 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber-400/40 transition-all text-left cursor-pointer flex flex-col justify-between gap-1.5 shadow-sm"
+                        >
+                          <div className="flex items-center justify-between gap-2 w-full">
+                            <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-amber-300">
+                              <span className="w-4 h-4 rounded-full bg-amber-400/20 text-amber-300 text-[10px] flex items-center justify-center font-bold">
+                                {idx + 1}
+                              </span>
+                              <span>[{idx + 1}]</span>
+                            </span>
+
+                            {s.category && (
+                              <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                                {s.category}
+                              </span>
+                            )}
+                          </div>
+
+                          <div className="text-xs font-semibold text-white group-hover:text-amber-200 transition-colors line-clamp-1">
+                            {s.title || "Official Public Document"}
+                          </div>
+
+                          <div className="flex items-center justify-between text-[10px] font-mono text-stone-400 w-full pt-1 border-t border-white/5">
+                            <span className="truncate max-w-[140px] text-[#f5f3ec]/60">
+                              {s.department || hostname}
+                            </span>
+                            <span className="text-amber-400/80 group-hover:translate-x-0.5 transition-transform">
+                              Inspect ↗
+                            </span>
+                          </div>
+                        </button>
+                      )
+                    })}
+                  </div>
                 </div>
               )}
 

@@ -5,7 +5,7 @@ from __future__ import annotations
 from fastapi import APIRouter
 
 from app.schemas import SearchRequest, SearchResponse, SourceChunk
-from app.services import get_pipeline
+from app.services import build_enriched_source_chunk, get_pipeline
 from rag.search.hybrid import rrf_combine
 
 router = APIRouter()
@@ -31,14 +31,7 @@ async def search_endpoint(request: SearchRequest):
         hits = pipeline.retrieve(query, top_k=top_k)
 
     results = [
-        SourceChunk(
-            chunk_id=c.chunk_id,
-            doc_id=c.doc_id,
-            title=c.metadata.get("title") or "Bharat Government Document",
-            url=c.metadata.get("url") or "",
-            score=round(float(score), 4),
-            snippet=c.text[:300] + ("..." if len(c.text) > 300 else ""),
-        )
+        build_enriched_source_chunk(c, score)
         for c, score in hits
     ]
 

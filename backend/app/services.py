@@ -145,6 +145,119 @@ def extract_follow_ups(text: str) -> tuple[str, list[str]]:
     return text.strip(), []
 
 
+def build_enriched_source_chunk(chunk, score: float) -> SourceChunk:
+    """Extract authoritative document title, ministry/department, and category from chunk."""
+    text = chunk.text.strip()
+    raw_title = chunk.metadata.get("title") or chunk.metadata.get("doc_title")
+    url = chunk.metadata.get("url") or ""
+
+    # 1. Clean / infer Host & Department
+    department = "Central Government"
+    if url:
+        try:
+            from urllib.parse import urlparse
+            hostname = urlparse(url).hostname or ""
+            if "morth" in hostname:
+                department = "MoRTH (Road Transport)"
+            elif "meity" in hostname:
+                department = "MeitY (Electronics & IT)"
+            elif "hal-india" in hostname:
+                department = "Hindustan Aeronautics (HAL)"
+            elif "kerala.gov" in hostname:
+                department = "Kerala State Portal"
+            elif "dopt" in hostname:
+                department = "DoPT (Personnel & Training)"
+            elif "isro" in hostname:
+                department = "ISRO (Space)"
+            elif "csir" in hostname:
+                department = "CSIR (Scientific Research)"
+            elif "lhms" in hostname or "ladyhardinge" in hostname:
+                department = "Lady Hardinge Medical College"
+            elif "agkerala" in hostname or "ag." in hostname:
+                department = "Accountant General"
+            elif hostname.endswith(".gov.in") or hostname.endswith(".nic.in"):
+                prefix = hostname.split(".")[0].upper()
+                department = f"{prefix} (Govt of India)"
+            else:
+                department = hostname
+        except Exception:
+            pass
+
+    # 2. Extract Title / Statutory Act Name
+    title = None
+    m_ctx = re.search(r"\[Document:\s*([^\|\]]+)", text)
+    if m_ctx:
+        title = m_ctx.group(1).strip()
+
+    if not title or title.lower() in ("bharat government document", "official bharat document", "untitled document"):
+        if raw_title and raw_title.lower() not in ("bharat government document", "official bharat document", "untitled document"):
+            title = raw_title.strip()
+
+    if not title:
+        m_act = re.search(
+            r"\b((?:The\s+)?[A-Z][A-Za-z0-9\s,\-–\(\)]{3,60}?(?:Act|Rules|Regulations|Scheme|Policy|Notification|Gazette|Order|Code)(?:,?\s+\d{4})?)\b",
+            text
+        )
+        if m_act:
+            title = m_act.group(1).strip()
+
+    if not title:
+        m_org = re.search(
+            r"\b((?:Ministry of|Department of|Government of|Hindustan Aeronautics|Accountant General|Lady Hardinge Medical College)[A-Za-z0-9\s,\-–&]{4,55})\b",
+            text
+        )
+        if m_org:
+            title = m_org.group(1).strip()
+
+    if not title:
+        lines = [line.strip().lstrip("#*- ").strip() for line in text.split("\n") if len(line.strip()) > 8]
+        if lines:
+            first_line = lines[0]
+            if len(first_line) > 75:
+                first_line = first_line[:72] + "..."
+            title = first_line
+
+    if title:
+        title = re.sub(r"\s+", " ", title).strip()
+        title = re.sub(r"^[\d\.\s\-\–:Page]+", "", title).strip()
+        title = title.strip("\"'()[]{}.,;: ")
+
+    if not title or len(title) < 4:
+        title = "Official Sovereign Gazette Document"
+
+    # 3. Categorize document type
+    lower_all = (text[:300] + " " + title).lower()
+    if "act" in lower_all and ("section" in lower_all or "statute" in lower_all or "amendment" in lower_all):
+        category = "Statutory Act"
+    elif "rule" in lower_all or "regulation" in lower_all:
+        category = "Statutory Rules"
+    elif "apprentice" in lower_all or "walk-in" in lower_all or "recruitment" in lower_all or "vacancy" in lower_all:
+        category = "Recruitment & Walk-In"
+    elif "gazette" in lower_all or "notification" in lower_all:
+        category = "Gazette Notification"
+    elif "pension" in lower_all or "pran" in lower_all or "nps" in lower_all:
+        category = "Pension & Service Rules"
+    elif "circular" in lower_all or "office memorandum" in lower_all:
+        category = "Ministerial Circular"
+    else:
+        category = "Official Public Record"
+
+    clean_snippet = re.sub(r"\s+", " ", text[:320]).strip()
+    if len(text) > 320:
+        clean_snippet += "..."
+
+    return SourceChunk(
+        chunk_id=chunk.chunk_id,
+        doc_id=chunk.doc_id,
+        title=title,
+        url=url,
+        score=round(float(score), 4),
+        snippet=clean_snippet,
+        category=category,
+        department=department,
+    )
+
+
 def save_feedback(data: dict) -> str:
     root = find_project_root()
     feedback_file = root / "data" / "feedback.jsonl"

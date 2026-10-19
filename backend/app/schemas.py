@@ -25,6 +25,8 @@ class SourceChunk(BaseModel):
     url: str
     score: float
     snippet: str
+    category: str | None = None
+    department: str | None = None
 
 
 class ChatResponse(BaseModel):

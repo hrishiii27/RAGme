@@ -8,6 +8,8 @@ export interface SourceChunk {
   url: string
   score: number
   snippet: string
+  category?: string
+  department?: string
 }
 
 interface SourceDrawerProps {
@@ -28,17 +30,17 @@ export default function SourceDrawer({
   return (
     <div className="fixed inset-0 z-50 overflow-hidden bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="absolute inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md bg-[#12160f] border-l border-white/10 shadow-2xl flex flex-col text-[#f5f3ec]">
+        <div className="w-screen max-w-lg bg-[#11160e] border-l border-white/10 shadow-2xl flex flex-col text-[#f5f3ec]">
           {/* Drawer Header */}
-          <div className="p-5 border-b border-white/10 flex items-center justify-between bg-black/30">
+          <div className="p-5 border-b border-white/10 flex items-center justify-between bg-black/40">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-amber-400">
+              <div className="w-9 h-9 rounded-xl bg-amber-500/10 border border-amber-400/30 flex items-center justify-center text-amber-300">
                 <FileText className="w-4 h-4" />
               </div>
               <div>
-                <h3 className="text-sm font-bold text-white tracking-tight">Verified Source Context</h3>
+                <h3 className="text-sm font-bold text-white tracking-tight">Verified Sovereign Context</h3>
                 <p className="text-[11px] text-[#f5f3ec]/60 font-mono">
-                  Grounded in Pinecone Cloud • {sources.length} retrieved chunks
+                  Grounded in Pinecone Cloud • {sources.length} retrieved excerpts
                 </p>
               </div>
             </div>
@@ -64,47 +66,67 @@ export default function SourceDrawer({
               return (
                 <div
                   key={src.chunk_id || idx}
-                  className={`p-4 rounded-2xl border transition-all ${
+                  className={`p-5 rounded-2xl border transition-all ${
                     isHighlight
-                      ? "bg-white/10 border-amber-400/80 shadow-lg ring-1 ring-amber-400/50"
+                      ? "bg-[#182015] border-amber-400/80 shadow-[0_0_24px_rgba(245,158,11,0.2)] ring-1 ring-amber-400/50"
                       : "bg-white/5 border-white/10 hover:border-white/20"
                   }`}
                 >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-300">
-                      <span className="w-5 h-5 rounded-full bg-amber-400/20 border border-amber-400/40 text-[10px] flex items-center justify-center font-bold">
-                        {citationNum}
+                  {/* Top Bar: Citation Pill, Category & Score */}
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 bg-amber-400/15 border border-amber-400/30 px-2.5 py-0.5 rounded-full">
+                        <span className="w-4 h-4 rounded-full bg-amber-400/30 text-[10px] flex items-center justify-center font-bold">
+                          {citationNum}
+                        </span>
+                        <span>Citation [{citationNum}]</span>
                       </span>
-                      <span>Citation [{citationNum}]</span>
-                    </span>
 
-                    <span className="text-[10px] font-mono bg-white/5 px-2 py-0.5 rounded border border-white/10 text-[#f5f3ec]/60">
-                      Score: {src.score}
+                      {src.category && (
+                        <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                          {src.category}
+                        </span>
+                      )}
+                    </div>
+
+                    <span className="text-[10px] font-mono bg-black/40 px-2 py-0.5 rounded border border-white/10 text-stone-300">
+                      RRF Rank: {src.score}
                     </span>
                   </div>
 
-                  <h4 className="text-xs font-bold text-white mb-1.5 line-clamp-2">
+                  {/* Document Name / Title */}
+                  <h4 className="text-sm font-bold text-white mb-2 leading-snug">
                     {src.title || "Government Gazette / Circular"}
                   </h4>
 
-                  <div className="text-[11px] font-mono text-[#f5f3ec]/50 mb-2.5 flex items-center gap-1.5">
-                    <ShieldCheck className="w-3 h-3 text-emerald-400" />
-                    <span>Domain: {hostname}</span>
+                  {/* Authority / Ministry & Domain */}
+                  <div className="flex flex-wrap items-center gap-2 text-[11px] font-mono text-[#f5f3ec]/60 mb-3">
+                    <span className="flex items-center gap-1 text-amber-300/80">
+                      <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                      <span>{src.department || "Central Department"}</span>
+                    </span>
+                    <span>•</span>
+                    <span className="text-stone-400 truncate max-w-[200px]">{hostname}</span>
                   </div>
 
-                  <div className="text-xs leading-relaxed text-[#f5f3ec]/80 bg-black/40 p-3 rounded-xl border border-white/5 font-sans whitespace-pre-wrap">
+                  {/* Clean Formatted Snippet Box */}
+                  <div className="text-xs leading-relaxed text-[#f5f3ec]/85 bg-black/50 p-3.5 rounded-xl border border-white/10 font-sans whitespace-pre-wrap relative">
+                    <div className="text-[9px] font-mono uppercase tracking-widest text-amber-400/60 mb-1.5 flex items-center gap-1">
+                      <span>Verbatim Record Excerpt:</span>
+                    </div>
                     {src.snippet}
                   </div>
 
                   {src.url && (
-                    <div className="mt-3 pt-2.5 border-t border-white/10 flex justify-end">
+                    <div className="mt-3.5 pt-2.5 border-t border-white/10 flex items-center justify-between">
+                      <span className="text-[10px] font-mono text-stone-400">Official Portal Gazette</span>
                       <a
                         href={src.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-[11px] font-medium text-amber-300 hover:text-amber-200"
+                        className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-300 hover:text-amber-200 transition-colors"
                       >
-                        <span>Official Document Source</span>
+                        <span>Open Document Source</span>
                         <ExternalLink className="w-3 h-3" />
                       </a>
                     </div>
