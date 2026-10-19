@@ -1,0 +1,42 @@
+[
+  {
+    "Technique": "Zero-Shot",
+    "Pass Rate": "92.0%",
+    "Correctness (/5)": "4.92",
+    "Faithfulness (/5)": "5.00",
+    "Citations (/5)": "5.00",
+    "Redirection (/5)": "4.88",
+    "Follow-ups (/5)": "4.92",
+    "Composite (/25)": "24.72"
+  },
+  {
+    "Technique": "Few-Shot (Learned)",
+    "Pass Rate": "100.0%",
+    "Correctness (/5)": "5.00",
+    "Faithfulness (/5)": "5.00",
+    "Citations (/5)": "5.00",
+    "Redirection (/5)": "4.88",
+    "Follow-ups (/5)": "4.96",
+    "Composite (/25)": "24.84"
+  },
+  {
+    "Technique": "Hidden CoT",
+    "Pass Rate": "92.0%",
+    "Correctness (/5)": "5.00",
+    "Faithfulness (/5)": "5.00",
+    "Citations (/5)": "4.92",
+    "Redirection (/5)": "4.76",
+    "Follow-ups (/5)": "5.00",
+    "Composite (/25)": "24.68"
+  },
+  {
+    "Technique": "Few-Shot + CoT",
+    "Pass Rate": "96.0%",
+    "Correctness (/5)": "4.88",
+    "Faithfulness (/5)": "4.92",
+    "Citations (/5)": "5.00",
+    "Redirection (/5)": "4.92",
+    "Follow-ups (/5)": "4.92",
+    "Composite (/25)": "24.64"
+  }
+]

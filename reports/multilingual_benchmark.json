@@ -1,0 +1,182 @@
+{
+ "counts": {
+  "en": 150,
+  "hi": 150,
+  "hinglish": 150,
+  "hi_native": 100
+ },
+ "n_chunks": 20541,
+ "results": {
+  "en|bm25": {
+   "hit@1": 0.88,
+   "recall@10": 0.98,
+   "mrr": 0.9218,
+   "indic_share@10": 0.0667
+  },
+  "en|minilm": {
+   "hit@1": 0.7267,
+   "recall@10": 0.9267,
+   "mrr": 0.8007,
+   "indic_share@10": 0.1115
+  },
+  "en|e5": {
+   "hit@1": 0.88,
+   "recall@10": 0.98,
+   "mrr": 0.9136,
+   "indic_share@10": 0.083
+  },
+  "en|hybrid_minilm": {
+   "hit@1": 0.8533,
+   "recall@10": 0.9733,
+   "mrr": 0.9023,
+   "indic_share@10": 0.0904
+  },
+  "en|hybrid_e5": {
+   "hit@1": 0.9,
+   "recall@10": 0.98,
+   "mrr": 0.93,
+   "indic_share@10": 0.0725
+  },
+  "en|tr_hybrid": {
+   "hit@1": 0.8533,
+   "recall@10": 0.9733,
+   "mrr": 0.9023,
+   "indic_share@10": 0.0904
+  },
+  "hi|bm25": {
+   "hit@1": 0.1467,
+   "recall@10": 0.2467,
+   "mrr": 0.1813,
+   "indic_share@10": 0.9253
+  },
+  "hi|minilm": {
+   "hit@1": 0.0867,
+   "recall@10": 0.1333,
+   "mrr": 0.0983,
+   "indic_share@10": 0.8951
+  },
+  "hi|e5": {
+   "hit@1": 0.5667,
+   "recall@10": 0.8,
+   "mrr": 0.6531,
+   "indic_share@10": 0.7693
+  },
+  "hi|hybrid_minilm": {
+   "hit@1": 0.1733,
+   "recall@10": 0.2467,
+   "mrr": 0.1987,
+   "indic_share@10": 0.9038
+  },
+  "hi|hybrid_e5": {
+   "hit@1": 0.2067,
+   "recall@10": 0.76,
+   "mrr": 0.3855,
+   "indic_share@10": 0.824
+  },
+  "hi|tr_hybrid": {
+   "hit@1": 0.8467,
+   "recall@10": 0.9667,
+   "mrr": 0.8933,
+   "indic_share@10": 0.0737
+  },
+  "hinglish|bm25": {
+   "hit@1": 0.88,
+   "recall@10": 0.98,
+   "mrr": 0.9186,
+   "indic_share@10": 0.0802
+  },
+  "hinglish|minilm": {
+   "hit@1": 0.4933,
+   "recall@10": 0.7867,
+   "mrr": 0.6092,
+   "indic_share@10": 0.1824
+  },
+  "hinglish|e5": {
+   "hit@1": 0.7733,
+   "recall@10": 0.9333,
+   "mrr": 0.8302,
+   "indic_share@10": 0.4465
+  },
+  "hinglish|hybrid_minilm": {
+   "hit@1": 0.7667,
+   "recall@10": 0.9667,
+   "mrr": 0.8406,
+   "indic_share@10": 0.1271
+  },
+  "hinglish|hybrid_e5": {
+   "hit@1": 0.88,
+   "recall@10": 0.98,
+   "mrr": 0.9193,
+   "indic_share@10": 0.2583
+  },
+  "hinglish|tr_hybrid": {
+   "hit@1": 0.86,
+   "recall@10": 0.9733,
+   "mrr": 0.9011,
+   "indic_share@10": 0.086
+  },
+  "hi_native|bm25": {
+   "hit@1": 0.6,
+   "recall@10": 0.74,
+   "mrr": 0.6461,
+   "indic_share@10": 0.984
+  },
+  "hi_native|minilm": {
+   "hit@1": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0023,
+   "indic_share@10": 0.977
+  },
+  "hi_native|e5": {
+   "hit@1": 0.75,
+   "recall@10": 0.95,
+   "mrr": 0.8147,
+   "indic_share@10": 0.952
+  },
+  "hi_native|hybrid_minilm": {
+   "hit@1": 0.6,
+   "recall@10": 0.69,
+   "mrr": 0.6267,
+   "indic_share@10": 0.987
+  },
+  "hi_native|hybrid_e5": {
+   "hit@1": 0.63,
+   "recall@10": 0.89,
+   "mrr": 0.719,
+   "indic_share@10": 0.976
+  },
+  "hi_native|tr_hybrid": {
+   "hit@1": 0.1,
+   "recall@10": 0.22,
+   "mrr": 0.1304,
+   "indic_share@10": 0.137
+  }
+ },
+ "examples": [
+  {
+   "q": "असम राज्य आपदा प्रबंधन प्राधिकरण की आधिकारिक वेबसाइट पर प्रदान किए गए दस्तावेजों और जानकारी की कानूनी स्थिति क्या है?",
+   "hit@10": 0.0,
+   "indic_in_top10": 10
+  },
+  {
+   "q": "मेघालय में 2026 के लिए \"Climate Adaptative Community Based Water Harvesting Project\" के तहत Programme Associate (Environment Safeguards) पद के लिए साक्षात्कार कब निर्धारित है?",
+   "hit@10": 1.0,
+   "indic_in_top10": 5
+  },
+  {
+   "q": "एक कानूनी इकाई के लिए Central KYC Registry में अपडेट आवेदन के लिए कौन सी जानकारी अनिवार्य है?",
+   "hit@10": 0.0,
+   "indic_in_top10": 10
+  },
+  {
+   "q": "असम के कॉलेजों के लिए NAAC मान्यता स्थिति और जिला श्रेणियाँ, जो 27 अप्रैल 2020 को अपडेट की गई थीं, मैं कहाँ देख सकता/सकती हूँ?",
+   "hit@10": 0.0,
+   "indic_in_top10": 10
+  },
+  {
+   "q": "एक नया DIKSHA प्रमाणपत्र टेम्पलेट बनाते समय उपयोग किए जाने वाले लोगो के लिए आवश्यक चित्र आयाम क्या हैं?",
+   "hit@10": 0.0,
+   "indic_in_top10": 10
+  }
+ ]
+}

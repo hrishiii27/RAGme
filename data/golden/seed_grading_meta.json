@@ -1,0 +1,202 @@
+[
+  {
+    "s_no": 1,
+    "qid": "syn-0004",
+    "reference_answer": "The logo image should be 88 px X 88 px.",
+    "gold_doc_ids": [
+      "09606fd7e893cd5ab11ed9a3"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 2,
+    "qid": "syn-0007",
+    "reference_answer": "Rajendra Prasad Mandal.",
+    "gold_doc_ids": [
+      "bce746d12a115a651573dc30"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 3,
+    "qid": "syn-0020",
+    "reference_answer": "five hundred and seventy five days",
+    "gold_doc_ids": [
+      "270df0456a5f60e40bfdf778"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 4,
+    "qid": "syn-0022",
+    "reference_answer": "482",
+    "gold_doc_ids": [
+      "d3950f2ced643cea9329f1b6"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 5,
+    "qid": "syn-0024",
+    "reference_answer": "1,196,792.491 kg",
+    "gold_doc_ids": [
+      "1893fb5dd738ef38997f691f"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 6,
+    "qid": "syn-0027",
+    "reference_answer": "Girls receive ₹3000/- per month under the Prime Minister's Scholarship Scheme (PMSS).",
+    "gold_doc_ids": [
+      "febb5927c91f06d83c7adbb6"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 7,
+    "qid": "syn-0040",
+    "reference_answer": "Arka Shreyas.",
+    "gold_doc_ids": [
+      "0841496070fa0660e96381f4"
+    ],
+    "gold_in_top5": false,
+    "edge_case": false
+  },
+  {
+    "s_no": 8,
+    "qid": "syn-0045",
+    "reference_answer": "Pure Ghee.",
+    "gold_doc_ids": [
+      "51196977923d146128135403"
+    ],
+    "gold_in_top5": false,
+    "edge_case": false
+  },
+  {
+    "s_no": 9,
+    "qid": "syn-0048",
+    "reference_answer": "For direct recruits, the age limit is 18-33 years for males and 18-38 years for females.",
+    "gold_doc_ids": [
+      "9e2333234eb027738eb92a13"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 10,
+    "qid": "syn-0055",
+    "reference_answer": "Defects at birth, deficiencies, diseases, and developmental delays (including disabilities).",
+    "gold_doc_ids": [
+      "d8bcaa4be0419857647f2ce4"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 11,
+    "qid": "syn-0060",
+    "reference_answer": "Koraput and Nabarangpur.",
+    "gold_doc_ids": [
+      "0efe06ea202ddde97b0249e2"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 12,
+    "qid": "syn-0070",
+    "reference_answer": "A tractor purchased by a beneficiary group under the CMSGUY scheme in Assam shall not be transferable, leasable, or saleable for a period of 5 years from the date of registration.",
+    "gold_doc_ids": [
+      "201fb9def04e3bfd4291ddb8"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 13,
+    "qid": "syn-0086",
+    "reference_answer": "Under the Bihar Disability Pension Scheme, eligible persons receive a monthly pension of ₹400/-.",
+    "gold_doc_ids": [
+      "5089b39d27bb298f4e092bbf"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 14,
+    "qid": "syn-0036",
+    "reference_answer": "As per Rule 100 of Central Motor Vehicle Rules 1989, the windscreen and rear window must have at least 70% visibility, and side windows a minimum of 50% visibility.",
+    "gold_doc_ids": [
+      "00e68def9f4ffb9d2b5b88d5"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 15,
+    "qid": "syn-0065",
+    "reference_answer": "Rs.1450/- p.m. per residential student is admissible.",
+    "gold_doc_ids": [
+      "70e58ca2cadeeef065da244a"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 16,
+    "qid": "syn-0043",
+    "reference_answer": "The phone number is 0755-2730014.",
+    "gold_doc_ids": [
+      "cf5f21806f27b7f4ec98d8a8"
+    ],
+    "gold_in_top5": true,
+    "edge_case": false
+  },
+  {
+    "s_no": 17,
+    "qid": "syn-0000",
+    "reference_answer": "The documents and information displayed in this website are for reference purposes only and does not purport to be a legal document.",
+    "gold_doc_ids": [
+      "d0aa54dc33122ccf3e708a96"
+    ],
+    "gold_in_top5": true,
+    "edge_case": true
+  },
+  {
+    "s_no": 18,
+    "qid": "syn-0012",
+    "reference_answer": "No, the content should not be construed as a statement of law or used for any legal purposes.",
+    "gold_doc_ids": [
+      "6b6ef0820d53a824459a1d35"
+    ],
+    "gold_in_top5": true,
+    "edge_case": true
+  },
+  {
+    "s_no": 19,
+    "qid": "syn-0010",
+    "reference_answer": "Yes, registrations are open for the ST Law Graduate scheme.",
+    "gold_doc_ids": [
+      "5ee175201d506b835aa2d71c"
+    ],
+    "gold_in_top5": false,
+    "edge_case": true
+  },
+  {
+    "s_no": 20,
+    "qid": "syn-0107",
+    "reference_answer": "मध्यमकालिक राजवित्तीय नीति विवरण, राजवित्तीय नीति युक्ति विवरण और प्रकटीकरण विवरण।",
+    "gold_doc_ids": [
+      "9b203bb0a6bd9512ff3264b8"
+    ],
+    "gold_in_top5": false,
+    "edge_case": true
+  }
+]

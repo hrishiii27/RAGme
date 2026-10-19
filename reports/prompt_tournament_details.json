@@ -1,0 +1,1402 @@
+[
+  {
+    "index": 1,
+    "qid": "exp-0001",
+    "question": "As a B.Sc (Electronics) graduate interested in the HAL apprenticeship, what is the specific walk-in date I need to attend?",
+    "reference_answer": "Graduates in General Stream, including B.Sc (Electronics), should attend the walk-in on 04th June 2026 at 9:00 AM.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The provided context snippets do not specify a walk-in date for the HAL apprenticeship [1, 2, 3, 4].\n\n### Suggested Follow-up Questions\n* What is the application deadline for the Apprenticeship Training Program at HAL, Hyderabad for FY2026-27?\n* How can I find out the specific dates for the walk-in process for the HAL apprenticeship?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 3,
+          "follow_up_quality": 5
+        },
+        "verdict": "PARTIAL",
+        "critique": "The answer correctly identifies that the walk-in date is not present in the provided context and offers excellent follow-up questions. However, it missed the opportunity to explicitly redirect the user to the contact email and phone number available in context [3] for further queries, which would have enhanced the redirection quality."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "I cannot find information regarding a specific walk-in date for the HAL apprenticeship in the provided documents [1], [2], [3], [4]. The context mentions a \"Walk-in process\" but does not specify a date for it [3].\n\nFor further queries or clarifications regarding the walk-in date, you may write to trg.hyd@hal-india.co.in or contact 040-23778283 between 09:00 Hrs to 16:00 Hrs [3].\n\n### Suggested Follow-up Questions\n- What are the specific eligibility criteria for a B.Sc (Electronics) graduate to apply for the General Stream Graduate Apprenticeship?\n- How can I obtain the official application form for the HAL apprenticeship program?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the specific walk-in date is not present in the provided context and offers an honest refusal. It provides excellent, specific redirection information from the context for further queries and includes two relevant follow-up questions."
+      },
+      "Hidden CoT": {
+        "generated_answer": "Based on the provided information, the specific walk-in date for the HAL apprenticeship for B.Sc (Electronics) graduates is **not mentioned** in the available context.\n\nThe document confirms that there is a \"Walk-in process\" for the apprenticeship [3], but it does not specify the dates for this process.\n\n### Suggested Follow-up Questions\n- What is the last date to apply for the apprenticeship program for FY2026-27?\n- How can I find the detailed schedule for the walk-in process, including dates and required documents?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 2,
+          "follow_up_quality": 5
+        },
+        "verdict": "PARTIAL",
+        "critique": "The answer correctly states that the walk-in date is not found in the provided context and offers relevant follow-up questions. However, it failed to utilize the specific email and phone number for queries available in the context for redirection."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "I cannot find the specific walk-in date for the HAL apprenticeship in the provided documents [1, 2, 3, 4]. While the notification mentions a \"Walk-in process\" [3], the exact date for this process is not specified.\n\nFor further queries or clarification regarding the walk-in date and application procedure, you may contact HAL at trg.hyd@hal-india.co.in or call 040-23778283 between 09:00 Hrs and 16:00 Hrs [3].\n\n### Suggested Follow-up Questions\n- What are the full application instructions mentioned under \"How to Apply\" in the HAL apprenticeship notification?\n- What is the last date to apply for the Graduate Apprenticeship in General Stream for FY2026-27?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the specific walk-in date is not present in the provided context and offers an honest refusal. It provides excellent, specific redirection information from the context and includes two relevant follow-up questions."
+      }
+    }
+  },
+  {
+    "index": 2,
+    "qid": "exp-0002",
+    "question": "When was the Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course for the year 2026 released by Lady Hardinge Medical College?",
+    "reference_answer": "The Admission Notice and Prospectus for B Sc (HONS) Nursing Course 2026 was released on 14/08/2026.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course for the year 2026 was released on 14/08/2026 [1, 2, 3, 4].\n\n### Suggested Follow-up Questions\n*   What is the file size of the Admission Notice and Prospectus for B.Sc (HONS) Nursing Course 2026?\n*   Where can I find the full Admission Notice and Prospectus for B.Sc (HONS) Nursing Course 2026 document?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the release date from the provided context and correctly cites all supporting snippets. The suggested follow-up questions are relevant and adhere to the hybrid criteria."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The Admission Notice and Prospectus for B Sc (HONS) Nursing Course 2026 was released on 14/08/2026 [1], [2], [3], [4].\n\n### Suggested Follow-up Questions\n- What are the eligibility criteria mentioned in the Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026?\n- How can I download the full Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the release date directly from the context and correctly cites all supporting snippets. The suggested follow-up questions are relevant and well-formulated, covering both factual clarification and actionable next steps."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** The release date of the \"Admission Notice and Prospectus for B.Sc (HONS) Nursing Course 2026\" by Lady Hardinge Medical College.\n\n2. **Context Evidence:**\n    * All four provided contexts ([1], [2], [3], [4]) contain the entry: \"Admission Notice and Prospectus for B Sc (HONS) Nursing Course 2026 ( Release Date :14/08/2026 )\".\n    * The question specifically mentions \"Lady Hardinge Medical College\" (LHMC). While the context snippets don't explicitly state \"by Lady Hardinge Medical College\" for *this specific document*, other documents in the same context (e.g., \"Advertisement for filling up the two posts of Administrative Officer on deputation basis in LHMC and SSKH, New Delhi\" [1, 2, 3] and \"Constitution of Core IT Committee and nomination of Nodal Officers for various IT-enabled services at LHMC and Assoc Hospitals\" [4]) indicate that these documents are related to LHMC. Given the consistency across all provided contexts, it's highly probable that this notice is indeed from LHMC.\n\n3. **Actionable Path:** The answer is fully present in the context. The release date is clearly stated as 14/08/2026.\n\n4. **Follow-ups:**\n    * **Factual:** What are the key dates mentioned in the B.Sc (HONS) Nursing Course 2026 prospectus? (This asks for more detail from the document itself).\n    * **Actionable:** How can I access the full Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026? (This guides the user to the next step of obtaining the document).The Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course for the year 2026 was released on **14/08/2026** [1, 2, 3, 4].\n\n### Suggested Follow-up Questions\n- What are the eligibility criteria mentioned in the B.Sc (HONS) Nursing Course 2026 prospectus?\n- Where can I download the full Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the release date directly from the context and correctly cites all supporting sources. It also includes two relevant follow-up questions, one factual and one actionable."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking for the release date of a specific document: \"Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course for the year 2026\" by Lady Hardinge Medical College (LHMC).\n\nI need to scan the provided context for this exact document title and its associated release date.\n\nLooking at the context:\n- [1], [2], [3], [4] all contain the entry: \"Admission Notice and Prospectus for B Sc (HONS) Nursing Course 2026 ( Release Date :14/08/2026 )\"\n\nThe release date is consistently stated as 14/08/2026.\nThe question specifically mentions \"Lady Hardinge Medical College\", and the context documents are related to LHMC (e.g., \"Advertisement for filling up the two posts of Administrative Officer on deputation basis in LHMC and SSKH, New Delhi\" [1,2,3], \"Constitution of Core IT Committee and nomination of Nodal Officers for various IT-enabled services at LHMC and Assoc Hospitals\" [4]). So, it's safe to assume these documents are from LHMC.\n\nTherefore, the answer is 14/08/2026. I will cite one of the sources, e.g., [1].\n\nSuggested Follow-up Questions:\n1. Factual clarification: What are the eligibility criteria for the B.Sc (HONS) Nursing Course 2026? (This asks for details from the prospectus itself).\n2. Actionable next step: Where can I download the full Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026? (This guides the user to find the document).The Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course for the year 2026 was released on August 14, 2026 [1].\n\n### Suggested Follow-up Questions\n- What are the eligibility criteria mentioned in the B.Sc (HONS) Nursing Course 2026 prospectus?\n- Where can I find the complete Admission Notice and Prospectus for the B.Sc (HONS) Nursing Course 2026?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the release date directly from the context and correctly cites the source. The two follow-up questions are relevant and adhere to the specified hybrid format."
+      }
+    }
+  },
+  {
+    "index": 3,
+    "qid": "exp-0003",
+    "question": "What is the primary aim of the KFi - KERALA WiFi Service project implemented by the Government of Kerala?",
+    "reference_answer": "KFI is a free Wi-Fi project implemented by the Government of Kerala aims at providing various benefits of IT, e-gov services and information accessible and transparent to the public.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The primary aim of the KFi - KERALA WiFi Service project, implemented by the Government of Kerala, is to provide various benefits of IT, e-gov services, and information accessible and transparent to the public [1].\n\n### Suggested Follow-up Questions\n* What is the underlying principle for the Department WAN in Kerala?\n* Where can citizens provide feedback on Akshaya?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the primary aim of the KFi project directly from the provided context, with correct citation. The follow-up questions are relevant and well-formulated, covering both factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The primary aim of the KFi - KERALA WiFi Service project, implemented by the Government of Kerala, is to provide various benefits of IT, e-governance services, and information, making them accessible and transparent to the public [1].\n\n### Suggested Follow-up Questions\n- Is the KFi service available statewide, or in specific locations?\n- How can citizens access the KFi - KERALA WiFi Service?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the primary aim of the KFi project directly from the provided context, with correct citation. The follow-up questions are relevant and well-formulated, offering both factual clarification and actionable guidance."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** The primary aim of the KFi - KERALA WiFi Service project.\n\n2. **Context Evidence:**\n    * [1] \"KFi - KERALA WiFi Service: KFI is a free Wi-Fi project implemented by the Government of Kerala aims at providing various benefits of IT, e-gov services and information accessible and transparent to the public.\"\n\n3. **Actionable Path:** The answer is fully present in the provided context.\n\n4. **Follow-ups:**\n    * Factual: What specific \"benefits of IT\" does KFi aim to provide? (This probes for more detail on the stated aim).\n    * Actionable: How can a citizen access the KFi - KERALA WiFi Service? (This guides the user on how to utilize the service).The primary aim of the KFi - KERALA WiFi Service project, implemented by the Government of Kerala, is to provide various benefits of IT, e-governance services, and information, making them accessible and transparent to the public [1].\n\n### Suggested Follow-up Questions\n- What specific \"benefits of IT\" does the KFi - KERALA WiFi Service aim to provide?\n- How can a citizen access the KFi - KERALA WiFi Service?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the primary aim of the KFi - KERALA WiFi Service directly from the provided context, with correct citation. The follow-up questions are relevant and well-structured, offering both factual clarification and actionable guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The primary aim of the KFi - KERALA WiFi Service project, implemented by the Government of Kerala, is to provide various benefits of IT, e-governance services, and information, making them accessible and transparent to the public [1].\n\n### Suggested Follow-up Questions\n- Is the KFi - KERALA WiFi Service available statewide or in specific locations?\n- How can citizens access the KFi - KERALA WiFi Service?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the primary aim of the KFi - KERALA WiFi Service project directly from the provided context, with correct citation. The follow-up questions are relevant and meet the hybrid criteria for factual clarification and actionable next steps."
+      }
+    }
+  },
+  {
+    "index": 4,
+    "qid": "exp-0004",
+    "question": "As a government employee who has served in Foreign Service, I am concerned about potential delays in my pension processing. What percentage of foreign service cases received by the Accountant General (A&E), West Bengal, experienced delays between August 1, 2025, and August 7, 2026?",
+    "reference_answer": "There was delay in nearly 36% of the cases received by this office during the period from 01/08/2025 to 07/08 /2026.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The provided context does not contain information regarding the percentage of foreign service cases that experienced delays in pension processing by the Accountant General (A&E), West Bengal, between August 1, 2025, and August 7, 2026.\n\nTo obtain such specific statistical data, you should check the official portal of the Finance Department, Government of West Bengal, or contact the Accountant General (A&E), West Bengal [1, 2].\n\n### Suggested Follow-up Questions\n1.  What are the general guidelines for avoiding delays in furnishing clearance certificates during pension case processing for government employees?\n2.  How can I contact the Accountant General (A&E), West Bengal, to inquire about the status of my pension case?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the context and provides an honest refusal. It offers specific and actionable redirection to the relevant department and portal, supported by citations, along with two relevant follow-up questions."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "I cannot find information regarding the percentage of foreign service cases that experienced delays in pension processing by the Accountant General (A&E), West Bengal, between August 1, 2025, and August 7, 2026, in the provided documents [1], [2], [3], [4].\n\nTo obtain this specific statistical data, please contact the office of the Accountant General (A&E), West Bengal, directly. Their contact details are available as Phone: (033) 2213 8000, Fax: (033) 2248 7849, and Email: agae_westbengal@cag.gov.in [2].\n\n### Suggested Follow-up Questions\n- What is the general process for submitting a pension case to the Accountant General (A&E), West Bengal?\n- How can I track the status of my pension application with the Accountant General (A&E), West Bengal?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the specific statistical information requested is not present in the provided context. It offers an honest refusal and provides excellent, specific redirection with contact details from the context. The follow-up questions are relevant and actionable."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** The user wants to know the \"percentage of foreign service cases received by the Accountant General (A&E), West Bengal, that experienced delays between August 1, 2025, and August 7, 2026.\"\n\n2. **Context Evidence:**\n    * **[1] and [2]** mention the \"Accountant General (A&E), West Bengal\" and \"delay in furnishing clearance certificate during processing of pension cases as well as attraction of penal interest.\" They also provide contact details and a website for AG (A&E), West Bengal. Document [1] is dated 23/09/2026 and refers to avoiding delays.\n    * **[3]** discusses military service counting towards civil pension and verification by the Controller of Military Accounts. It does not mention foreign service or delays.\n    * **[4]** mentions \"foreign service\" and \"pension calculated wholly or partly...on the pay drawn by them in foreign service.\" It does not mention delays, percentages, or specific dates.\n\n3. **Actionable Path:**\n    * The documents confirm the existence of the Accountant General (A&E), West Bengal, and acknowledge that delays in pension processing are a concern (as evidenced by the instruction to avoid them in [1] and [2]).\n    * However, none of the provided documents contain any statistical data regarding the *percentage* of foreign service cases that experienced delays, nor do they cover the specific date range (August 1, 2025, to August 7, 2026).\n    * Therefore, the answer is not fully present in the provided context. The appropriate department to contact for such specific statistical data would be the Accountant General (A&E), West Bengal.\n\n4. **Follow-ups:**\n    * **Factual Inquiry:** \"Does the Accountant General (A&E), West Bengal, publish annual reports on pension processing timelines and delay statistics?\" (This directly relates to the missing information).\n    * **Next-step Citizen Guidance:** \"What steps can I take to proactively ensure my pension processing, particularly for foreign service, is not delayed?\" (This provides practical advice based on the user's concern).Based on the information provided:\n\nThe documents acknowledge the role of the Accountant General (A&E), West Bengal, in pension processing and highlight the importance of avoiding delays in furnishing clearance certificates to prevent penal interest [1], [2]. Document [4] confirms that pension can be calculated based on pay drawn in foreign service.\n\nHowever, the provided context **does not contain any statistical data** regarding the percentage of foreign service cases that experienced delays between August 1, 2025, and August 7, 2026, or any other specific period. This kind of detailed operational data is not typically found in general policy or procedural documents.\n\nTo obtain such specific statistics, you would need to directly contact the concerned department.\n\n### Suggested Follow-up Questions\n- Does the Accountant General (A&E), West Bengal, publish any reports or statistics on pension processing timelines, specifically for cases involving foreign service?\n- What is the recommended procedure for a government employee with foreign service to track the status of their pension application and address potential delays?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 4,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the specific percentage requested is not present in the provided context, offering an honest refusal. It provides specific redirection to the relevant department and includes two excellent, relevant follow-up questions."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "I cannot find information regarding the percentage of foreign service cases that experienced delays between August 1, 2025, and August 7, 2026, as received by the Accountant General (A&E), West Bengal, in the provided documents [1], [2], [3], [4].\n\nThe documents mention the importance of avoiding delays in furnishing clearance certificates during pension processing to prevent penal interest [1], [2]. However, they do not contain statistical data on the percentage of delayed cases for foreign service or any specific timeframe.\n\nTo obtain this specific data, please contact the office of the Accountant General (A&E), West Bengal, directly. Their website is http://agwb.cag.gov.in and their phone number is (033) 2213 8000 [2].\n\n### Suggested Follow-up Questions\n- What is the typical processing time for pension cases involving foreign service?\n- How can a government employee track the status of their pension application with the Accountant General (A&E), West Bengal?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context and provides an honest refusal. It offers excellent, specific redirection to the relevant department with contact details and includes two highly relevant follow-up questions."
+      }
+    }
+  },
+  {
+    "index": 5,
+    "qid": "exp-0005",
+    "question": "What is the historical belief regarding the construction of Chor Bawdi in Machhalpur, Jeerapur block, specifically concerning its builder and the time period?",
+    "reference_answer": "There is a belief about this historical site that this Bawdi was built by Chor in a single night during the time of Queen Ahilya Holkar State.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "Regarding the historical belief about the construction of Chor Bawdi in Machhalpur, Jeerapur block, it is believed that this Bawdi was built by Chor in a single night during the time of Queen Ahilya Holkar State [2].\n\n### Suggested Follow-up Questions\n1. What are the architectural features of Chor Bawdi?\n2. How can I find directions to Chor Bawdi from the district headquarters?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the question using information directly from the provided context, with correct citation. The follow-up questions are relevant and well-formulated, offering both factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "There is a historical belief that Chor Bawdi was built by a 'Chor' (thief) in a single night during the time of Queen Ahilya Holkar State [2].\n\n### Suggested Follow-up Questions\n- What are the architectural features of Chor Bawdi as described in the provided information?\n- Where can I find more detailed historical records or archaeological surveys about the Chor Bawdi in Machhalpur?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the question using information directly from the provided context. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Hidden CoT": {
+        "generated_answer": "According to local historical belief, Chor Bawdi in Machhalpur, Jeerapur block, was constructed by a \"Chor\" (thief) in a single night during the reign of Queen Ahilya Holkar State [2].\n\n### Suggested Follow-up Questions\n- What other historical sites are associated with Queen Ahilya Holkar's reign in the region?\n- How can I find out more about the architectural style of bawdis built during the Holkar period?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely extracts the historical belief regarding the builder and time period of Chor Bawdi from the provided context. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "According to historical belief, Chor Bawdi in Machhalpur, Jeerapur block, was built by a 'Chor' (thief) in a single night during the reign of Queen Ahilya Holkar State [2]. The Bawdi is located 45 km from the district headquarters [2].\n\n### Suggested Follow-up Questions\n- What are the architectural features of Chor Bawdi?\n- How can one visit Chor Bawdi in Machhalpur?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the historical belief about Chor Bawdi's builder and time period directly from the context, with correct citations. The follow-up questions are relevant and meet the criteria for factual clarification and actionable next steps."
+      }
+    }
+  },
+  {
+    "index": 6,
+    "qid": "exp-0006",
+    "question": "I need to find a company's customer care number. The 'General Instructions to Prevent Cyber Crime' document advises against searching on Google. What is the recommended method to safely obtain a company's customer care number to avoid cyber crime?",
+    "reference_answer": "Do not browse for customer care number of any company on Google. Visit the official website of the company or call on the toll free number listed on official websites.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "To safely obtain a company's customer care number and avoid cyber crime, you should visit the official website of the company or call the toll-free number listed on their official websites [1]. The 'General Instructions to Prevent Cyber Crime' advises against browsing for customer care numbers of any company on Google [1].\n\n### Suggested Follow-up Questions\n*   What are some other \"Don'ts\" mentioned in the 'General Instructions to Prevent Cyber Crime' for common citizens?\n*   Where can I find the complete 'General Instructions to Prevent Cyber Crime' document?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The generated answer accurately provides the recommended method from the context, directly addressing the user's question. All claims are strictly supported by the provided context and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "To safely obtain a company's customer care number and avoid cyber crime, it is recommended to visit the official website of the company or call the toll-free number listed on their official websites, rather than browsing for the number on Google [1].\n\n### Suggested Follow-up Questions\n- What are other \"Don'ts\" listed in the General Instructions to Prevent Cyber Crime?\n- Where can I report a cyber crime if I have already shared personal information with a fake customer care number?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the recommended method from the provided context, directly addressing the user's question. The citations are correct, and the follow-up questions are relevant and well-structured, offering both factual clarification and actionable guidance."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** The recommended method to safely obtain a company's customer care number to avoid cyber crime.\n\n2. **Context Evidence:**\n    * [1] and [4] (which are the same document, \"General Instructions To Prevent Cyber Crime\") state under \"Dont's\": \"\u00be Do not browse for customer care number of any company on Google. Visit the official website of the company or call on the toll free number listed on official websites.\"\n\n3. **Actionable Path:** The answer is fully present in the provided context. The document explicitly states the recommended method.\n\n4. **Follow-ups:**\n    * **Factual Inquiry:** What are some common types of cyber crimes related to obtaining customer care numbers? (This relates to the broader topic of cyber crime prevention and the risks associated with incorrect methods).\n    * **Next-step Citizen Guidance:** How can I verify if a website is the official website of a company before looking for their customer care number? (This provides practical guidance on implementing the recommended method).To safely obtain a company's customer care number and avoid cyber crime, the recommended method is to **visit the official website of the company or call on the toll-free number listed on official websites** [1], [4].\n\nThe \"General Instructions to Prevent Cyber Crime\" document specifically advises against browsing for customer care numbers of any company on Google [1], [4].\n\n### Suggested Follow-up Questions\n- What are the common risks associated with searching for customer care numbers on unofficial sources?\n- How can I identify an official company website to ensure I am getting the correct information?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely provides the recommended method from the context, correctly citing the relevant snippets. The follow-up questions are highly relevant, offering both factual clarification and actionable next-step guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "To safely obtain a company's customer care number and avoid cyber crime, the 'General Instructions to Prevent Cyber Crime' advises against browsing for it on Google [1].\n\nInstead, the recommended method is to:\n*   Visit the official website of the company [1].\n*   Call on the toll-free number listed on the official website [1].\n\n### Suggested Follow-up Questions\n- What are the common risks associated with calling unofficial customer care numbers?\n- How can I report a fraudulent customer care number I encountered online?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely extracts the recommended methods from the context, directly addressing the user's question. All claims are faithfully supported by the provided context and accurately cited, and the follow-up questions are relevant and well-categorized."
+      }
+    }
+  },
+  {
+    "index": 7,
+    "qid": "exp-0007",
+    "question": "Who was the founder Director of the National Centre for Cell Science (NCCS) when its origins were traced back to the 'National Tissue Culture Facility'?",
+    "reference_answer": "Dr. U. V. Wagh.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The founder Director of the National Centre for Cell Science (NCCS) when its origins were traced back to the 'National Tissue Culture Facility' was Dr. U. V. Wagh [1].\n\n### Suggested Follow-up Questions\n1.  In what year was the 'National Tissue Culture Facility' constituted?\n2.  Where can I find more information about the current leadership of NCCS?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the founder Director directly from the provided context and cites it accurately. The follow-up questions are relevant and well-structured, offering both factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The founder Director of the National Centre for Cell Science (NCCS), when its origins were traced back to the 'National Tissue Culture Facility' (NTCF), was Dr. U. V. Wagh [1].\n\n### Suggested Follow-up Questions\n- In what year was the 'National Tissue Culture Facility' constituted?\n- Which government departments were involved in the constitution of the 'National Tissue Culture Facility'?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 4
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately identifies the founder Director, Dr. U. V. Wagh, directly from the provided context with correct citation. The follow-up questions are relevant and answerable from the context, though both are factual clarifications rather than a hybrid of factual and actionable guidance."
+      },
+      "Hidden CoT": {
+        "generated_answer": "The founder Director of the National Centre for Cell Science (NCCS), when its origins were traced back to the 'National Tissue Culture Facility', was Dr. U. V. Wagh [1].\n\n### Suggested Follow-up Questions\n- When was the 'National Tissue Culture Facility' constituted?\n- How can I find more information about the current leadership of NCCS?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the founder Director directly from the provided context and cites it accurately. The follow-up questions are relevant, offering both a factual clarification and actionable guidance, fulfilling the criteria."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The founder Director of the National Centre for Cell Science (NCCS), when its origins were traced back to the 'National Tissue Culture Facility' (NTCF), was Dr. U. V. Wagh [1].\n\n### Suggested Follow-up Questions\n- In what year was the 'National Tissue Culture Facility' constituted?\n- What was the initial mandate of the 'National Facility for Animal Tissue and Culture Collection' (NFATCC)?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 3
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the founder Director with accurate citation from the provided context. While the follow-up questions are relevant and factual, they do not include an actionable next-step guidance as specified in the rubric's hybrid requirement."
+      }
+    }
+  },
+  {
+    "index": 8,
+    "qid": "exp-0008",
+    "question": "As a farmer, I need to understand the 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020'. In which languages are these rules available on the DMI website?",
+    "reference_answer": "The 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020' are available in both Hindi and English.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020' are available in Hindi & English [1].\n\n### Suggested Follow-up Questions\n*   What other documents related to farmer produce trade and commerce are mentioned in the context?\n*   Where can I find the full text of these rules?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the languages from the context and provides an accurate citation. The follow-up questions are relevant and helpful, offering both factual clarification and actionable next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020' are available in both Hindi and English [1].\n\n### Suggested Follow-up Questions\n- What are the main provisions outlined in the FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020?\n- Where can a farmer access the full text of these rules online?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the languages in which the rules are available, directly supported by the provided context and accurately cited. The follow-up questions are relevant and provide both factual clarification and actionable next steps for the user."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** Identify the languages in which the \"FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020\" are available.\n\n2. **Context Evidence:**\n    * [1] ff6d84fe8722c77a5053a7f0 lists \"FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020 (Hindi & English)\".\n\n3. **Actionable Path:** The answer is fully present in the provided context. The rules are available in Hindi and English.\n\n4. **Follow-ups:**\n    * **Factual Inquiry:** Ask about the content or specific provisions of these rules.\n    * **Next-step Citizen Guidance:** Guide the user on how to access these rules (e.g., \"Where can I find the full text of these rules on the DMI website?\").The 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020' are available in **Hindi & English** [1].\n\n### Suggested Follow-up Questions\n- What are the key provisions of the FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020?\n- Where can I find the full text of these rules on the DMI website?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the languages (Hindi & English) directly from the provided context. It is faithful, well-cited, and includes two relevant follow-up questions, one factual and one actionable."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The 'FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020' are available in both Hindi and English [1].\n\n### Suggested Follow-up Questions\n- What are the main provisions outlined in the FARMERS PRODUCE TRADE & COMMERCE (PROMOTION & FACILITATION) RULES, 2020?\n- How can a farmer access the official PDF versions of these rules online?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately states the languages in which the rules are available, directly supported by the provided context and correctly cited. The follow-up questions are relevant, offering both factual clarification and actionable next steps for the user."
+      }
+    }
+  },
+  {
+    "index": 9,
+    "qid": "exp-0009",
+    "question": "As a firm dealing with the Directorate of Supplies & Disposals, Haryana, if we intentionally delay depositing the security beyond the specified period in the acceptance letter, from which date will the delivery period for the contract be calculated?",
+    "reference_answer": "According to the existing procedure, if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "If the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period [1].\n\n### Suggested Follow-up Questions\n1.  What percentage of the contract amount is typically required as a security deposit?\n2.  What steps should a firm take if they require clarification regarding the security deposit procedure?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the question directly from the provided context, with perfect faithfulness and citation. The follow-up questions are relevant, one factual and one actionable, and can be answered from the context."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "As per the existing procedure, if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period [1]. It is also noted that firms delaying the deposit of security beyond the due date gain no useful purpose, and any overt or covert attempts to gain time through correspondence on flimsy grounds will not be helpful [1].\n\nWhile the provided context describes this procedure for \"the Directorate\" [1], it does not explicitly confirm its applicability to the \"Directorate of Supplies & Disposals, Haryana\". To confirm the exact procedure and its applicability for contracts with the Directorate of Supplies & Disposals, Haryana, please consult their official website or contact the relevant department directly.\n\n### Suggested Follow-up Questions\n- Does this procedure for calculating the delivery period apply uniformly across all state Directorates of Supplies & Disposals?\n- Where can I find the official contact details or portal for the Directorate of Supplies & Disposals, Haryana, to confirm this procedure?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the core procedure from the context and correctly identifies the missing specificity regarding the 'Haryana' directorate. It provides excellent specific redirection and relevant, actionable follow-up questions."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target**: Identify the exact date from which the delivery period will be calculated if a firm intentionally delays depositing the security beyond the specified period in the acceptance letter.\n\n2. **Context Evidence**:\n    * **[1] 16b8de1b2cdd6e3c0e74eefe**: \"Sometimes certain firms intentionally delay the security deposit to gain time towards delivery period, but according to the existing procedure ,if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period and ,therefore ,no useful purpose is served by the firms delaying the deposit of the security beyond the due date.\"\n    * This snippet directly addresses the user's scenario: intentional delay in depositing security beyond the specified period in the acceptance letter. It explicitly states that \"the computation of the delivery period starts from the expiry of the said specified period\".\n    * Other snippets [2], [3], [4] discuss security deposit amounts, timelines for signing contracts, or providing vehicles, but do not directly address the *start date of the delivery period computation* in case of delayed security deposit. Snippet [2] mentions a fortnight/a month for furnishing security, but not the consequence on delivery period calculation if delayed. Snippets [3] and [4] are specific to \"Taxation Commissioner, Punjab\" and \"vehicles\" and discuss performance security and contract signing, not the general rule for delivery period calculation in case of delayed security deposit.\n\n3. **Actionable Path**: The answer is fully present in [1]. The delivery period starts from the expiry of the specified period for depositing the security.\n\n4. **Follow-ups**:\n    * **Factual Inquiry**: What are the typical specified periods for depositing security mentioned in acceptance letters by the Directorate of Supplies & Disposals, Haryana? (This seeks more detail about the \"specified period\" mentioned in the context).\n    * **Next-step Citizen Guidance**: Where can a firm obtain clarification on specific terms and conditions related to security deposits and delivery periods for a particular tender from the Directorate of Supplies & Disposals, Haryana? (This guides the user on how to get specific, personalized information).As an official Indian Government Information Assistant, I can confirm the following based on the provided context:\n\nIf your firm intentionally delays depositing the security beyond the specific period mentioned in the acceptance letter, the computation of the delivery period for the contract will start from **the expiry of the said specified period** [1]. This means that delaying the security deposit beyond the due date does not serve any useful purpose in gaining time for the delivery period [1].\n\n### Suggested Follow-up Questions\n- What are the typical specified periods for depositing security mentioned in acceptance letters by the Directorate of Supplies & Disposals, Haryana?\n- Where can a firm obtain clarification on specific terms and conditions related to security deposits and delivery periods for a particular tender from the Directorate of Supplies & Disposals, Haryana?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the information from the provided context, directly addressing the question. It includes correct citations and two relevant follow-up questions, one for factual clarification and one for actionable guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking about the calculation of the delivery period if a firm intentionally delays depositing the security, specifically in the context of dealing with the Directorate of Supplies & Disposals, Haryana.\n\nI need to find information in the provided context that addresses:\n1.  The consequence of delaying security deposit.\n2.  How the delivery period is calculated in such a scenario.\n3.  If the context mentions the Directorate of Supplies & Disposals, Haryana.\n\nLet's examine the documents:\n\n*   **[1] 16b8de1b2cdd6e3c0e74eefe:** This document directly addresses the scenario: \"if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period\". It also states that delaying the deposit serves no useful purpose and attempts to gain time through correspondence will not be helpful. It mentions \"Directorate\" but not specifically \"Directorate of Supplies & Disposals, Haryana\".\n*   **[2] 470286531cfd87eeae4a7ca3:** This document talks about furnishing 5% of the contract amount as security deposit within a fortnight/a month after acceptance. It also mentions consequences of failure to supply within a specified time but does not explicitly state how the *delivery period* is calculated if the *security deposit* is delayed.\n*   **[3] d15f04bebdfd1b4378939a27:** This document discusses performance security for the Taxation Commissioner, Punjab, payable at Patiala. It specifies a 7-day period for depositing security and signing the contract, and a one-week period for providing vehicles from the date of signing. This is specific to Punjab and not relevant to the user's question about the Directorate of Supplies & Disposals, Haryana.\n*   **[4] a576d9a60d475a9b47afcef3:** This is largely identical to [3], also specific to the Taxation Commissioner, Punjab.\n\n**Analysis:**\nDocument [1] directly answers the core question about the delivery period calculation when the security deposit is delayed. It states: \"if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period\".\n\nHowever, document [1] does *not* explicitly mention \"Directorate of Supplies & Disposals, Haryana\". It only refers to \"the Directorate\". The user's question specifically asks about \"Directorate of Supplies & Disposals, Haryana\".\n\n**Conclusion:**\nI can provide the general rule from [1] regarding the calculation of the delivery period. However, I cannot confirm if this rule *specifically* applies to the \"Directorate of Supplies & Disposals, Haryana\" based *only* on the provided context, as [1] only mentions \"the Directorate\" generally.\n\nTherefore, I should state the rule from [1] and then clarify that the document does not explicitly link this rule to the \"Directorate of Supplies & Disposals, Haryana\", and suggest contacting the specific Directorate for confirmation.\n\n**Refinement of Answer:**\n1.  State the rule from [1] clearly.\n2.  Acknowledge that the document [1] refers to \"the Directorate\" but does not explicitly name \"Directorate of Supplies & Disposals, Haryana\".\n3.  Suggest contacting the specific Directorate for confirmation.\n\nLet's re-read [1] carefully: \"Sometimes certain firms intentionally delay the security deposit to gain time towards delivery period, but according to the existing procedure ,if the security is not deposited by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period starts from the expiry of the said specified period and ,therefore ,no useful purpose is served by the firms delaying the deposit of the security beyond the due date.\"\n\nThis is a general statement about \"existing procedure\" and \"the Directorate\". It doesn't specify *which* Directorate. Given the prompt is about an \"official Indian Government Information Assistant\", it's important to be precise about what the document *does* and *does not* state.\n\nThe user's question is very specific: \"As a firm dealing with the Directorate of Supplies & Disposals, Haryana...\"\n\nSince [1] does not explicitly mention \"Directorate of Supplies & Disposals, Haryana\", I must state that the information is based on a general procedure described in the document and advise the user to confirm with the specific Directorate.\n\nThe rule is clear: \"the computation of the delivery period starts from the expiry of the said specified period\" [1].\nThe document also states that delaying the deposit serves no useful purpose and attempts to gain time through correspondence will not be helpful [1].\n\nI will provide the rule and then address the specificity of the Directorate.As per the existing procedure, if the security deposit is not furnished by the firm within the specific period mentioned in the acceptance letter, the computation of the delivery period will commence from the expiry of that specified period [1]. It is also noted that delaying the deposit beyond the due date serves no useful purpose, and any attempts to gain time through correspondence on flimsy grounds will not be helpful [1].\n\nPlease note that while this procedure is outlined for \"the Directorate\" [1], the provided document does not explicitly name the \"Directorate of Supplies & Disposals, Haryana\". For confirmation specific to your dealings with the Directorate of Supplies & Disposals, Haryana, it is advisable to contact them directly.\n\n### Suggested Follow-up Questions\n- What are the specific penalties for failing to deposit the security within the stipulated period?\n- How can a firm obtain official clarification from the Directorate of Supplies & Disposals, Haryana, regarding contract terms?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the rule for calculating the delivery period from the context and correctly identifies the limitation regarding the specific Directorate, providing appropriate redirection. The follow-up questions are relevant and helpful."
+      }
+    }
+  },
+  {
+    "index": 10,
+    "qid": "exp-0010",
+    "question": "What are the annual grant rates for a Group I SC student who is a hosteller under the Post-Matric Scholarship scheme, and what is the family income ceiling for this benefit, as per the rates for 2021-22, effective from January 1, 2024?",
+    "reference_answer": "For a Group I SC Hosteller under the Post-Matric Scholarship, the annual grant rates for 2021-22 are a State Rate of Rs. 13,500/- and a GoI Rate of Rs. 13,500/-. The ceiling of family income for this scheme is Rs. 2,50,000/- p.a.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The annual family income of the applicant's parent or guardian must not exceed \u20b95,00,000/- (\u20b95 Lakh) per annum for the Post-Matric Scholarship scheme [1].\n\nThe provided context snippets do not specify the annual grant rates for a Group I SC student who is a hosteller under the Post-Matric Scholarship scheme for the rates of 2021-22, effective from January 1, 2024. While context [2] refers to Post-Matric Scholarship for SC/OBC with an effective date of 01.01.2024 and mentions \"Hosteller (Yearly) \u20142021-22\", it does not provide specific numerical grant rates categorized by groups (e.g., Group I).\n\nTo obtain detailed information regarding the specific grant rates, please check the official portal of the Backward Classes Welfare & Tribal Development Directorate, Government of West Bengal.\n\n### Suggested Follow-up Questions\n1.  What are the specific numerical grant rates for Post-Matric Scholarship for SC/OBC students for the 2021-22 period, effective from January 1, 2024?\n2.  Where can I find the detailed breakdown of Post-Matric Scholarship grant rates for different groups of SC students who are hostellers?",
+        "scores": {
+          "correctness": 3,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PARTIAL",
+        "critique": "The answer correctly identified that the specific grant rates were missing from the context and provided an excellent specific redirection. However, it provided an income ceiling from a general context snippet that did not fully match the specific conditions of the question (SC, Group I, 2021-22 rates, effective 2024), and this value contradicted the reference answer."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "I cannot find the exact annual grant rates for a Group I SC student who is a hosteller under the Post-Matric Scholarship scheme for the 2021-22 rates, effective from January 1, 2024, in the provided documents [2]. The available information for SC/OBC Post-Matric Scholarship effective from 01.01.2024 does not specify rates by Group (e.g., Group I) and the grant rate cells are not numerically populated [2].\n\nAdditionally, the specific family income ceiling for the SC Post-Matric Scholarship as per the rates effective from January 1, 2024, is not explicitly stated in the relevant table [2]. While an annual family income threshold of \u20b95,00,000/- (\u20b95 Lakh) is mentioned for an incentive scheme, which also allows eligibility for the normal Post-Matric Scholarship, it is not explicitly stated as the mandatory income ceiling for the SC Post-Matric Scholarship itself [1].\n\nTo obtain the precise annual grant rates for Group I SC hostellers and the exact family income ceiling for the Post-Matric Scholarship scheme, please consult the official portal of the Backward Classes Welfare & Tribal Development Directorate, Government of West Bengal, or the relevant state government's scholarship portal.\n\n### Suggested Follow-up Questions\n- What are the eligibility criteria for the Post-Matric Scholarship for SC students in West Bengal?\n- Where can I find the detailed official notification for Post-Matric Scholarship rates for SC students for the academic year 2021-22, effective from January 1, 2024?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information (grant rates and specific income ceiling for SC Post-Matric Scholarship) is not present in the provided context. It offers a specific and actionable redirection to the relevant government department and provides two excellent follow-up questions."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** Identify the annual grant rates for a Group I SC hosteller under the Post-Matric Scholarship scheme and the family income ceiling, specifically for 2021-22 rates, effective from January 1, 2024.\n\n2. **Context Evidence:**\n    *   **Grant Rates (2021-22, SC/OBC, effective 01.01.2024):**\n        *   [2] \"Rate of Grants Under Different Educational Schemes of Backward Classes Welfare & Tribal Development Directorate with effect from 01.01.2024 (S.C / OBC)\"\n        *   [2] Under \"Post-Matric Scholarship to\", it lists \"Hosteller (Yearly) \u20142021-22\" and \"Day Scholar (Yearly) \u20142021-22\".\n        *   However, the table under this heading in [2] does *not* provide specific Group I rates for SC/OBC. It only shows \"Group State Rate GOI Rate 2021-22 From SNA From SNA) 12 Months\". The actual rates listed below this are for \"Pre-Matric (CS) Additional Rs. 225/-p.m\" and \"Rs. 525/-p.m\", \"Rs. 1,275/- p.m.\" etc., which do not align with \"Group I\" or \"Post-Matric Scholarship\" in the context of specific rates for 2021-22.\n        *   [3] \"Rate of Grants Under Different Educational Schemes of Backward Classes Welfare & Tribal Development Directorate with effect from 01.04.2025 (S.T)\" provides Group I rates for ST students (Rs. 1,200/- p.m. GOI Rate, Rs. 1,200/- p.m. State Rate for hosteller), but this is for ST, not SC, and effective 01.04.2025, not 01.01.2024 with 2021-22 rates.\n    *   **Family Income Ceiling (SC/OBC, effective 01.01.2024):**\n        *   [2] \"Rate of Grants Under Different Educational Schemes of Backward Classes Welfare & Tribal Development Directorate with effect from 01.01.2024 (S.C / OBC)\"\n        *   [2] Under \"Post-Matric Scholarship to\", there is a column \"Ceiling of Family Income\". However, the specific value for the Post-Matric Scholarship for SC/OBC is *not* explicitly stated in this table. The only income ceiling mentioned in [2] is \"Adhoc Grant Rs. 2,50,000/-p.a.\" which is associated with \"Pre-Matric (CS) Additional Scholarship for students (IX & X)\".\n        *   [1] Mentions \"The annual family income of the applicant\u2019s parent or guardian must not exceed \u20b95,00,000/- (\u20b95 Lakh) per annum\" for \"this particular incentive scheme\" and also states \"Candidates applying for this incentive scheme are also eligible for the normal Post-Matric Scholarship, provided they meet the specific eligibility requirements for that scheme.\" This suggests that the \u20b95,00,000/- limit *might* apply to the general Post-Matric Scholarship, but it's not explicitly stated as the *specific* limit for the SC/OBC Post-Matric Scholarship effective 01.01.2024, nor is it linked to the 2021-22 rates.\n        *   [3] For ST students (effective 01.04.2025), the \"Ceiling of Family Income\" for Post-Matric Scholarship is \"Rs. 2,50,000/- p.a.\"\n        *   [4] Mentions \"The annual family income of the applicant should be less than [?]4,50,000/- to qualify for this scheme\" for the \"Tuition Assistance Scheme\", which is a different scheme.\n\n3. **Actionable Path:**\n    *   **Grant Rates:** The context provides a table for SC/OBC Post-Matric Scholarship effective 01.01.2024, with columns for \"Hosteller (Yearly) \u20142021-22\" and \"Day Scholar (Yearly) \u20142021-22\". However, the specific *rates* for \"Group I\" under this scheme are missing from the provided snippets. The rates listed are either for Pre-Matric or are general monthly rates without group specification for the 2021-22 yearly column. The Group I rates are only available for ST students effective 01.04.2025 in [3], which is not what the user asked for.\n    *   **Family Income Ceiling:** The context for SC/OBC Post-Matric Scholarship effective 01.01.2024 in [2] has a column for \"Ceiling of Family Income\" but no value is provided for the Post-Matric Scholarship row. The \u20b95,00,000/- limit in [1] is for \"this particular incentive scheme\" and then generally mentions eligibility for \"normal Post-Matric Scholarship\" but doesn't explicitly link it as the *specific* income ceiling for the SC/OBC Post-Matric Scholarship effective 01.01.2024 with 2021-22 rates. The \u20b92,50,000/- limit in [2] is for Pre-Matric, and in [3] for ST Post-Matric (01.04.2025). Therefore, the exact family income ceiling for a Group I SC student under the Post-Matric Scholarship scheme, as per the rates for 2021-22, effective from January 1, 2024, is not explicitly stated.\n\n    *   **Conclusion:** The specific annual grant rates for a Group I SC hosteller and the exact family income ceiling for the Post-Matric Scholarship scheme, as per the 2021-22 rates effective from January 1, 2024, are not fully available in the provided context.\n\n4. **Follow-ups:**\n    *   Factual: What are the specific Group I grant rates for SC students under the Post-Matric Scholarship scheme for the 2021-22 academic year? (This directly addresses the missing information).\n    *   Actionable: Where can I find the complete and updated guidelines for the Post-Matric Scholarship scheme for SC students, including all eligibility criteria and grant details? (Guides the user to a source for comprehensive information).I apologize, but the provided context does not explicitly state the annual grant rates for a Group I SC student who is a hosteller under the Post-Matric Scholarship scheme for the 2021-22 rates, effective from January 1, 2024. While the document mentions \"Hosteller (Yearly) \u20142021-22\" for SC/OBC schemes effective 01.01.2024, the specific Group I rates are not detailed in the available snippets [2].\n\nSimilarly, the exact family income ceiling for a Group I SC student under the Post-Matric Scholarship scheme, as per the 2021-22 rates effective from January 1, 2024, is not explicitly provided in the context for this specific category. Different income ceilings are mentioned for other schemes or categories (e.g., \u20b95,00,000/- for a general incentive scheme [1], \u20b92,50,000/- for Pre-Matric [2] or ST Post-Matric effective 01.04.2025 [3]), but not directly for the requested criteria.\n\nFor precise and up-to-date information regarding the Post-Matric Scholarship scheme for SC students, including specific grant rates for different groups and the applicable family income ceiling, it is recommended to consult the official portal or department.\n\n### Suggested Follow-up Questions\n- What are the specific Group I grant rates for SC students under the Post-Matric Scholarship scheme for the 2021-22 academic year?\n- Where can I find the complete and updated guidelines for the Post-Matric Scholarship scheme for SC students, including all eligibility criteria and grant details?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 4,
+          "redirection_quality": 2,
+          "follow_up_quality": 5
+        },
+        "verdict": "PARTIAL",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context and maintains faithfulness. However, the redirection provided is generic ('official portal or department') rather than specific, which prevents a full PASS verdict."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The provided documents do not specify the exact annual grant rates for a Group I SC student who is a hosteller under the Post-Matric Scholarship scheme for the 2021-22 rates, effective from January 1, 2024 [2]. The relevant document for SC/OBC schemes effective from 01.01.2024 only indicates \"From SNA\" for the Hosteller (Yearly) \u2013 2021-22 rates, without providing specific numerical amounts broken down by group [2].\n\nHowever, the annual family income of the applicant\u2019s parent or guardian must not exceed \u20b95,00,000/- (\u20b95 Lakh) per annum to be considered eligible for this benefit [1].\n\n### Suggested Follow-up Questions\n- Where can I find the detailed numerical grant rates for Group I SC hostellers under the Post-Matric Scholarship scheme?\n- What are the specific eligibility requirements for the general Post-Matric Scholarship scheme for SC students?",
+        "scores": {
+          "correctness": 2,
+          "faithfulness": 3,
+          "citation_quality": 5,
+          "redirection_quality": 3,
+          "follow_up_quality": 5
+        },
+        "verdict": "PARTIAL",
+        "critique": "The answer correctly identifies the absence of specific grant rates for Group I SC hostellers. However, it incorrectly states the family income ceiling as \u20b95,00,000/- by misapplying information from a different incentive scheme, while the context for Post-Matric Scholarship suggests \u20b92,50,000/-."
+      }
+    }
+  },
+  {
+    "index": 11,
+    "qid": "exp-0011",
+    "question": "As per the 2011 Census data provided, what is the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh?",
+    "reference_answer": "62.69%",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The provided context snippets do not contain information about the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh as per the 2011 Census data.\n\nPlease check the official website of the Census of India or the Ministry of Home Affairs for this information.\n\n### Suggested Follow-up Questions\n*   What is the total population of Dindori district as per the 2011 Census?\n*   How can I find the demographic data for other districts in Himachal Pradesh?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context snippets. It offers a specific and actionable redirection to official sources and includes two relevant follow-up questions, one factual and one actionable."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "I cannot find information regarding the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh in the provided documents [1], [2], [3], [4]. The available records pertain to Dindori district (Madhya Pradesh), Changlang district (Arunachal Pradesh), Sahibganj district (Jharkhand), and the state of Uttar Pradesh.\n\nTo obtain this specific information, please consult the official Census of India website or the Directorate of Census Operations for Himachal Pradesh.\n\n### Suggested Follow-up Questions\n- What is the scheduled tribe population percentage in Dindori district as per Census 2011?\n- Where can I find detailed demographic data for all districts of Himachal Pradesh from the 2011 Census?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context. It offers a specific and actionable redirection to official census sources and provides two relevant follow-up questions, one factual and one actionable."
+      },
+      "Hidden CoT": {
+        "generated_answer": "As per the 2011 Census data provided in the context, information regarding the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh is not available. The provided documents pertain to Dindori district [1], Changlang district [2], Sahibganj district [3], and the state of Uttar Pradesh [4].\n\nTo obtain this specific information, you would need to consult the official Census of India 2011 reports for Himachal Pradesh or the Lahaul & Spiti district.\n\n### Suggested Follow-up Questions\n- Can you clarify which specific groups are included in the 'minority population' for census purposes in India?\n- Where can I find detailed 2011 Census data for other districts in Himachal Pradesh?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context and provides an honest refusal. It offers specific and actionable redirection to official census reports and includes two relevant follow-up questions."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking for the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh, based on the 2011 Census data provided.\n\nI need to check each provided document for information about Lahaul & Spiti district and its minority population.\n\n*   **[1] Dindori district:** This document is about Dindori district, Madhya Pradesh. It mentions Scheduled Tribe (ST) and Scheduled Caste (SC) populations for Dindori. No information about Lahaul & Spiti.\n*   **[2] Changlang district:** This document is about Changlang district. It mentions the district is not predominantly inhabited by Arunachal Pradesh scheduled Tribe population. No information about Lahaul & Spiti.\n*   **[3] Sahibganj district:** This document is about Sahibganj district. It mentions SC and ST populations for Sahibganj. No information about Lahaul & Spiti.\n*   **[4] Uttar Pradesh:** This document provides a brief profile of Uttar Pradesh, including its total population, rural/urban distribution, and number of towns. No information about Lahaul & Spiti.\n\nNone of the provided documents contain information about Lahaul & Spiti district or its minority population. Therefore, I cannot answer the question based on the given context. I must state this clearly and guide the user to the relevant department/portal.\n\nMinority population typically refers to communities notified as minority communities by the Central Government under the National Commission for Minorities Act, 1992. These include Muslims, Christians, Sikhs, Buddhists, Parsis, and Jains. The provided documents only mention Scheduled Caste and Scheduled Tribe populations, which are distinct categories, and even for those, there's no data for Lahaul & Spiti.\n\nTherefore, the answer must be a refusal. I should suggest checking the official Census of India website or the Himachal Pradesh government portal.I cannot find information regarding the total percentage of minority population in Lahaul & Spiti district of Himachal Pradesh in the provided documents [1, 2, 3, 4]. The available records pertain to Dindori, Changlang, Sahibganj districts, and the state of Uttar Pradesh.\n\nTo obtain this specific data, please refer to the official Census of India website (censusindia.gov.in) or the official portal of the Himachal Pradesh government.\n\n### Suggested Follow-up Questions\n- Where can I find the 2011 Census data for all districts of Himachal Pradesh?\n- Which government department is responsible for collecting and publishing minority population statistics?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information is not present in the provided context. It offers an honest refusal and provides specific, actionable redirection to official government portals. The follow-up questions are relevant and well-formulated."
+      }
+    }
+  },
+  {
+    "index": 12,
+    "qid": "exp-0012",
+    "question": "As a resident near the inter-state boundary with Assam, what is the maximum crow fly distance from the border for my village to be covered under the Inter-State Border Areas Development Programme (ISBADP), and which villages receive priority?",
+    "reference_answer": "ISBADP covers the villages within 0-10 km crow fly distance from the Inter-State boundary with Assam. Those villages located 0-5 km to the Inter-State boundary get first priority.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "For your village to be covered under the Inter-State Border Areas Development Programme (ISBADP), the maximum crow fly distance from the Inter-State boundary with Assam is 0-10 km [1].\n\nVillages located 0-5 km to the Inter-State boundary with Assam receive first priority [1].\n\n### Suggested Follow-up Questions\n1. What are the specific types of projects taken up under the ISBADP to ensure sustainability and provide value addition?\n2. How can local communities or village councils participate in the planning and implementation of ISBADP schemes?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts both the maximum distance and priority information directly from the provided context, with correct citations. The suggested follow-up questions are relevant and well-formulated, addressing aspects mentioned in the context for further detail."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "For your village to be covered under the Inter-State Border Areas Development Programme (ISBADP) near the inter-state boundary with Assam, it must be located within a 0-10 km crow fly distance from the boundary [1].\n\nVillages located 0-5 km to the Inter-State boundary with Assam receive first priority under the ISBADP [1].\n\n### Suggested Follow-up Questions\n- What types of projects are typically undertaken under the ISBADP to ensure sustainability and provide value addition?\n- How can Village Councils participate in the planning and implementation of ISBADP schemes?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses both parts of the question using information directly from the provided context. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:**\n    * Maximum crow fly distance for a village to be covered under ISBADP (specifically for inter-state boundary with Assam).\n    * Which villages receive priority under ISBADP (specifically for inter-state boundary with Assam).\n\n2. **Context Evidence:**\n    * **[1] e9e94ac54cee71c8adeb349d (ISBADP specific):**\n        * \"ISBADP covers the villages within 0-10 km crow fly distance from the Inter-State boundary with Assam.\"\n        * \"Those villages located 0-5 km to the Inter-State boundary get first priority.\"\n    * **[3] f50ab6a9dec7f92891834cac (BADP - broader scheme):**\n        * \"The programme will cover all the census villages/ towns, semi-urban and urban areas located within 0-10 Km distance (crow \u2014 fly/ aerial distance) from the first habitation from International Boundary (IB).\" (This refers to BADP, not ISBADP, and International Boundary, not Inter-State Boundary. While the distance is similar, the specific program and boundary type are different. The user explicitly asked about ISBADP and inter-state boundary with Assam.)\n        * \"Within this 0-10 km area, census villages, semi-urban and urban areas identified by BGFs as 'strategic villages/towns' shall be given highest priority.\" (Again, this is for BADP and international boundary context, not ISBADP and inter-state boundary with Assam.)\n\n3. **Actionable Path:**\n    * The information for ISBADP, specifically for the inter-state boundary with Assam, is fully present in [1].\n    * Maximum crow fly distance: 0-10 km.\n    * Priority villages: 0-5 km.\n\n4. **Follow-ups:**\n    * **Factual:** What specific types of projects are typically undertaken under the ISBADP to ensure sustainability and value addition? (This relates to the overview in [1] about project types.)\n    * **Actionable guidance:** How can a Village Council or local community initiate the planning and implementation process for an ISBADP scheme in their area? (This relates to the \"Planning and implementation... done on a participatory and decentralized basis through the Deputy Commissioners/ Line Departments/ Village Councils\" in [1].)\n\nConfidence Score: 5/5 - All information is directly available and specific to the user's query.As a resident near the inter-state boundary with Assam, your village can be covered under the Inter-State Border Areas Development Programme (ISBADP) if it is located within **0-10 km crow fly distance** from the Inter-State boundary with Assam.\n\nRegarding priority, villages located **0-5 km** to the Inter-State boundary with Assam receive first priority [1].\n\n### Suggested Follow-up Questions\n- What specific types of projects are typically undertaken under the ISBADP to ensure sustainability and value addition?\n- How can a Village Council or local community initiate the planning and implementation process for an ISBADP scheme in their area?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly extracts both the maximum distance and priority criteria directly from the relevant context snippet [1]. It is faithful to the source and provides excellent, relevant follow-up questions, one factual and one actionable."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking about the Inter-State Border Areas Development Programme (ISBADP) and its coverage criteria, specifically for residents near the inter-state boundary with Assam. They want to know the maximum crow-fly distance for village coverage and which villages receive priority.\n\nI need to look for information related to:\n1.  ISBADP coverage distance.\n2.  Priority for villages within that coverage.\n3.  Specific mention of \"inter-state boundary with Assam\".\n\nLet's examine the provided context:\n\n*   **[1] e9e94ac54cee71c8adeb349d (ISBADP Overview):**\n    *   \"The aims and objectives of the Inter-State Border Areas Development Programme ISBADP are to provide facilities for the socioeconomic development of the people living along the Inter-State boundary with Assam.\" - This confirms the program applies to the user's location.\n    *   \"ISBADP covers the villages within 0-10 km crow fly distance from the Inter-State boundary with Assam.\" - This directly answers the maximum distance.\n    *   \"Those villages located 0-5 km to the Inter-State boundary get first priority.\" - This directly answers the priority question.\n\n*   **[2] e9e94ac54cee71c8adeb349d (What is ISBADP?):** Provides general information about ISBADP but not specific coverage details for inter-state borders with Assam. It mentions \"regions located along inter-state borders in India\" generally.\n\n*   **[3] f50ab6a9dec7f92891834cac (BADP Coverage):**\n    *   \"The BADP is a Core Centrally Sponsored Scheme (CSS).\"\n    *   \"Presently, the Programme covers 396 Blocks of 111 border Districts in 16 States and 2 Union Territories abutting the International Boundary viz. Arunachal Pradesh, Assam, Bihar, Gujarat, Himachal Pradesh, Jammu & Kashmir (UT), Ladakh (UT), Manipur, Meghalaya, Mizoram, Nagaland, Punjab, Rajasthan, Sikkim, Tripura, Uttar Pradesh, Uttarakhand and West Bengal.\" - This refers to the *Border Areas Development Programme (BADP)*, which covers *International Boundaries*.\n    *   \"The programme will cover all the census villages/ towns, semi-urban and urban areas located within 0-10 Km distance (crow \u2014 fly/ aerial distance) from the first habitation from International Boundary (IB).\" - This also refers to the *International Boundary (IB)*.\n\n*   **[4] f50ab6a9dec7f92891834cac (BADP Operational Guidelines):**\n    *   \"Within this 0-10 km area, census villages, semi-urban and urban areas identified by BGFs as 'strategic villages/towns' shall be given highest priority.\" - This is for BADP (International Boundary).\n    *   \"Once 0-10 km area is saturated, the programme may cover 10-20/30/40/50 km area.\" - This is for BADP (International Boundary).\n\n**Key Distinction:**\nThe user specifically asked about the \"Inter-State Border Areas Development Programme (ISBADP)\" and \"inter-state boundary with Assam\".\nDocuments [1] and [2] clearly define ISBADP for *inter-state* boundaries.\nDocuments [3] and [4] define the *Border Areas Development Programme (BADP)* which covers *international* boundaries.\n\nTherefore, I must only use information from [1] and [2] for ISBADP. Document [1] provides the exact details needed.\n\n**Constructing the Answer:**\n*   Maximum crow-fly distance: 0-10 km from the Inter-State boundary with Assam [1].\n*   Priority villages: Those located 0-5 km to the Inter-State boundary get first priority [1].\n\nThe answer is comprehensive and directly addresses both parts of the user's question using the correct program (ISBADP) and its specific rules for inter-state borders with Assam.\nCitations will be [1].\n\n**Suggested Follow-up Questions:**\n1.  Factual clarification: What specific types of projects are typically undertaken under ISBADP? (This is mentioned generally in [1] and [2] but could be more specific).\n2.  Actionable next-step: How can local communities or village councils propose projects under the ISBADP? (This relates to \"Planning and implementation... done on a participatory and decentralized basis through the Deputy Commissioners/ Line Departments/ Village Councils\" in [1]).As a resident near the inter-state boundary with Assam, your village can be covered under the Inter-State Border Areas Development Programme (ISBADP) if it is located within a **0-10 km crow fly distance** from the Inter-State boundary with Assam [1].\n\nRegarding priority, villages located within **0-5 km** of the Inter-State boundary with Assam receive the first priority for projects under the ISBADP [1].\n\n### Suggested Follow-up Questions\n- What types of socio-economic development projects are typically funded under the ISBADP?\n- How can a Village Council submit a proposal for a project under the ISBADP?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the user's question using information directly from the provided context. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-formulated."
+      }
+    }
+  },
+  {
+    "index": 13,
+    "qid": "exp-0013",
+    "question": "For the RFP No. 33719 Dtd. 23.09.2025 concerning the operationalization of static soil testing laboratories, could you clarify how experience beyond the last five financial years will be utilized in the bidding process, specifically for pre-qualification versus technical evaluation?",
+    "reference_answer": "The qualification/Eligibility Criteria regarding experience during last 5 years is set for pre-qualifying in the bidding process where as the experience of the bidder beyond last 5 years is required for scoring purpose during technical evaluation.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "For RFP No. 33719 Dtd. 23.09.2025, the experience of the bidder beyond the last five years is required for scoring purposes during technical evaluation. In contrast, the qualification/eligibility criteria regarding experience during the last five years is set for pre-qualifying in the bidding process [2].\n\n### Suggested Follow-up Questions\n1. What specific criteria are used for scoring experience during the technical evaluation for experience beyond the last five years?\n2. Where can I find the complete Request for Proposal (RFP) document for RFP No. 33719 Dtd. 23.09.2025 to review all eligibility and evaluation criteria?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the specific details regarding the utilization of experience within and beyond the last five years for pre-qualification and technical evaluation, respectively, directly from the provided context. The citations are correct, and the follow-up questions are highly relevant and actionable, enhancing user understanding and next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "For RFP No. 33719 Dtd. 23.09.2025, concerning the operationalization of identified static soil testing laboratories, the qualification/eligibility criteria regarding experience during the last five years is specifically set for pre-qualifying in the bidding process [2]. Conversely, experience of the bidder beyond the last five years is required for scoring purposes during the technical evaluation [2].\n\n### Suggested Follow-up Questions\n- What specific types of projects or experience are considered for \"scoring purpose\" during technical evaluation, beyond the last five years?\n- How should bidders document and submit experience beyond the last five years for technical evaluation?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the question using information directly from the provided context, with correct citations. The follow-up questions are relevant and well-formulated, offering both factual clarification and actionable guidance."
+      },
+      "Hidden CoT": {
+        "generated_answer": "For RFP No. 33719 Dtd. 23.09.2025, concerning the operationalization of static soil testing laboratories, the utilization of experience beyond the last five financial years is clarified as follows:\n\n*   **Pre-qualification:** Experience *during* the last five years is considered for meeting the pre-qualification/eligibility criteria in the bidding process.\n*   **Technical Evaluation:** Experience of the bidder *beyond* the last five years is required for scoring purposes during the technical evaluation phase [2].\n\n### Suggested Follow-up Questions\n- What specific types of projects or experience are considered for scoring during technical evaluation if they are beyond the last 5 years?\n- Where can bidders find the detailed scoring methodology for technical evaluation, including how experience beyond 5 years is weighted?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the information from the provided context, clearly distinguishing between pre-qualification and technical evaluation criteria for experience. The citations are correct, and the follow-up questions are relevant and well-formulated."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "For RFP No. 33719 Dtd. 23.09.2025, concerning the operationalization of identified static soil testing laboratories, the utilization of experience is differentiated for pre-qualification and technical evaluation [2]:\n\n*   **Pre-qualification/Eligibility Criteria:** Experience gained *during the last 5 years* is considered for pre-qualifying in the bidding process [2].\n*   **Technical Evaluation:** Experience of the bidder *beyond the last 5 years* is required for scoring purposes during the technical evaluation [2].\n\n### Suggested Follow-up Questions\n- What specific types of projects are considered \"similar projects\" for the experience criteria?\n- Where can I find the complete RFP document to understand all pre-qualification and technical evaluation criteria?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely addresses the user's question by clearly differentiating the use of experience for pre-qualification and technical evaluation, directly supported by the provided context. The citations are correct, and the follow-up questions are relevant and helpful."
+      }
+    }
+  },
+  {
+    "index": 14,
+    "qid": "exp-0014",
+    "question": "As a Nagaland State government employee, what is the effective date for the latest payment of Dearness Allowance as per the Finance Department's notification?",
+    "reference_answer": "The payment of Dearness Allowance to the State government Employees is effective from 1.1.2026, as per the notification issued by the Finance Department on 6/18/2026.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "As a Nagaland State government employee, the effective date for the latest payment of Dearness Allowance is 1.1.2026, as per the notification issued by the Finance Department on 6/18/2026 [1], [2].\n\n### Suggested Follow-up Questions\n1. What is the issue date of the notification regarding the payment of Dearness Allowance to Nagaland State government employees?\n2. Where can I find the full text of the notification regarding the payment of Dearness Allowance to Nagaland State government employees?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 3
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the effective date and notification details for the Dearness Allowance, fully supported by the context and correctly cited. While one follow-up question is redundant as the information is already in the answer, the other provides useful actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "As per the notification issued by the Finance Department on 6/18/2026, the effective date for the latest payment of Dearness Allowance to Nagaland State government employees is 1.1.2026 [1].\n\n### Suggested Follow-up Questions\n- What is the revised rate of Dearness Allowance effective from 1.1.2026?\n- Where can I find the full text of the notification regarding the payment of Dearness Allowance?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the effective date and notification date for Dearness Allowance for Nagaland State government employees directly from the provided context. All claims are faithful to the source and correctly cited, and the follow-up questions are relevant and helpful."
+      },
+      "Hidden CoT": {
+        "generated_answer": "As a Nagaland State government employee, the effective date for the latest payment of Dearness Allowance, as per the Finance Department's notification, is **January 1, 2026** [1].\n\n### Suggested Follow-up Questions\n- What is the percentage of Dearness Allowance paid with effect from January 1, 2026?\n- How can a Nagaland State government employee access the full notification regarding this Dearness Allowance payment?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the effective date for the Dearness Allowance payment, directly supported by the context and correctly cited. The follow-up questions are relevant, with one seeking factual clarification and the other providing actionable guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking for the effective date of the latest Dearness Allowance (DA) payment for Nagaland State government employees, based on a Finance Department notification.\n\nI need to look for documents related to \"Nagaland State government employees\" and \"Dearness Allowance\" and \"effective date\".\n\nDocument [1] and [2] are from the Nagaland Finance Department.\nDocument [1] lists a circular/notification: \"Payment of Dearness Allowance to the State government Employees w.w.f 1.1.2026 Issued by : Finance Department Dated : 6/18/2026\".\nThe \"w.w.f\" likely stands for \"with effect from\".\n\nDocument [3] is from the Government of West Bengal and is not relevant to Nagaland.\nDocument [4] is about Central Government Pensioners/Family Pensioners and Central Government Employees, and Tripura State Civil Services, which is not relevant to Nagaland State government employees.\n\nTherefore, the relevant information is in Document [1].\nThe notification \"Payment of Dearness Allowance to the State government Employees\" was issued by the Finance Department on 6/18/2026, and it is \"w.w.f 1.1.2026\".\n\nSo, the effective date is 1st January 2026.\nThe notification was issued on 18th June 2026.\n\nI will state the effective date and the issue date, and cite [1].\nThen, I will formulate two suggested follow-up questions.\n1. Factual clarification: What is the revised rate of Dearness Allowance? (This is a logical next question after knowing the effective date).\n2. Actionable next step: How can employees verify the correct calculation of their Dearness Allowance? (This provides practical guidance).As per the notification issued by the Finance Department of Nagaland, the latest payment of Dearness Allowance to State government employees is effective from January 1, 2026 [1]. This notification was dated June 18, 2026 [1].\n\n### Suggested Follow-up Questions\n- What is the revised rate of Dearness Allowance applicable from January 1, 2026?\n- How can Nagaland State government employees verify the correct calculation of their Dearness Allowance?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the effective date and notification date directly from the provided context, matching the reference answer. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-structured."
+      }
+    }
+  },
+  {
+    "index": 15,
+    "qid": "exp-0015",
+    "question": "Could you please tell me the last updated date for the 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management?",
+    "reference_answer": "13 Aug 2026",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management was last updated on 13 Aug 2026 [1].\n\n### Suggested Follow-up Questions\n*   What is the contact number for Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management?\n*   Where can I find information about faculty member recruitment at RUPAAM?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the last updated date for the 'Who's Who' page, directly supported by the context and correctly cited. The follow-up questions are relevant and well-structured, offering both factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management (RUPAAM) was last updated on 13 Aug 2026 [1].\n\n### Suggested Follow-up Questions\n- What contact information is available for the Web Information Manager of RUPAAM?\n- Where can I find information about faculty recruitment at RUPAAM?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly extracts the last updated date for the 'Who's Who' page directly from the context and provides accurate citation. Both follow-up questions are relevant and adhere to the hybrid requirement, offering a factual clarification and an actionable next step."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target**: The last updated date for the 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management (RUPAAM).\n\n2. **Context Evidence**:\n    * [1] \"Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management (RUPAAM) Government of Uttar Pradesh\" is explicitly mentioned.\n    * [1] \"WhosWho\" is a section heading.\n    * [1] Under \"WhosWho\", there is a table with columns \"Sr.No. | Name | Designation | Contact No. | Email ID\" and the entry \"No Record Found [spans 6 columns]\".\n    * [1] Directly below this table, it states: \"Last Updated on Page : 13 Aug 2026\".\n    * [1] Further down, it states: \"Last Update on Website :\". This is a general website update, not specific to the 'Who's Who' page.\n\n3. **Actionable Path**: The answer is fully present in [1]. The specific \"Last Updated on Page\" entry directly follows the \"WhosWho\" section and its content.\n\n4. **Follow-ups**:\n    * Factual: Given that the 'Who's Who' page currently shows \"No Record Found\", a factual follow-up would be about when faculty member details are expected to be updated or added.\n    * Actionable guidance: If a citizen needs to contact someone at RUPAAM, and the 'Who's Who' page is empty, they would need guidance on how to find contact information.The 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management (RUPAAM) was last updated on **13 August 2026** [1].\n\n### Suggested Follow-up Questions\n- When are the details of faculty members expected to be updated or added to the 'Who's Who' page, given it currently states \"No Record Found\"?\n- If I need to contact a specific department or official at RUPAAM, where can I find their contact information since the 'Who's Who' page is empty?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the last updated date for the specific 'Who's Who' page from the provided context. All claims are faithfully supported by the cited source, and the follow-up questions are highly relevant and actionable."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The 'Who's Who' page on the official website of Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management (RUPAAM) was last updated on 13 Aug 2026 [1]. Currently, it states \"No Record Found\" for faculty members [1].\n\n### Suggested Follow-up Questions\n- What kind of information is typically listed under the 'Who's Who' section when records are available?\n- How can a citizen directly contact the Dr. Ram Manohar Lohia Uttar Pradesh Academy of Administration and Management for information about their faculty?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies the last updated date for the 'Who's Who' page directly from the context and cites it accurately. All claims are faithful to the provided snippets, and the follow-up questions are relevant and meet the specified criteria."
+      }
+    }
+  },
+  {
+    "index": 16,
+    "qid": "exp-0016",
+    "question": "As a commuter on NH-44 in Ramban, what specific directions did the District Magistrate give to NHAI regarding the highway's condition during the recent District Road Safety Committee meeting?",
+    "reference_answer": "The DC directed NHAI to start blacktopping and filling of potholes on existing highway besides installing signage to keep the commuters aware about the latest status of highway for their convenience.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "As a commuter on NH-44 in Ramban, the District Magistrate (DC) gave the following specific directions to NHAI regarding the highway's condition:\n\n*   Start blacktopping and filling of potholes on the existing highway [1].\n*   Install signage to keep commuters aware about the latest status of the highway for their convenience [1].\n*   Take all necessary measures to control over speeding, especially on the Chenani-Nashri tunnel and Navayuga tunnel in Banihal, by taking strict action on violators in coordination with the Motor Vehicle and Traffic Police department [1].\n*   Install CCTV cameras at all vulnerable locations [1].\n*   Ensure provisions of lighting systems to tackle emergency situations [1].\n\n### Suggested Follow-up Questions\n*   What was the date of the District Road Safety Committee meeting where these directions were given?\n*   How can commuters report specific potholes or lack of signage on NH-44 to NHAI?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts all specific directions given to NHAI from the context and cites them correctly. The follow-up questions are relevant and well-formulated, covering both factual clarification and actionable next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "During the District Road Safety Committee meeting, the District Magistrate (DM) of Ramban issued the following specific directions to NHAI regarding the condition of NH-44:\n\n1.  Start blacktopping and filling of potholes on the existing highway [1].\n2.  Install signage to keep commuters aware of the latest status of the highway for their convenience [1].\n3.  Take all necessary measures to control over speeding, especially on the Chenani-Nashri tunnel and Navayuga tunnel in Banihal, by taking strict action on violators in coordination with the Motor Vehicle and Traffic Police department [1].\n4.  Install CCTV cameras at all vulnerable locations [1].\n5.  Ensure provisions of lighting systems to tackle emergency situations [1].\n\n### Suggested Follow-up Questions\n- What is the estimated timeline for the completion of the blacktopping and pothole filling on NH-44?\n- How can commuters report specific road safety concerns or issues on NH-44 directly to NHAI or the District Road Safety Committee?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and comprehensively lists all specific directions given to NHAI from the provided context, going beyond the reference answer but remaining fully supported. All claims are faithfully extracted and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Hidden CoT": {
+        "generated_answer": "As an official Indian Government Information Assistant, I can confirm the specific directions given by the District Magistrate (DM) to the National Highways Authority of India (NHAI) regarding the condition of NH-44 during the District Road Safety Committee meeting.\n\nThe District Magistrate directed NHAI to:\n*   **Start blacktopping and filling of potholes** on the existing highway [1].\n*   **Install signage** to keep commuters aware of the latest status of the highway for their convenience [1].\n*   **Take all necessary measures to control over speeding**, especially on the Chenani-Nashri tunnel and Navayuga tunnel in Banihal, by taking strict action on violators in coordination with the Motor Vehicle and Traffic Police department [1].\n*   **Install CCTV cameras** at all vulnerable locations [1].\n*   **Ensure provisions of lighting systems** to tackle emergency situations [1].\n\n### Suggested Follow-up Questions\n- What is the current progress on the blacktopping and pothole filling work directed for NH-44?\n- How can commuters report specific issues like potholes, lack of signage, or speeding concerns on NH-44 to the relevant authorities?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and comprehensively extracts all relevant directions given to NHAI from the context regarding the highway's condition. All claims are faithfully supported by the provided context and correctly cited, and the follow-up questions are appropriate and relevant."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking about specific directions given by the District Magistrate (DM) to NHAI regarding NH-44's condition during a recent District Road Safety Committee meeting in Ramban. I need to find the relevant information in the provided context, specifically looking for the DM's directives to NHAI.\n\n1.  **Identify the meeting:** Context [2] states \"DM Ramban chairs District Road Safety Committee, Regional Transport Authority meet\" on \"16/04/2022\". This confirms the meeting.\n2.  **Identify the DM:** Context [2] names \"District Magistrate, Ramban, Mussarat Islam\".\n3.  **Identify the recipient:** The question specifies \"NHAI\".\n4.  **Find specific directions to NHAI:**\n    *   Context [1] states: \"While reviewing the current status of NH-44, the DC directed NHAI to start blacktopping and filling of potholes on existing highway besides installing signage to keep the commuters aware about the latest status of highway for their convenience.\"\n    *   Context [1] also states: \"The DC also directed the NHAI to take all necessary measures to control over speeding especially on Chenani-Nashri tunnel and Navayuga tunnel in Banihal by taking strict action on violators in coordination with Motor Vehicle and Traffic Police department.\"\n    *   Context [1] further states: \"He also directed them to install CCTV cameras at all vulnerable locations besides ensuring provisions of lighting systems to tackle emergency situations.\"\n\n5.  **Consolidate the findings:** The DM (DC in the text refers to District Commissioner, which is the same as District Magistrate) directed NHAI to:\n    *   Start blacktopping and filling potholes on NH-44.\n    *   Install signage to inform commuters about the highway's status.\n    *   Control over speeding, especially in Chenani-Nashri and Navayuga tunnels, in coordination with Motor Vehicle and Traffic Police departments.\n    *   Install CCTV cameras at vulnerable locations.\n    *   Ensure provisions of lighting systems for emergency situations.\n\n6.  **Check for citations:** All these points are from [1].\n7.  **Formulate the answer:** Combine these points clearly.\n8.  **Formulate suggested follow-up questions:**\n    *   One factual clarification: What was the date of this meeting? (Already in context, but good for clarification). Or, what specific stretches of NH-44 were identified for blacktopping? (Not in context, but a good follow-up). Let's go with the date as it's explicitly mentioned.\n    *   One actionable next-step guidance: How can commuters report specific potholes or safety concerns on NH-44 to NHAI? (Actionable).During the District Road Safety Committee meeting chaired by District Magistrate Mussarat Islam on April 15, 2022, specific directions were given to the National Highways Authority of India (NHAI) regarding the condition of NH-44 [1, 2]:\n\nThe DM directed NHAI to:\n*   Start blacktopping and filling of potholes on the existing highway [1].\n*   Install signage to keep commuters aware of the latest status of the highway [1].\n*   Take necessary measures to control over speeding, especially on the Chenani-Nashri tunnel and Navayuga tunnel in Banihal, by taking strict action on violators in coordination with the Motor Vehicle and Traffic Police departments [1].\n*   Install CCTV cameras at all vulnerable locations [1].\n*   Ensure provisions of lighting systems to tackle emergency situations [1].\n\n### Suggested Follow-up Questions\n- What was the official date of the District Road Safety Committee meeting where these directions were issued?\n- How can commuters report specific road safety concerns or potholes on NH-44 directly to NHAI?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and comprehensively extracts all specific directions given to NHAI from the context, including details beyond the reference answer. All claims are faithfully supported by the provided context and are correctly cited, and the follow-up questions are relevant and well-structured."
+      }
+    }
+  },
+  {
+    "index": 17,
+    "qid": "exp-0017",
+    "question": "Is the First Supplementary Demand document for the 2025-26 budget available on the Sikkim FRED website?",
+    "reference_answer": "Yes, the First Supplementary Demand document for the 2025-26 budget is listed as available.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "Yes, the First Supplementary Demand document for the 2025-26 budget appears to be available on the Sikkim FRED website [1].\n\n### Suggested Follow-up Questions\n1. What other supplementary demand documents are available for the 2025-26 budget?\n2. How can I navigate to and download the First Supplementary Demand document for 2025-26 on the FRED.com website?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly infers the availability of the document from context [1], which lists 'First Supplementary Demand' and '2025-26' in a relevant structure. It is faithful to the context and provides excellent, relevant follow-up questions."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The provided context does not explicitly list the \"First Supplementary Demand\" document for the 2025-26 budget [1, 2, 3, 4]. While \"Supplementary Grants For 2025-26\" is mentioned [4], and \"First Supplementary Demand\" is listed as a general document type for other years [1, 2, 3], the specific document requested for 2025-26 is not present.\n\nTo check the current availability of the \"First Supplementary Demand\" document for the 2025-26 budget, please visit the official FRED.com website of the Government of Sikkim.\n\n### Suggested Follow-up Questions\n- What is the difference between \"Supplementary Grants\" and \"First Supplementary Demand\"?\n- Where can I find the complete list of budget documents available for the 2025-26 fiscal year on the Sikkim FRED website?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the specific document is not explicitly listed in the provided context and offers an honest refusal. It provides excellent, specific redirection to the official website and includes two highly relevant follow-up questions."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. Target: The user is asking about the availability of the \"First Supplementary Demand\" document specifically for the \"2025-26 budget\" on the \"Sikkim FRED website\".\n\n2. Context Evidence:\n    *   [1] Mentions \"Budget Circular 2025-26\" and \"Supplementary Demand\" as a general category under \"Forms\". It also lists \"First Supplementary Demand\" and \"Second Supplementary Demand\" for various years, but not specifically for 2025-26 in the main list. It shows \"Vote On Account 2026-27-Downloads\" and \"Copyright \u00a9 2012 FRED.com. All rights reserved. Design by Information Technology Department , Government of Sikkim\". This confirms the website is FRED.com and is for the Government of Sikkim.\n    *   [2] and [3] list \"First Supplementary Demand\" for years like 2021-22, 2020-21, 2019-20, but not for 2025-26.\n    *   [4] Mentions \"Supplementary Grants For 2025-26\". This is a related document but not explicitly \"First Supplementary Demand\". It also lists \"Budget 2025-26\" related documents like \"Finance Minister's Speech\", \"Output & Outcome Budget\", \"Highlights of Budget\", \"Gender Budget\", \"Expenditure Budget\". It also mentions \"Supplementary Grants For 2024-25\".\n\n    Combining the evidence:\n    *   The website is FRED.com, Government of Sikkim.\n    *   \"Supplementary Demand\" is a known document type.\n    *   \"First Supplementary Demand\" is listed for several past years (e.g., 2019-20, 2020-21, 2021-22).\n    *   For 2025-26, the context explicitly mentions \"Supplementary Grants For 2025-26\" [4]. This is very close but not exactly \"First Supplementary Demand\". The term \"First\" is missing.\n    *   The general list of \"Demand For Grants\" in [1] includes \"2025-26\" as a year, but doesn't explicitly list \"First Supplementary Demand\" under it, unlike other years.\n\n    Conclusion from evidence: While \"Supplementary Grants For 2025-26\" is mentioned, the specific document \"First Supplementary Demand\" for 2025-26 is not explicitly listed as available in the provided context. The context lists \"First Supplementary Demand\" for *other* years, and \"Supplementary Grants\" for 2025-26, but not the exact phrase \"First Supplementary Demand for 2025-26\".\n\n3. Actionable Path: The exact document \"First Supplementary Demand for 2025-26\" is not explicitly confirmed as available. However, \"Supplementary Grants For 2025-26\" is mentioned, which is likely the same or a very similar document. Given the role as an official Indian Government Information Assistant, it's important to be precise. Since the *exact* phrase isn't found, it's best to state that it's not explicitly listed by that name, but a related document is. For further clarity, the user should be directed to the website.\n\n4. Follow-ups:\n    *   Factual: Clarify if \"Supplementary Grants For 2025-26\" is the same as \"First Supplementary Demand for 2025-26\".\n    *   Actionable: Guide the user on how to navigate the FRED website to find budget documents.Based on the information provided:\n\nThe document explicitly titled \"First Supplementary Demand\" for the 2025-26 budget is not directly listed as available in the provided context. However, a related document, \"Supplementary Grants For 2025-26\", is mentioned [4]. The Sikkim FRED website (FRED.com) is the official portal for budget-related documents for the Government of Sikkim [1].\n\n### Suggested Follow-up Questions\n- Is the \"Supplementary Grants For 2025-26\" document the same as, or includes, the \"First Supplementary Demand\" for the 2025-26 budget?\n- How can I navigate the FRED.com website to find all available budget documents for the 2025-26 fiscal year?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately states that the exact document is not explicitly listed in the context, while a related one is. It correctly identifies the official portal and provides excellent, relevant follow-up questions for clarification and navigation."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking if the \"First Supplementary Demand\" document for the 2025-26 budget is available on the Sikkim FRED website. I need to check the provided context for mentions of \"First Supplementary Demand\" and \"2025-26 budget\" in relation to the Sikkim FRED website.\n\n1.  **Identify the website:** Context [1] explicitly mentions \"Copyright \u00a9 2012 FRED.com. All rights reserved. Design by Information Technology Department, Government of Sikkim\" and \"Vote on Account 2026-27-Downloads\". This confirms FRED.com is the Sikkim Government's IT Department portal.\n\n2.  **Look for \"First Supplementary Demand\":**\n    *   Context [1] lists \"First Supplementary Demand\" as a general document type, but not specifically for 2025-26. It lists \"First Supplementary Demand\" under various years like 2024-25, 2023-24, etc., but not 2025-26 in the main list.\n    *   Context [2] lists \"First Supplementary Demand\" for 2022-23, 2021-22, 2020-21, and 2019-20.\n    *   Context [3] is identical to [2] and lists \"First Supplementary Demand\" for 2022-23, 2021-22, 2020-21, and 2019-20.\n    *   Context [4] mentions \"Supplementary Grants For 2025-26\" and \"Supplementary Grants For 2024-25\". It also lists \"Finance Minister's Speech in English on Budget 2025-26\", \"Output & Outcome Budget 2025-26\", \"Highlights of Budget 2025-26\", \"Gender Budget 2025-26\", and \"Expenditure Budget 2025-26 Volume 1 - Abstracts of Accounts\", \"Expenditure Budget 2025-26 Volume 2 - Part II\". However, it *does not* explicitly mention \"First Supplementary Demand\" for 2025-26. It only mentions \"Supplementary Grants For 2025-26\". While \"Supplementary Grants\" is related to \"Supplementary Demand\", the user specifically asked for \"First Supplementary Demand\".\n\n3.  **Synthesize the findings:**\n    *   The FRED website (Sikkim Government) is confirmed [1].\n    *   \"First Supplementary Demand\" documents are listed for several years (2019-20, 2020-21, 2021-22, 2022-23) [2, 3].\n    *   For 2025-26, the context mentions \"Supplementary Grants For 2025-26\" [4] and other budget documents for 2025-26, but *not* specifically \"First Supplementary Demand\". It's possible \"Supplementary Grants\" is the same as \"Supplementary Demand\", but the term \"First\" is missing, and the exact phrasing is important for an official assistant.\n\n4.  **Formulate the answer:** The context lists \"Supplementary Grants For 2025-26\" but not \"First Supplementary Demand\" specifically for that year. Given the strict rule to not guess or substitute, I should state that the exact document \"First Supplementary Demand\" for 2025-26 is not explicitly found, but related \"Supplementary Grants\" are mentioned. I should guide the user to the portal.\n\n5.  **Refinement:** The question is very specific: \"Is the First Supplementary Demand document for the 2025-26 budget available\". Context [4] mentions \"Supplementary Grants For 2025-26\". This is *not* \"First Supplementary Demand\". The context also lists \"First Supplementary Demand\" for other years [2, 3]. Therefore, I must state that the *exact* document requested is not found. I can mention what *is* found for 2025-26 regarding supplementary funding.\n\n6.  **Final check against rules:**\n    *   Cite facts: Yes, [4].\n    *   Exact details: Yes, \"Supplementary Grants For 2025-26\" is mentioned.\n    *   Not guess/substitute: Yes, I will state that \"First Supplementary Demand\" is not explicitly listed for 2025-26.\n    *   Conclude with suggested questions: Yes.\n\nThe context [1] shows \"First Supplementary Demand\" as a general category of documents available on the FRED website, and it lists various years for which documents are available (e.g., 2024-25, 2023-24, etc.). However, it does not explicitly list \"First Supplementary Demand\" for the year 2025-26 in the same manner it lists other years.\nContext [4] lists \"Supplementary Grants For 2025-26\" but not \"First Supplementary Demand for 2025-26\". While \"Supplementary Grants\" is related, the user specifically asked for \"First Supplementary Demand\".\nGiven the strict instruction not to guess or substitute, I must state that the exact document \"First Supplementary Demand\" for 2025-26 is not explicitly found. I can mention that \"Supplementary Grants For 2025-26\" is available.\n\nLet's re-evaluate. The question is \"Is the First Supplementary Demand document for the 2025-26 budget available on the Sikkim FRED website?\".\nContext [1] shows \"First Supplementary Demand\" as a type of document, and lists years like \"2024-25\", \"2023-24\", etc. but doesn't explicitly list \"2025-26\" next to \"First Supplementary Demand\" in that specific format.\nContext [4] lists \"Supplementary Grants For 2025-26\". This is *not* \"First Supplementary Demand\". It's a different phrasing.\nThe rule is \"If exact details/specs are present (e.g. standards, names, amounts), include them clearly. If the answer is not present or partial, do NOT guess or substitute facts from other years/ministers. State the refusal clearly and guide the citizen to the exact relevant department/portal.\"\n\nSince \"First Supplementary Demand\" for 2025-26 is not explicitly listed, I should state that. I can mention that \"Supplementary Grants For 2025-26\" is available as a related document.\n\nLet's check [1] again. It lists \"First Supplementary Demand\" as a general document type. Then it lists years: \"2025-26\", \"2024-25\", \"2023-24\", etc. This implies that documents *for* these years are available. However, it doesn't explicitly link \"First Supplementary Demand\" to \"2025-26\" in a direct entry.\nContext [4] is more specific for 2025-26. It lists:\n- Supplementary Grants For 2025-26\n- Finance Minister's Speech in English on Budget 2025-26\n- Output & Outcome Budget 2025-26\n- Highlights of Budget 2025-26\n- Gender Budget 2025-26\n- Expenditure Budget 2025-26 Volume 1 - Abstracts of Accounts\n- Expenditure Budget 2025-26 Volume 2 - Part II\n\nIt *does not* list \"First Supplementary Demand 2025-26\". It lists \"Supplementary Grants For 2025-26\". These are often used interchangeably or are very similar, but the exact phrasing is different. Given the strict rules, I must adhere to the exact phrasing.\n\nTherefore, the answer should state that \"First Supplementary Demand\" for 2025-26 is not explicitly listed, but \"Supplementary Grants For 2025-26\" is available. I should also mention the website.Based on the provided documents, the specific document titled \"First Supplementary Demand\" for the 2025-26 budget is not explicitly listed as available on the Sikkim FRED website [1, 4].\n\nHowever, the website does list \"Supplementary Grants For 2025-26\" [4], along with other budget documents for 2025-26 such as the Finance Minister's Speech, Output & Outcome Budget, Highlights, Gender Budget, and Expenditure Budget [4].\n\nTo confirm the availability of the exact \"First Supplementary Demand\" document, it is recommended to visit the official FRED.com website of the Information Technology Department, Government of Sikkim, and navigate to the budget documents section for 2025-26.\n\n### Suggested Follow-up Questions\n- What is the difference between \"First Supplementary Demand\" and \"Supplementary Grants\"?\n- Where can I find the complete list of budget documents available for the 2025-26 fiscal year on the Sikkim FRED website?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the exact document 'First Supplementary Demand' for 2025-26 is not explicitly listed in the context, while accurately noting the presence of 'Supplementary Grants For 2025-26'. It provides specific and actionable guidance for the user to verify on the official website."
+      }
+    }
+  },
+  {
+    "index": 18,
+    "qid": "exp-0018",
+    "question": "What is the mobile number and email ID for the Superintendent of Police (SP) in Kamareddy District?",
+    "reference_answer": "The mobile number for SP-Kamareddy, M. Rajesh Chandra IPS, is 8712686100 and the email ID is sp-kmr@tspolice.gov.in.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The mobile number for the Superintendent of Police (SP) in Kamareddy District is 8712686100, and the email ID is sp-kmr@tspolice.gov.in [1]. The officer's name is M. Rajesh Chandra IPS [1].\n\n### Suggested Follow-up Questions\n*   What is the office number for the Superintendent of Police in Kamareddy District?\n*   How can I find contact details for other police officers in Kamareddy District?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the mobile number and email ID for the SP in Kamareddy District, fully supported by the provided context and correctly cited. The follow-up questions are relevant and well-formulated, offering both factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The mobile number for the Superintendent of Police (SP) in Kamareddy District, M. Rajesh Chandra IPS, is 8712686100, and the email ID is sp-kmr@tspolice.gov.in [1].\n\n### Suggested Follow-up Questions\n- What is the office number for the Superintendent of Police in Kamareddy District?\n- How can a citizen report a non-emergency issue to the Kamareddy District Police?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the mobile number and email ID for the SP in Kamareddy District, fully supported by the context and correctly cited. The follow-up questions are relevant and adhere to the specified types (factual clarification and actionable next-step guidance)."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. Target: The user is asking for the mobile number and email ID of the Superintendent of Police (SP) in Kamareddy District.\n\n2. Context Evidence:\n   - Document [1] is titled \"List of Officers in Kamareddy District\".\n   - Under the \"PS/Office\" column, \"SP-Kamareddy\" is listed.\n   - The \"Officer Name\" is \"M. Rajesh Chandra IPS\".\n   - The \"Officer Rank\" is \"SUPERINTENDENT OF POLICE\".\n   - The \"Mobile Number\" for SP-Kamareddy is \"8712686100\".\n   - The \"Email ID\" for SP-Kamareddy is \"sp-kmr@tspolice.gov.in\".\n\n   - Documents [2], [3], and [4] pertain to Jagtial District and Khagaria District, which are not relevant to the user's request for Kamareddy District.\n\n3. Actionable Path: The answer is fully present in document [1].\n\n4. Follow-ups:\n   - Factual inquiry: Ask for the office number of the SP in Kamareddy District.\n   - Next-step citizen guidance: Ask how to report a non-emergency issue to the Kamareddy Police.The mobile number for the Superintendent of Police (SP) in Kamareddy District is 8712686100, and the email ID is sp-kmr@tspolice.gov.in [1]. The SP's name is M. Rajesh Chandra IPS [1].\n\n### Suggested Follow-up Questions\n- What is the office number for the Superintendent of Police in Kamareddy District?\n- How can I file a complaint with the Kamareddy Police for a non-emergency issue?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the mobile number and email ID for the SP in Kamareddy District, fully supported by the context and correctly cited. It also includes two relevant and well-formulated follow-up questions."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The mobile number for the Superintendent of Police (SP) in Kamareddy District, M. Rajesh Chandra IPS, is 8712686100, and the email ID is sp-kmr@tspolice.gov.in [1].\n\n### Suggested Follow-up Questions\n- What is the office number for the Superintendent of Police in Kamareddy District?\n- How can I contact the Additional SP in Kamareddy District?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the mobile number and email ID for the SP in Kamareddy District, fully supported by the cited context. The follow-up questions are relevant and actionable, based on the provided information."
+      }
+    }
+  },
+  {
+    "index": 19,
+    "qid": "exp-0019",
+    "question": "I am looking for the annual accounts for the Salem City Municipal Corporation. When were the 2023-2024 Water Supply and Drainage Fund annual accounts last updated or published?",
+    "reference_answer": "The 2023-2024 Water Supply and Drainage Fund annual accounts were updated on 18.04.2025 and published on 18.04.2025.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The 2023-2024 Water Supply and Drainage Fund annual accounts for the Salem City Municipal Corporation were updated on 18.04.2025 and published on 18.04.2025 [4].\n\n### Suggested Follow-up Questions\n*   What are the other types of annual accounts available for the 2023-2024 year?\n*   How can I download the 2023-2024 Water Supply and Drainage Fund annual accounts?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the update and publication dates directly from the context, with correct citation. The follow-up questions are relevant, offering both factual clarification and actionable next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The 2023-2024 Water Supply and Drainage Fund annual accounts for the Salem City Municipal Corporation were updated on 18.04.2025 and published on 18.04.2025 [4].\n\n### Suggested Follow-up Questions\n- What are the other types of annual accounts available for the Salem City Municipal Corporation for the 2023-2024 year?\n- Where can I download the annual accounts for the Water Supply and Drainage Fund?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely provides the requested information directly from the context, matching the reference answer. All claims are faithfully supported by the cited context, and the follow-up questions are relevant and helpful."
+      },
+      "Hidden CoT": {
+        "generated_answer": "The 2023-2024 Water Supply and Drainage Fund annual accounts for the Salem City Municipal Corporation were last updated and published on **18.04.2025** [4].\n\n### Suggested Follow-up Questions\n- What is the latest year for which the Elementary Education Fund annual accounts are available for download?\n- How can I access or download these annual accounts documents from the Salem City Municipal Corporation website?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the update and publication date directly from the context with correct citation. The follow-up questions are relevant and adhere to the hybrid requirement."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "The 2023-2024 Water Supply and Drainage Fund annual accounts for the Salem City Municipal Corporation were last updated and published on 18.04.2025 [4].\n\n### Suggested Follow-up Questions\n- Where can I find the annual accounts for the Revenue Fund for the year 2023-2024?\n- Which department is responsible for monitoring the Water Supply and Drainage Fund accounts?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the requested dates directly from the context and is fully supported by the cited source. The follow-up questions are relevant and can be answered using the provided context."
+      }
+    }
+  },
+  {
+    "index": 20,
+    "qid": "exp-0020",
+    "question": "As a transport service provider, what is the exact deadline and submission location for the sealed offers for the tender to hire one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai?",
+    "reference_answer": "The sealed covers for the tender, including the Technical bid (Annexure-I) and Financial bid (Annexure-II), must be submitted to the Administrative Officer, Office of the Principal Commissioner of Income Tax (Central)-2, Room No.123, 1st floor, Investigation Wing, No.46, M.G.Road, Nungambakkam, Chennai - 600 034, by 03.00 PM on 25-July-2023.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The exact deadline and submission location for the sealed offers for the tender to hire one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, are not present in the provided context snippets.\n\nPlease check the official portal of the Income Tax Department or contact the Office of the Principal Commissioner of Income Tax, Central-2, Chennai, for this information.\n\n### Suggested Follow-up Questions\n1.  What is the period for which the Staff Car Vehicle (Toyota Innova Crysta, Model-2023) is to be hired by the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai?\n2.  Where can I find the complete tender document, including Annexure-I and Annexure-II, for this tender?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information (deadline and submission location) is not present in the provided context snippets. It provides an honest refusal with specific and actionable redirection, along with two relevant follow-up questions."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "I cannot find the exact deadline and submission location for the sealed offers for the tender to hire one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai in the provided context [2].\n\nThe available information for this tender confirms that the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, invites sealed offers for one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the period of one year from 01-Aug-2023 to 31-July-2024 [2]. It also states that the tender is invited in two parts: Technical bid (Annexure-I) and Financial bid (Annexure-II) [2]. However, the specific deadline for submission and the physical location for submitting the sealed offers are not detailed in the provided snippet.\n\nTo obtain the exact deadline and submission location, please refer to the complete tender document or contact the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, directly.\n\n### Suggested Follow-up Questions\n- Where can I find the full tender document for the \"Hiring of One Staff Car Vehicle\" by the Principal Commissioner of Income Tax (Central)-2, Chennai?\n- What is the contact information (phone number/email) for the Administrative Officer at the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, for tender inquiries?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information (deadline and submission location) is not present in the provided context for the specific tender. It provides an honest refusal, accurately summarizes the available information, and offers excellent, specific redirection and follow-up questions."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** Identify the exact deadline and submission location for the tender specified: \"one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai.\"\n\n2. **Context Evidence:**\n    *   **[2]** is the most relevant document. It states: \"OFFICE OF THE PRINCIPAL COMMISSIONER OF INCOME TAX, CENTRAL-2, CHENNAI... HIRING OF ONE STAFF CAR VEHICLE... (Toyota Innova Crysta, Model-2023)... for the period of one year from 01-Aug-2023 to 31-July-2024.\" This perfectly matches the vehicle type, model, and office specified in the user's question.\n    *   **[2]** also mentions \"TENDER PROCESS... Tender is invited in two parts i.e. (1) Technical bid and (2) Financial bid. The tender form for Technical bid prescribed in Annexure-I and the tender form for the Financial bid in proforma\".\n    *   However, **[2]** *does not provide any information about the deadline or the submission location*. It only has a date \"05/07/2023\" which is the date the notice was issued, not the deadline.\n    *   **[1]** and **[4]** refer to \"Office of the Principal Commissioner of Income tax, Technical Unit -4, Chennai\" and \"2 Nos of Operational Vehicles\". This is a different office and a different number/type of vehicle.\n    *   **[3]** refers to \"OFFICE OF THE PR.COMMISSIONER OF INCOME TAX , RU-1, CHENNAI\" and \"one new INNOVA CRYSIA, CRYSTA, 2023 model vehicle\". While the vehicle is similar, the office is different (RU-1 vs. Central-2).\n\n3. **Actionable Path:** The exact deadline and submission location for the specific tender requested are *not present* in the provided context. The relevant document [2] only states the notice date and the tender process, but not the critical submission details. Therefore, the appropriate department/portal needs to be named.\n\n4. **Follow-ups:**\n    *   Factual: Ask for the missing information (deadline and location).\n    *   Actionable: Guide the user on how to find this information (contact the specific office).Based on the provided information, the exact deadline and submission location for the tender to hire one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, are **not specified** in the available context [2].\n\nThe document [2] confirms the tender details for the specified vehicle and office, and mentions that the tender is invited in two parts (Technical and Financial bids), but it does not provide the crucial information regarding the submission deadline or the physical location for submitting the sealed offers.\n\n### Suggested Follow-up Questions\n- Could you please provide the specific deadline and the exact room number or address for submitting the sealed offers for this tender?\n- What is the official contact number or email address for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, to inquire about the tender submission details?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested information (deadline and submission location) is not present in the provided context. It offers an honest refusal and provides excellent, specific follow-up questions for clarification and actionable next steps, guiding the user to the correct department."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking for specific details about a tender:\n1.  **Exact deadline:** For submitting sealed offers.\n2.  **Submission location:** For submitting sealed offers.\n3.  **Specific tender:** Hiring one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai.\n\nI need to check the provided documents for this exact tender and then extract the deadline and submission location.\n\n**Document Analysis:**\n\n*   **[1] & [4] (Same document):** This is from \"The Office of the Principal Commissioner of Income tax, Technical Unit -4, Chennai\". It invites tenders for \"2 Nos of Operational Vehicles (2 no\u2019s Premium SUV \u2013 Toyota Innova, Maruthi Ertiga, Hyundai Alcazar, Kia Carens, Toyota Rumion, - 7 seater vehicle preferred. The vehicle model should be from 2022 -23)\". The period is \"01.05.2024 to 30.04.2025\".\n    *   **Submission location:** \"Room.no.628, Wanaparthy Block, 6th floor\" [1].\n    *   **Deadline:** This document does *not* explicitly state a deadline for submission. It only states the period of hire.\n    *   **Match with user request?** No, the user is asking for \"one Staff Car Vehicle (Toyota Innova Crysta, Model-2023)\" for \"Principal Commissioner of Income Tax (Central)-2, Chennai\". This document is for \"Technical Unit-4\" and for \"2 Nos of Operational Vehicles\" (though Innova is listed as an option, it's not specifically \"Innova Crysta, Model-2023\" as the *only* vehicle, and the office is different).\n\n*   **[2]:** This is from \"OFFICE OF THE PRINCIPAL COMMISSIONER OF INCOME TAX, CENTRAL-2, CHENNAI\". It invites tenders for \"1 Nos. of Staff Car Vehicle (Toyota Innova Crysta, Model-2023)\". The period is \"01-Aug-2023 to 31-July-2024\".\n    *   **Match with user request?** Yes, this perfectly matches the office (\"Principal Commissioner of Income Tax (Central)-2, Chennai\") and the vehicle (\"one Staff Car Vehicle (Toyota Innova Crysta, Model-2023)\").\n    *   **Deadline:** The document has a date \"Date: 05/07/2023\" but does *not* specify a deadline for tender submission. It only states the period of hire.\n    *   **Submission location:** The document states \"The tender form for Technical bid prescribed in Annexure-I and the tender form for the Financial bid in proforma...\" but does *not* specify the submission location. It only mentions \"sealed offers\".\n\n*   **[3]:** This is from \"OFFICE OF THE PR.COMMISSIONER OF INCOME TAX , RU-1, CHENNAI\". It invites tenders for \"one new INNOVA CRYSIA, CRYSTA, 2023 model vehicle\". The period is \"01.04.2023 to 31.03.2024\".\n    *   **Match with user request?** No, the office is \"RU-1\", not \"Central-2\".\n\n**Conclusion:**\nDocument [2] perfectly matches the specific tender the user is asking about. However, it *does not* provide the exact deadline or the submission location for the sealed offers. It only states the date of the notice (05/07/2023) and the period of hire (01-Aug-2023 to 31-July-2024).\n\nTherefore, I must state that the information is not present and guide the user to the relevant department.I cannot find the exact deadline and submission location for the sealed offers for the tender to hire one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, within the provided documents [2].\n\nWhile the document confirms that the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, invited sealed offers for one Staff Car Vehicle (Toyota Innova Crysta, Model-2023) for the period from August 1, 2023, to July 31, 2024 [2], it does not specify the deadline for submission or the exact location where the sealed offers should be submitted.\n\nTo obtain this precise information, please contact the Office of the Principal Commissioner of Income Tax (Central)-2, Chennai, directly.\n\n### Suggested Follow-up Questions\n- What are the general terms and conditions for vehicle hire tenders issued by the Income Tax Department?\n- How can I find contact details for the Administrative Officer of the Principal Commissioner of Income Tax (Central)-2, Chennai?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly identifies that the requested deadline and submission location are not present in the provided context for the specific tender. It provides an accurate refusal and redirects the user to the correct department for further inquiry, along with relevant follow-up questions."
+      }
+    }
+  },
+  {
+    "index": 21,
+    "qid": "exp-0021",
+    "question": "Could you please provide the details for the public meeting permit issued to Shri Angomcha Bimol Akoijam of INC in Imphal West?",
+    "reference_answer": "A Public Meeting Permit was issued for Shri. Angomcha Bimol Akoijam, INC at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on 17th April 2024.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "Based on the provided context, a Public Meeting Permit was issued to Shri Angomcha Bimol Akoijam of INC for a meeting at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on 17th April 2024 [1].\n\nThe provided context does not explicitly state that this location is in \"Imphal West\".\n\n### Suggested Follow-up Questions\n1.  What are the required annexures for obtaining a permit to hold a meeting and use a loudspeaker?\n2.  Where can I find the prescribed format for applying for a public meeting permit?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 4,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the permit details from the context and correctly notes the absence of 'Imphal West' information. The follow-up questions are relevant and align with the hybrid requirement for factual clarification and actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "A public meeting permit was issued to Shri Angomcha Bimol Akoijam of INC for a meeting at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on 17th April 2024 [1].\n\nThe provided context does not specify if this location is in Imphal West.\n\n### Suggested Follow-up Questions\n- What are the specific geographical boundaries of Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak?\n- How can a citizen verify the district of a given meeting location for permit purposes?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 2,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts the permit details from the context and correctly identifies the missing information regarding the district. It provides excellent, relevant follow-up questions, although it does not offer specific departmental redirection for the missing detail."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** Details for a public meeting permit issued to Shri Angomcha Bimol Akoijam of INC in Imphal West. Specifically, the date and location of the meeting.\n\n2. **Context Evidence:**\n    * [1] \"Public Meeting Permit for Shri. Angomcha Bimol Akoijam, INC at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on 17th April 2024\"\n    * [1], [2], [3] also mention \"Vehicles Permit for Shri. Angomcha Bimol Akoijam, INC dated 05th April 2024\" and \"Vehicles Permit for Shri. Angomcha Bimol Akoijam, INC dated 03rd April 2024\". These are vehicle permits, not public meeting permits.\n    * The question specifies \"Imphal West\". Pishumthong Ningom Leirak is a locality within Imphal West.\n\n3. **Actionable Path:** The answer is fully present in the provided context.\n\n4. **Follow-ups:**\n    * Factual: Are there any other public meeting permits issued to Shri Angomcha Bimol Akoijam? (To check if the provided one is the only one or if there are others not explicitly listed in the snippets).\n    * Actionable guidance: How can I apply for a public meeting permit for an election campaign? (To guide the citizen on the process).A public meeting permit was issued to Shri Angomcha Bimol Akoijam of INC for a meeting at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on **17th April 2024** [1].\n\n### Suggested Follow-up Questions\n- Were there any other public meeting permits issued to Shri Angomcha Bimol Akoijam?\n- What is the process to apply for a public meeting permit for an election campaign?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately extracts all requested details about the public meeting permit from the provided context, including the location and date, with correct citation. The two follow-up questions are relevant and appropriately categorized as factual clarification and actionable guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking for details about a public meeting permit issued to Shri Angomcha Bimol Akoijam of INC in Imphal West. I need to search the provided context for \"Angomcha Bimol Akoijam\", \"INC\", \"Public Meeting Permit\", and any location details.\n\nLooking at the context:\n- [1] mentions \"Public Meeting Permit for Shri. Angomcha Bimol Akoijam, INC at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak on 17th April 2024\". This matches the candidate, party, and is a public meeting permit. Pishumthong Ningom Leirak is a location in Imphal West.\n- [1] also mentions \"Permission rejection for INC candidate at THAU Ground Thangmeiband\". This is a rejection, not a permit.\n- [2] and [3] mention \"Vehicles Permit for Shri. Angomcha Bimol Akoijam, INC dated 05th April 2024\" and \"Vehicles Permit for Shri. Angomcha Bimol Akoijam, INC dated 03rd April 2024\". These are vehicle permits, not public meeting permits.\n\nTherefore, the relevant information is from [1]. I will extract the details:\n- Candidate: Shri. Angomcha Bimol Akoijam\n- Party: INC\n- Type of permit: Public Meeting Permit\n- Location: Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak\n- Date: 17th April 2024\n\nThe question specifically asks for \"Imphal West\". Pishumthong Ningom Leirak is indeed in Imphal West.\n\nI will construct the answer based on these facts and then formulate the suggested follow-up questions.\nThe first suggested follow-up should be a factual clarification, and the second an actionable next step.\nFactual clarification: Are there any conditions or restrictions associated with this permit? (This is a common detail for permits).\nActionable next step: How can a citizen apply for a public meeting permit in Imphal West? (Guides them to the process).A public meeting permit was issued to Shri Angomcha Bimol Akoijam of INC for a meeting at Yaipha Lamjing Lup Ground, Pishumthong Ningom Leirak, Imphal West, on 17th April 2024 [1].\n\n### Suggested Follow-up Questions\n- Were there any specific conditions or restrictions attached to this public meeting permit?\n- How can a citizen apply for a public meeting permit in Imphal West?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts all the requested details about the public meeting permit from the provided context, with correct citation. The suggested follow-up questions are relevant, offering both factual clarification and actionable guidance."
+      }
+    }
+  },
+  {
+    "index": 22,
+    "qid": "exp-0022",
+    "question": "As a resident of Ibrahimpeta village in Nalgonda district, can you clarify if survey numbers 1-260 and 322-540 are still included within Haliya municipality's jurisdiction as per the recent amendments to the Telangana Municipalities Act, 2019?",
+    "reference_answer": "No, as per the Telangana Municipalities (Amendment) Act, 2025, under the Heading \u201cXXII NALGONDA\u201d, against SI.No.91, the entries for Haliya have been substituted to read: \u201cHaliya (excluding the Sy.No. 1-260 and 322-540 of Ibrahimpeta village)\u201d.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "Based on the provided context, survey numbers 1-260 and 322-540 of Ibrahimpeta village are *excluded* from Haliya [1].\n\n### Suggested Follow-up Questions\n1.  What Grampanchayats were substituted under the Heading \"XXIV SANGAREDDY\" against SI.No.105?\n2.  Where can I access the full Telangana Gazette Extraordinary, Part IV-B, to review all amendments to the Telangana Municipalities Act, 2019?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately states that the survey numbers are excluded from Haliya municipality, directly supported by the context and correctly cited. The follow-up questions are relevant and provide both factual clarification and actionable next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "As per the amendments detailed in the Telangana Gazette Extraordinary, Survey Numbers 1-260 and 322-540 of Ibrahimpeta village are explicitly excluded from Haliya's jurisdiction [1].\n\n### Suggested Follow-up Questions\n- What is the effective date of the amendment that excluded these survey numbers from Haliya's jurisdiction?\n- Which specific government department or portal can provide information on the current municipal jurisdiction for Survey Numbers 1-260 and 322-540 of Ibrahimpeta village?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly states that the survey numbers are excluded from Haliya's jurisdiction, fully supported by the provided context and accurately cited. The suggested follow-up questions are relevant and provide both factual clarification and actionable guidance."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target:** Clarify if survey numbers 1-260 and 322-540 of Ibrahimpeta village are included in Haliya municipality's jurisdiction after recent amendments to the Telangana Municipalities Act, 2019.\n\n2. **Context Evidence:**\n    * **[1] 898ec1f3e0bf8bfff5b8ec80:** This document is titled \"TELANGANA GAZETTE EXTRAORDINARY [Part IV-B]\" and mentions \"Amend- 5. In the principal Act, in Schedule-ll,\" indicating it's an amendment to an Act.\n    * Specifically, it states: \"\u201cHaliya (excluding the Sy.No. 1-260 and 322-540 of Ibrahimpeta village)\".\n    * This directly addresses the Haliya municipality and the specific survey numbers in Ibrahimpeta village. The word \"excluding\" is key.\n\n3. **Actionable Path:** The answer is fully present in the provided context. The amendment explicitly states the exclusion.\n\n4. **Follow-ups:**\n    * **Factual:** What is the effective date of this amendment to the Telangana Municipalities Act, 2019, regarding Haliya municipality's jurisdiction? (This is not in the provided text, but a logical follow-up for a citizen).\n    * **Actionable Guidance:** Where can I access the full text of the amended Telangana Municipalities Act, 2019, to understand all changes related to my village? (This guides the citizen to find more information).As per the recent amendments to the Telangana Municipalities Act, 2019, specifically mentioned in the Telangana Gazette Extraordinary, survey numbers 1-260 and 322-540 of Ibrahimpeta village are **excluded** from Haliya municipality's jurisdiction [1].\n\n### Suggested Follow-up Questions\n- What is the effective date of this amendment to the Telangana Municipalities Act, 2019, regarding Haliya municipality's jurisdiction?\n- Where can I access the full text of the amended Telangana Municipalities Act, 2019, to understand all changes related to my village?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly and faithfully extracts the exclusion information directly from the provided context, with accurate citation. It also provides two highly relevant and well-structured follow-up questions, covering both factual clarification and actionable guidance."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "As per the amendments published in the Telangana Gazette Extraordinary, Survey Numbers 1-260 and 322-540 of Ibrahimpeta village are *excluded* from the Haliya municipality's jurisdiction [1].\n\n### Suggested Follow-up Questions\n- Which specific local body or Gram Panchayat do Survey Numbers 1-260 and 322-540 of Ibrahimpeta village now fall under?\n- Where can residents of these excluded survey numbers find official documentation confirming their current local administrative jurisdiction?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully extracts the information from the provided context, correctly stating the exclusion of the specified survey numbers from Haliya municipality's jurisdiction. It also provides two relevant and actionable follow-up questions."
+      }
+    }
+  },
+  {
+    "index": 23,
+    "qid": "exp-0023",
+    "question": "I have booked a JKTDC Package Tour. Could you please clarify the refund policy if I need to cancel it?",
+    "reference_answer": "If a request is made for cancellation of Package Tour is intimated within 10 days from the date of check-in, no refund shall be granted in such cases. Requests made before 10 days shall entitle the guest for refund of 70% of the Package Cost.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "If you need to cancel a JKTDC Package Tour:\n*   If the request for cancellation is made within 10 days from the date of check-in, no refund will be granted [4].\n*   If the request is made before 10 days from the date of check-in, you will be entitled to a refund of 70% of the Package Cost [4].\n\n### Suggested Follow-up Questions\n*   What is the refund policy for cancelling dormitory accommodation?\n*   How can I log in to manage or cancel my bookings?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely provides the refund policy for JKTDC Package Tours, directly supported by the context with correct citations. The follow-up questions are relevant, one seeking factual clarification and the other actionable guidance."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "For cancellations of a JKTDC Package Tour:\n*   If a request for cancellation is intimated within 10 days from the date of check-in, no refund will be granted [4].\n*   If the request is made before 10 days from the date of check-in, the guest will be entitled to a refund of 70% of the Package Cost [4].\n\n### Suggested Follow-up Questions\n- What is the definition of \"date of check-in\" for the purpose of package tour cancellations?\n- How can I formally submit a cancellation request for a JKTDC Package Tour?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely extracts the refund policy for JKTDC Package Tours directly from the provided context. All claims are faithful to the source and correctly cited, and the follow-up questions are relevant and helpful."
+      },
+      "Hidden CoT": {
+        "generated_answer": "As an official Indian Government Information Assistant, I can clarify the refund policy for JKTDC Package Tour cancellations based on the provided information.\n\nFor JKTDC Package Tours:\n*   If a request for cancellation is made within 10 days from the date of check-in, no refund will be granted.\n*   If the request is made before 10 days from the date of check-in, you will be entitled to a refund of 70% of the Package Cost [4].\n\n### Suggested Follow-up Questions\n- What is considered the \"date of check-in\" for the purpose of calculating the 10-day cancellation window?\n- How can I submit a request for cancellation of my JKTDC Package Tour?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully provides the complete refund policy for JKTDC Package Tours directly from the context, with correct citations. The follow-up questions are relevant and helpful, covering both factual clarification and actionable next steps."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "<reasoning>\nThe user is asking about the refund policy for a JKTDC Package Tour. I need to find the relevant section in the provided context that specifically addresses \"Cancellations of Package Tours\".\n\nContext [4] explicitly states:\n\"9. Cancellations of Package TouRs.:\nIf a request is made for cancellation of Package Tour is intimated within 10 days from the date of check-in, no refund shall be granted in such cases. Requests made before 10 days shall entitle the guest for refund of 70% of the Package Cost.\"\n\nThis directly answers the user's question. I will cite [4].\n\nI also need to check for any other relevant information regarding changes or cancellations that might apply to package tours.\nContext [1] mentions:\n\"VI. If a request for change in dates of a Package tour is received before 5 days, the guest shall have to pay additional payment @ 10% of the Package Cost.\"\nThis is about changing dates, not cancellation, but it's related to package tours. The user asked about *cancellation*, so the primary answer should focus on that. However, it's good to note this for potential follow-up.\n\nThe question is specifically about *refund policy if I need to cancel it*. So, the information from point 9 in [4] is the most direct and complete answer.\n\nI will structure the answer based on the two scenarios for package tour cancellation:\n1. Cancellation within 10 days of check-in.\n2. Cancellation before 10 days of check-in.\n\nFinally, I will formulate two suggested follow-up questions: one factual clarification and one actionable next step.\nFactual clarification: What is the policy for changing dates of a package tour? (This is available in the context).\nActionable next step: How can I submit a cancellation request for my JKTDC Package Tour? (This would involve looking for a portal or contact information, which is not explicitly detailed for *how* to submit a request, but the general \"Cancellation & Refund Policy\" link is mentioned in [2] and [3], implying a process). I will phrase it to guide them to the official channels.For JKTDC Package Tours, the refund policy for cancellations is as follows [4]:\n\n*   If a request for cancellation of a Package Tour is made within 10 days from the date of check-in, no refund will be granted [4].\n*   If the request for cancellation is made before 10 days from the date of check-in, the guest will be entitled to a refund of 70% of the Package Cost [4].\n\n### Suggested Follow-up Questions\n- What is the policy for changing the dates of a JKTDC Package Tour?\n- How can a guest officially submit a cancellation request for a JKTDC Package Tour?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely extracts the refund policy for JKTDC Package Tours directly from the provided context, with perfect citations. The follow-up questions are relevant, with one seeking factual clarification and the other guiding towards an actionable next step."
+      }
+    }
+  },
+  {
+    "index": 24,
+    "qid": "exp-0024",
+    "question": "As per the 14 Years Budget Data provided by the Forest and Environment Department, Government of Gujarat, what was the total expenditure for the financial year 2014-15?",
+    "reference_answer": "According to the 14 Years Budget Data from the Forest and Environment Department, Government of Gujarat, the total expenditure for the financial year 2014-15 was 66464.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "As per the 14 Years Budget Data provided by the Forest and Environment Department, Government of Gujarat, the total expenditure for the financial year 2014-15 was 66464 [1].\n\n### Suggested Follow-up Questions\n1. What was the Forest Expenditure for the financial year 2014-15?\n2. Where can I download the complete \"14 Years Budget Data\" document?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly extracts the total expenditure for 2014-15 directly from the provided context and cites it accurately. Both follow-up questions are relevant and well-formulated, offering a factual clarification and an actionable next step."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "As per the 14 Years Budget Data provided by the Forest and Environment Department, Government of Gujarat, the total expenditure for the financial year 2014-15 was 66464 [1].\n\n### Suggested Follow-up Questions\n- What were the individual Forest Expenditure and Environment Expenditure components for 2014-15?\n- Where can I find the complete 14 Years Budget Data for download?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the total expenditure for 2014-15 directly from the context and cites it correctly. Both follow-up questions are relevant and well-formulated, offering a factual clarification and an actionable next step."
+      },
+      "Hidden CoT": {
+        "generated_answer": "As per the 14 Years Budget Data provided by the Forest and Environment Department, Government of Gujarat, the total expenditure for the financial year 2014-15 was \u20b966,464 [1].\n\n### Suggested Follow-up Questions\n- What was the breakdown of Forest Expenditure and Environment Expenditure for 2014-15?\n- Where can I find the detailed budget documents for the financial year 2014-15?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer correctly extracts the total expenditure for 2014-15 from the provided context and cites it accurately. Both follow-up questions are relevant and well-formulated, covering a factual clarification and an actionable next step."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "As per the 14 Years Budget Data provided by the Forest and Environment Department, Government of Gujarat, the total expenditure for the financial year 2014-15 was 66464 [1].\n\n### Suggested Follow-up Questions\n- What was the breakdown of Forest Expenditure and Environment Expenditure for 2014-15?\n- Where can I find the complete 14 Years Budget Data for all listed financial years?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately provides the total expenditure for 2014-15 directly from the context and cites it correctly. Both follow-up questions are relevant and well-formulated, offering a factual clarification and an actionable next step."
+      }
+    }
+  },
+  {
+    "index": 25,
+    "qid": "exp-0025",
+    "question": "What specific facilities are available for guests at Aranyanivas Chandbali?",
+    "reference_answer": "The facilities available at Aranyanivas Chandbali include Food, Boating Facility, Local Sightseeing Tours, Restaurant, and Transport Service.",
+    "techniques": {
+      "Zero-Shot": {
+        "generated_answer": "The specific facilities available for guests at Aranyanivas Chandbali include Food, Boating Facility, Local Sightseeing Tours, Restaurant, and Transport Service [1].\n\n### Suggested Follow-up Questions\n* What is the contact number for Aranyanivas Chandbali?\n* How can I make an instant reservation for Aranyanivas Chandbali?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely lists all facilities for Aranyanivas Chandbali as found in the provided context, with correct citation. The suggested follow-up questions are relevant and actionable, covering both factual clarification and next steps."
+      },
+      "Few-Shot (Learned)": {
+        "generated_answer": "The specific facilities available for guests at Aranyanivas Chandbali include Food, Boating Facility, Local Sightseeing Tours, a Restaurant, and Transport Service [1].\n\n### Suggested Follow-up Questions\n- What is the address of Aranyanivas Chandbali?\n- How can a citizen make an instant reservation for Aranyanivas Chandbali?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely lists all facilities for Aranyanivas Chandbali as found in the provided context. All claims are faithfully supported and correctly cited, and the follow-up questions are relevant and well-formulated."
+      },
+      "Hidden CoT": {
+        "generated_answer": "reasoning\n1. **Target**: Identify the specific facilities available for guests at Aranyanivas Chandbali.\n\n2. **Context Evidence**:\n    * Document [1] and [2] both mention \"Aranyanivas Chandbali\".\n    * Document [1] specifically lists \"Facilities\" under \"Aranyanivas Chandbali\":\n        * \"Food\"\n        * \"Boating Facility\"\n        * \"Local Sightseeing Tours\"\n        * \"Restaurant\"\n        * \"Transport Service\"\n\n3. **Actionable Path**: The answer is fully present in document [1].\n\n4. **Follow-ups**:\n    * **Factual inquiry**: What are the operating hours for the restaurant at Aranyanivas Chandbali? (This is a specific detail related to one of the listed facilities).\n    * **Next-step citizen guidance question**: How can I book a local sightseeing tour or transport service at Aranyanivas Chandbali? (This guides the user on how to utilize the listed services).Aranyanivas Chandbali offers the following facilities for its guests:\n*   Food\n*   Boating Facility\n*   Local Sightseeing Tours\n*   Restaurant\n*   Transport Service [1]\n\n### Suggested Follow-up Questions\n- What are the specific types of food available at the restaurant in Aranyanivas Chandbali?\n- How can I book a boating facility or local sightseeing tour at Aranyanivas Chandbali?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and completely lists all facilities for Aranyanivas Chandbali directly from the provided context. It is faithful, correctly cited, and includes relevant follow-up questions."
+      },
+      "Few-Shot + CoT": {
+        "generated_answer": "As per the available information, the specific facilities available for guests at Aranyanivas Chandbali include:\n*   Food [1]\n*   Boating Facility [1]\n*   Local Sightseeing Tours [1]\n*   Restaurant [1]\n*   Transport Service [1]\n\n### Suggested Follow-up Questions\n- What is the contact number for Aranyanivas Chandbali?\n- How can a citizen make an instant reservation for Aranyanivas Chandbali?",
+        "scores": {
+          "correctness": 5,
+          "faithfulness": 5,
+          "citation_quality": 5,
+          "redirection_quality": 5,
+          "follow_up_quality": 5
+        },
+        "verdict": "PASS",
+        "critique": "The answer accurately and faithfully provides all requested facilities directly from the context with correct citations. The follow-up questions are relevant and well-formulated, covering both factual clarification and actionable next steps."
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "config": "dense-only",
+    "search_time_s": 1.0,
+    "recall@5": 0.7733,
+    "recall@10": 0.84,
+    "hit@1": 0.5733,
+    "mrr": 0.6723,
+    "ndcg@10": 0.7095
+  },
+  {
+    "config": "bm25-only",
+    "search_time_s": 10.6,
+    "recall@5": 0.9467,
+    "recall@10": 0.96,
+    "hit@1": 0.8067,
+    "mrr": 0.8612,
+    "ndcg@10": 0.8845
+  },
+  {
+    "config": "hybrid-rrf",
+    "search_time_s": 10.8,
+    "recall@5": 0.9333,
+    "recall@10": 0.96,
+    "hit@1": 0.7267,
+    "mrr": 0.819,
+    "ndcg@10": 0.8539
+  },
+  {
+    "config": "hybrid-rrf-mmr",
+    "search_time_s": 12.1,
+    "recall@5": 0.8067,
+    "recall@10": 0.9667,
+    "hit@1": 0.5733,
+    "mrr": 0.6781,
+    "ndcg@10": 0.746
+  }
+]

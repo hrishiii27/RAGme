@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "bm25": {
+      "hit@1": 0.9375,
+      "recall@5": 0.9875,
+      "recall@10": 1.0,
+      "mrr": 0.9606
+    },
+    "dense": {
+      "hit@1": 0.85,
+      "recall@5": 0.9625,
+      "recall@10": 1.0,
+      "mrr": 0.9017
+    },
+    "hybrid_rrf": {
+      "hit@1": 0.9125,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9469
+    }
+  },
+  "contextual_lite": {
+    "bm25": {
+      "hit@1": 0.9875,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9938
+    },
+    "dense": {
+      "hit@1": 0.9125,
+      "recall@5": 0.9875,
+      "recall@10": 1.0,
+      "mrr": 0.9521
+    },
+    "hybrid_rrf": {
+      "hit@1": 0.9375,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9688
+    }
+  },
+  "contextual_llm": {
+    "bm25": {
+      "hit@1": 0.95,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9729
+    },
+    "dense": {
+      "hit@1": 0.825,
+      "recall@5": 0.9875,
+      "recall@10": 1.0,
+      "mrr": 0.901
+    },
+    "hybrid_rrf": {
+      "hit@1": 0.95,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "mrr": 0.9708
+    }
+  }
+}

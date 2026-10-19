@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets
+.env
+
+# Data & indexes (large, reproducible from scripts)
+data/*
+!data/golden/
+!data/.gitkeep
+
+# Caches
+.cache/
+experiments/cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# agent skills
+.agents/

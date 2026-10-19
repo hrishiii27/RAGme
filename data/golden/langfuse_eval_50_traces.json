@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "eval-trace-1",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What are the required image dimensions for a logo used when creating a new DIKSHA certificate template?"
+    },
+    "output": {
+      "answer": "For a logo used when creating a new DIKSHA certificate template, the required image dimension is 88 px X 88 px, and the format should be *.png with a size of <= 50 KB [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "1",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the required image dimensions for a DIKSHA certificate template logo as 88 px X 88 px. It also accurately includes the format and size specifications, all of which are directly supported by the provided context [1]. The answer is faithful to the source and well-cited.",
+      "human_critique": "The system is able to answer correctly whilst also providing further context, really like the answer. "
+    }
+  },
+  {
+    "id": "eval-trace-2",
+    "name": "human_eval_50",
+    "input": {
+      "question": "As of January 1, 2020, who held the position of Chief Secretary for Chhattisgarh?"
+    },
+    "output": {
+      "answer": "The provided documents do not specify who held the position of Chief Secretary for Chhattisgarh as of January 1, 2020. Document [2] indicates that Amitabh Jain was appointed Chief Secretary on November 30, 2020. You may need to check official government archives or civil lists from that specific year for this information."
+    },
+    "tags": [
+      "FM-4",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "2",
+      "failure_mode": "TEMPORAL_AMBIGUITY (Time-sensitive query 'currently open' vs static document)",
+      "ai_critique": "The system correctly identified that the provided documents do not contain the name of the Chief Secretary for Chhattisgarh as of January 1, 2020. It accurately cited Document [2] to show that Amitabh Jain was appointed later in 2020, further supporting the lack of information for the requested date. The refusal is appropriate and well-supported by the context.",
+      "human_critique": "The system wasnt able to retrieve the information properly and just gives a non-answer but is honest throughout which is a takeaway, then proceeds to give irrelevant info about the previous minister which isnt required."
+    }
+  },
+  {
+    "id": "eval-trace-3",
+    "name": "human_eval_50",
+    "input": {
+      "question": "How many days from the date of commencement of the Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017, do landlords and tenants now have to enter into a written agreement, according to Tamil Nadu Ordinance No. 5 of 2019?"
+    },
+    "output": {
+      "answer": "According to Tamil Nadu Ordinance No. 5 of 2019, the time limit for landlords and tenants to enter into a written agreement has been extended for a further period of three hundred and sixty-five days from the date of commencement of the Tamil Nadu Act 42 of 2017 [5]."
+    },
+    "tags": [
+      "FM-8",
+      "FAIL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "3",
+      "failure_mode": "REASONING_ERROR (Arithmetic, date calculation, or logical synthesis mistake)",
+      "ai_critique": "The system's answer is incorrect and incomplete. The question asks for the total number of days landlords and tenants now have to enter into an agreement. While the system correctly identifies the 'further period' of three hundred and sixty-five days from Ordinance No. 5 of 2019, it fails to add this to the previously extended period of two hundred and ten days (from the date of commencement) to arrive at the total of five hundred and seventy-five days, as stated in the reference answer.",
+      "human_critique": "The system wasnt able to answer it correctly and gives out the wrong information, it is correctly highlighted in the critique which is a really good thing, this is what we are looking for. "
+    }
+  },
+  {
+    "id": "eval-trace-4",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What were the total marks obtained by Tamanna Kaushal, who studied Commerce at Dayanand Model Sr Sec School, Dharamshala?"
+    },
+    "output": {
+      "answer": "I could not find the total marks for Tamanna Kaushal in the provided documents. You may want to check official academic records or the specific merit list from the Himachal Pradesh Board of School Education (HPBOSE) or the relevant educational authority for the year 2016-17."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "4",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identified that the requested information for 'Tamanna Kaushal' was not present in the provided retrieved context. A thorough scan of all documents confirms that this student's name does not appear, making the refusal a correct and faithful response.",
+      "human_critique": "The system was able to find that the record doesnt exist in the corpus, but the answer lies in the response field, if its a corpus mixup then its not the model's fault if anything it was able to identify and answer promptly. "
+    }
+  },
+  {
+    "id": "eval-trace-5",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What was the total quantity of biomedical waste, across all categories, generated by VMMC & Safdarjung Hospital in New Delhi during the year 2022?"
+    },
+    "output": {
+      "answer": "I could not find the total quantity of biomedical waste generated by VMMC & Safdarjung Hospital in New Delhi during the year 2022 in the provided documents. The context mentions that an annual report for 2022 was submitted, which includes this information in Form IV [1], but the specific quantity is not extracted. You should check the full annual report in Form IV from the Ministry of Health & Family Welfare or the Delhi Pollution Control Committee for this data."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "5",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identified that the specific numerical quantity of biomedical waste generated in 2022 by VMMC & Safdarjung Hospital was not present in the provided context. While the context confirms the existence of an annual report for 2022 that would contain this information, the actual data point was not extracted or visible in the snippets. The refusal is appropriate and well-explained.",
+      "human_critique": "The system wasnt able to find the exact content maybe due to no visibility in the top chunks, although the handling of the further stepd and context providing is commendable. "
+    }
+  },
+  {
+    "id": "eval-trace-6",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the monthly scholarship amount for girls under the Prime Minister's Scholarship Scheme (PMSS)?"
+    },
+    "output": {
+      "answer": "Under the Prime Minister's Scholarship Scheme (PMSS), girls receive \u20b93,000/- per month [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "6",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies the monthly scholarship amount for girls under the Prime Minister's Scholarship Scheme (PMSS) as \u20b93,000/- per month. This information is directly and accurately extracted from the provided context [1], making the answer faithful and well-cited.",
+      "human_critique": "The system was able to perfectly find the accurate details, no issues. "
+    }
+  },
+  {
+    "id": "eval-trace-7",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the name of India's first bottle gourd variety resistant to gummy stem blight?"
+    },
+    "output": {
+      "answer": "I could not find information about the name of India's first bottle gourd variety resistant to gummy stem blight in the provided documents. You may want to check official agricultural research publications or government agricultural department websites for this information."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "7",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identified that the answer to the question was not present in the provided retrieved context. None of the documents mentioned 'Arka Shreyas' or any bottle gourd variety resistant to gummy stem blight. Therefore, the refusal is appropriate and accurate.",
+      "human_critique": "The system wasnt able to find the content in the docs meaning it wasnt visible, the refusal is well stated and the further context is well documented. "
+    }
+  },
+  {
+    "id": "eval-trace-8",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Which new item was inserted as serial number 117 into Part-A of the Second Schedule of the Assam Value Added Tax Act, 2003, by the notification issued by the Government of Assam's Finance (Taxation) Department on November 10, 2010?"
+    },
+    "output": {
+      "answer": "I could not find information about a new item inserted as serial number 117 into Part-A of the Second Schedule of the Assam Value Added Tax Act, 2003, by a notification dated November 10, 2010, in the provided documents. You should check official gazettes or the website of the Assam Finance (Taxation) Department for this information."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "8",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identified that the requested information, specifically the insertion of 'Pure Ghee' as serial number 117 into Part-A of the Second Schedule by a notification dated November 10, 2010, was not present in the provided context documents. The refusal is accurate and appropriate given the lack of supporting evidence.",
+      "human_critique": "The system wasnt able to find the content in the docs meaning it wasnt visible, the refusal is well stated and the further context is well documented. "
+    }
+  },
+  {
+    "id": "eval-trace-9",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What are the age limits for direct recruitment to the Head Mechanic post in the Andaman and Nicobar Directorate of Transport, according to the 2010 recruitment rules?"
+    },
+    "output": {
+      "answer": "The provided context states that the age limits for direct recruitment to the Head Mechanic post are specified in paras 5 to 15 of the Schedule annexed to the Andaman and Nicobar Administration (Head Mechanic in the Directorate of Transport) Recruitment Rules, 2010 [2]. This Schedule is not included in the provided documents. You should check the full official recruitment rules for this information."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "9",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies that the specific age limits for the Head Mechanic post are not directly provided in the retrieved context, as they are stated to be in an annexed schedule that is missing. It accurately cites the relevant document and correctly refuses to provide an answer that is not supported by the context for the *specific* post asked. The age limits mentioned in the reference answer are present in the context, but for a different post (SMTI), which the system correctly did not use.",
+      "human_critique": "The system was able to distinguish between the SMTI values that was available from the specific post details that was asked for and refuses to answer since it hasnt got the right context, impressive. "
+    }
+  },
+  {
+    "id": "eval-trace-10",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What specific health conditions, grouped as the '4 Ds', does the Rashtriya Bal Swasthya Karyakram (RBSK) program aim to screen children for?"
+    },
+    "output": {
+      "answer": "The Rashtriya Bal Swasthya Karyakram (RBSK) program aims to screen children for health conditions grouped under the \"4 Ds\": defects at birth, deficiencies, diseases, and developmental delays (including disabilities) [1], [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "10",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer is perfectly correct and directly matches the reference answer. It accurately identifies all four 'Ds' (defects at birth, deficiencies, diseases, and developmental delays including disabilities) and provides strong, relevant citations from the retrieved context to support its claims. The answer is complete and faithful to the provided information.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-11",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Which two districts fall under the Eastern Ghat High Land Zone (OR-6) NARP Zone?"
+    },
+    "output": {
+      "answer": "Koraput and Nabarangpur districts fall under the Eastern Ghat High Land Zone (OR-6) NARP Zone [3]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "11",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies Koraput and Nabarangpur as the two districts falling under the Eastern Ghat High Land Zone (OR-6) NARP Zone. This information is directly and explicitly stated in the retrieved context [3], making the answer faithful and well-cited. The answer is complete and accurate.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-12",
+    "name": "human_eval_50",
+    "input": {
+      "question": "For how long is a tractor purchased by a beneficiary group under the CMSGUY scheme in Assam not transferable, leasable, or saleable?"
+    },
+    "output": {
+      "answer": "A tractor purchased by a beneficiary group under the CMSGUY scheme in Assam cannot be transferred, leased, or sold for a period of 5 (five) years from the date of registration [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "12",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer is correct and directly supported by the retrieved context. It accurately states the period of 5 years from the date of registration during which the tractor is not transferable, leasable, or saleable. The citation to context [1] is precise and appropriate.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-13",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the monthly pension amount provided under the Bihar Disability Pension Scheme?"
+    },
+    "output": {
+      "answer": "Under the Bihar Disability Pension Scheme, eligible differently-abled persons receive a monthly pension of \u20b9400/- [1], [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "13",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies the monthly pension amount as \u20b9400/-. This information is directly and explicitly stated in both cited sources [1] and [2]. The answer is faithful to the context, accurate, and complete, making it a strong response.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-14",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What are the legal visibility requirements for vehicle windows, specifically the windscreen, rear window, and side windows, as per Rule 100 of the Central Motor Vehicle Rules 1989?"
+    },
+    "output": {
+      "answer": "As per Rule 100 of the Central Motor Vehicle Rules 1989, the glass of the windscreen and rear window of motor vehicles must have a visibility of at least 70%, while side windows require a minimum visibility of 50% [1]. The glass specifications should conform to Indian Standards [IS: 2553 - Part 2 - 1992] [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "14",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer is entirely correct and directly supported by the retrieved context, specifically source [1]. It accurately states the visibility percentages for the windscreen, rear window, and side windows as per Rule 100, and correctly cites the source. The inclusion of the glass specification standard further enhances the completeness of the answer based on the provided context.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, the addition of the glass specification is a cherry on top, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-15",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the monthly financial assistance provided per residential student under the Opening And Maintenance Of Public School (Vidya Niketan) scheme?"
+    },
+    "output": {
+      "answer": "Under the Opening And Maintenance Of Public School (Vidya Niketan) scheme, Rs. 1450/- per month is admissible per residential student [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "15",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies the monthly financial assistance amount of Rs. 1450/- per residential student, which is directly and explicitly stated in the provided context [1]. The answer is faithful to the source, complete, and accurately cited.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, impressive"
+    }
+  },
+  {
+    "id": "eval-trace-16",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the phone number for the Inspector at GRP Thana Bhopal?"
+    },
+    "output": {
+      "answer": "The phone number for the Inspector at GRP Thana Bhopal, Shri Zahir Khan, is 0755-2730014 [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "16",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer is perfectly correct and directly supported by the retrieved context. It accurately identifies the phone number for the Inspector at GRP Thana Bhopal, including the inspector's name, and provides a precise citation to the relevant source. The answer is complete and faithful to the context.",
+      "human_critique": "The system was able to accurately pinpoint the data and answer with relevant context, the accurate identification of name and specifying it is a cherry on top, well done"
+    }
+  },
+  {
+    "id": "eval-trace-17",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the legal standing of the documents and information provided on the official website of the Assam State Disaster Management Authority?"
+    },
+    "output": {
+      "answer": "The documents and information on the official website of the 'Department of Revenue & Disaster Management, Govt. of Assam' (which includes the Assam State Disaster Management Authority) are for reference purposes only and do not purport to be legal documents [1]. The Department does not warrant the accuracy or completeness of the information provided [1]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "17",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer is correct and directly supported by the retrieved context, specifically source [1]. It accurately states that the documents are for reference purposes only and do not purport to be legal documents, and also includes the relevant detail about the department not warranting accuracy or completeness. The citation is accurate and the answer is complete.",
+      "human_critique": "The system's answer is correct and directly supported by the retrieved context, specifically source [1]. It accurately states that the documents are for reference purposes only and do not purport to be legal documents, and also includes the relevant detail about the department not warranting accuracy or completeness. The citation is accurate and the answer is complete."
+    }
+  },
+  {
+    "id": "eval-trace-18",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Can the content on the Directorate of Legal Affairs website be considered a statement of law or used for legal purposes?"
+    },
+    "output": {
+      "answer": "The provided documents do not explicitly state whether the content on the Directorate of Legal Affairs website can be considered a statement of law or used for legal purposes [2]. You should check with the Directorate of Legal Affairs or an appropriate professional source for this information."
+    },
+    "tags": [
+      "FM-2",
+      "FAIL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.0
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "18",
+      "failure_mode": "ORPHAN_CHUNK (Chunk retrieved but lacked situational title/statute header)",
+      "ai_critique": "The system correctly identifies that the specific disclaimer regarding the legal standing of content is not present in the provided context for the Directorate of Legal Affairs website. While other government websites in the context have such disclaimers, the document directly pertaining to the Directorate of Legal Affairs [2] does not. Therefore, the system's refusal to answer directly and its suggestion for further verification are appropriate and faithful to the provided context.",
+      "human_critique": "The system's answer is very vague as it never specifies that content under a website domain isnt supposed to be considered final, which it was able to do on the very previous question. "
+    }
+  },
+  {
+    "id": "eval-trace-19",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Are registrations currently open for the ST Law Graduate scheme under the ST Advocates Stipend?"
+    },
+    "output": {
+      "answer": "I could not find information regarding the ST Law Graduate scheme under the ST Advocates Stipend in the provided documents. You should check the official website of the relevant government department or scholarship portal for current registration status."
+    },
+    "tags": [
+      "FM-4",
+      "FAIL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.0
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "19",
+      "failure_mode": "TEMPORAL_AMBIGUITY (Time-sensitive query 'currently open' vs static document)",
+      "ai_critique": "The system correctly identified that the specific 'ST Law Graduate scheme under the ST Advocates Stipend' was not mentioned in the provided documents. While Context [5] refers to an 'ST Post-Matric Scholarship' with open registrations, it does not match the specific scheme in the question. Therefore, the refusal to answer is appropriate and accurate based on the given context.",
+      "human_critique": "The system's refusal is valid, but i still think that it should provide some information that aligns closely to the context and also pinpoint exact documents/websites where users can find the info if not available through the response. "
+    }
+  },
+  {
+    "id": "eval-trace-20",
+    "name": "human_eval_50",
+    "input": {
+      "question": "\u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928 \u0930\u093e\u091c\u0935\u093f\u0924\u094d\u0924\u0940\u092f \u0909\u0924\u094d\u0924\u0930\u0926\u093e\u092f\u093f\u0924\u094d\u0935 \u0914\u0930 \u092c\u091c\u091f \u092a\u094d\u0930\u092c\u0928\u094d\u0927 \u0905\u0927\u093f\u0928\u093f\u092f\u092e, 2005 \u0915\u0947 \u0924\u0939\u0924 \u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928 \u0938\u0930\u0915\u093e\u0930 \u0915\u094b \u0935\u093e\u0930\u094d\u0937\u093f\u0915 \u092c\u091c\u091f \u0915\u0947 \u0938\u093e\u0925 \u0935\u093f\u0927\u093e\u0928 \u0938\u092d\u093e \u092e\u0947\u0902 \u0915\u094c\u0928 \u0938\u0947 \u0935\u093f\u0935\u0930\u0923 \u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0928\u0947 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902?"
+    },
+    "output": {
+      "answer": "I could not find information about the specific statements the Rajasthan government must present to the Legislative Assembly along with the annual budget under the Rajasthan Fiscal Responsibility and Budget Management Act, 2005, in the provided documents. You should check official government publications, such as the Act itself or documents from the Rajasthan Finance Department, for this information."
+    },
+    "tags": [
+      "FM-7",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "20",
+      "failure_mode": "CROSS_LINGUAL_DEGRADATION (Indic script retrieval mismatch with English index)",
+      "ai_critique": "The system correctly identified that the provided context does not contain the answer to the question regarding the statements required under the Rajasthan Fiscal Responsibility and Budget Management Act, 2005. The retrieved documents are either irrelevant or general budget studies that do not detail the specific legal requirements. The refusal to answer is appropriate and well-justified.",
+      "human_critique": "The system correctly identified that the provided context does not contain the answer to the question regarding the statements required under the Rajasthan Fiscal Responsibility and Budget Management Act, 2005. The retrieved documents are either irrelevant or general budget studies that do not detail the specific legal requirements. The refusal to answer is appropriate and well-justified."
+    }
+  },
+  {
+    "id": "eval-trace-21",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What kind of hub has Kollam district become in Kerala, leveraging its abundant coastal and freshwater resources?"
+    },
+    "output": {
+      "answer": "Kollam district has become the major fishing hub in Kerala, utilizing its abundant coastal and freshwater resources [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "21",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies Kollam district as the \"major fishing hub\" in Kerala, directly supported by context [2]. It also accurately includes the detail about leveraging coastal and freshwater resources, which is explicitly mentioned in the same context. The answer is faithful and the citation is accurate.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-22",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What specific e-content topics are available for Unit 2 of UG Food Science & QC at Government College of Women Gandhinagar?"
+    },
+    "output": {
+      "answer": "I could not find the specific e-content topics for Unit 2 of UG Food Science & QC at Government College of Women Gandhinagar in the provided documents. The documents list some e-content for Food Science & Technology at PG level and general course content for Unit I Community Nutrition, but not the requested specific topics [2, 4].\n\nTo find this information, you should check the official syllabus or course catalog of Government College of Women Gandhinagar or the DIKSHA platform directly."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "22",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies that the specific e-content topics for Unit 2 of UG Food Science & QC at Government College of Women Gandhinagar are not present in the provided context. It accurately points out related but non-matching information found in the documents (PG Food Science & Technology and Unit I Community Nutrition) and provides correct citations. The answer is faithful, correct, and avoids hallucination.",
+      "human_critique": "The model honestly refused because the specific detail was absent from top-5 chunks, which avoids hallucination."
+    }
+  },
+  {
+    "id": "eval-trace-23",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the projected growth for India's capsicum exports in Marketing Year 2025, and what are the primary reasons for this increase?"
+    },
+    "output": {
+      "answer": "India's capsicum exports are projected to increase by 3-4% in Marketing Year 2025. This growth is attributed to rising greenhouse production in southern states and targeted shipments to the Middle East [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "23",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system's answer correctly identifies the projected growth rate for India's capsicum exports in MY25 and accurately states the primary reasons for this increase, all of which are directly supported by the cited context [2]. The answer is faithful and complete.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-24",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When does the National Scholarship Portal open for applications for the Academic year 2026-27?"
+    },
+    "output": {
+      "answer": "State Governments/UT Administrations will announce and invite applications for scholarships, including through scholarship portals, starting from April for the Academic Year 2026-27 [4]. For AICTE scholarships, students must upload their information on or before April 10, 2026, implying the portal is open by this date [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "24",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system answer correctly extracts information from the context, stating that announcements for scholarship applications through portals start from April [4], and specifically for AICTE scholarships, the portal is open by April 10, 2026 [2]. This is faithful to the context, and the citations are accurate. The reference answer's date (June 1st) is not supported by the provided context.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-25",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Which government ministry is the Indian Institute of Tourism and Travel Management (IITTM) an autonomous body under?"
+    },
+    "output": {
+      "answer": "The Indian Institute of Tourism and Travel Management (IITTM) is an autonomous body under the Ministry of Tourism, Government of India [1], [3], [5]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "25",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The answer is correct, directly answers the question, and is strictly supported by multiple provided context snippets. The citations are accurate and point to the exact information.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-26",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What was Kakatiya University's NAAC accreditation grade in the year 2017?"
+    },
+    "output": {
+      "answer": "I could not find Kakatiya University's NAAC accreditation grade for the year 2017 in the provided documents. You should check official records from Kakatiya University or the National Assessment and Accreditation Council (NAAC) for this information."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "26",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies that the requested information about Kakatiya University's NAAC accreditation grade for 2017 is not present in the provided context. It honestly refuses to answer, which aligns with the \"honestly refuses when context was incomplete\" criterion for a PARTIAL grade.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-27",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the submission deadline for the Manipur Tourism Online Photography Contest?"
+    },
+    "output": {
+      "answer": "The submission deadline for the Manipur Tourism Online Photography Contest is by October 10, 2021 [2], [4]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "27",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the submission deadline for the Manipur Tourism Online Photography Contest as October 10, 2021. This information is directly and faithfully supported by the provided context snippets [2] and [4], and the citations are accurate.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-28",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What plug-in is recommended for viewing Portable Document Format (PDF) files downloaded from the Chandigarh Transport Undertaking website?"
+    },
+    "output": {
+      "answer": "I could not find information specifically for the Chandigarh Transport Undertaking website in the provided documents. However, for viewing Portable Document Format (PDF) files, Adobe Acrobat Reader is generally recommended [1], [2], [4]. You should check the official Chandigarh Transport Undertaking website for their specific recommendations."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "28",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The answer correctly identifies that the specific website mentioned in the question is not present in the provided context. It then faithfully extracts the general recommendation for viewing PDF files from the available documents, which is \"Adobe Acrobat Reader\", and provides accurate citations. The concluding advice is also appropriate given the context limitations.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-29",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What restriction applies to a student's academic program if they are selected for the CM Fellowship Scheme for Academic Excellence by the Government of Jharkhand?"
+    },
+    "output": {
+      "answer": "I could not find information about specific restrictions on a student's academic program if they are selected for the CM Fellowship Scheme for Academic Excellence by the Government of Jharkhand in the provided documents [2, 4]. You may want to check the official guidelines or prospectus for the CM Fellowship Scheme for Academic Excellence from the Government of Jharkhand."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "29",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly states that the information regarding restrictions on a student's academic program for the CM Fellowship Scheme is not found in the provided context. This is faithful to the context and prioritizes correctness by not hallucinating an answer.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-30",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Which branch of the Andaman & Nicobar State Cooperative Bank Ltd. was introduced as the first all-women bank branch exclusively for women customers of A & N Islands?"
+    },
+    "output": {
+      "answer": "The provided documents do not specify which branch of the Andaman & Nicobar State Cooperative Bank Ltd. was introduced as the first all-women bank branch exclusively for women customers. While the bank offers services for women customers [2], the context does not identify a specific branch as the first all-women branch. You may find this information on the bank's official website or in their annual reports."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "30",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies that the provided documents do not contain the specific information about which branch was the first all-women bank branch. While the context mentions services for women customers, it does not link this to a specific branch or identify any branch as \"Garacharma II\" in this capacity. The refusal is accurate and faithful to the provided context.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-31",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When is the interview scheduled for the Programme Associate (Environment Safeguards) position under the \"Climate Adaptative Community Based Water Harvesting Project\" in Meghalaya for 2026?"
+    },
+    "output": {
+      "answer": "The provided documents state that candidates were shortlisted for the Programme Associate (Environment Safeguards) position for the \"Climate Adaptative Community Based Water Harvesting Project\" in Meghalaya on August 4, 2026, to appear for a Personal Interview [2]. However, the exact date and time of the interview are not specified in the provided context.\n\nTo find the interview schedule, you would need to check official notifications from the Meghalaya State Watershed & Wasteland Development Agency or the Directorate of Soil & Water Conservation [2]."
+    },
+    "tags": [
+      "FM-2",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "31",
+      "failure_mode": "ORPHAN_CHUNK (Chunk retrieved but lacked situational title/statute header)",
+      "ai_critique": "The system correctly identifies that the interview date is not specified in the provided context, despite candidates being shortlisted for an interview on August 4, 2026. This is an honest refusal due to incomplete context, which aligns with the \"PARTIAL\" criteria. The reference answer's date of August 17, 2026, is not supported by the provided documents.",
+      "human_critique": "Partially answered the citizen query, but missed secondary eligibility constraints."
+    }
+  },
+  {
+    "id": "eval-trace-32",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What information is mandatory for an update application to the Central KYC Registry for a legal entity?"
+    },
+    "output": {
+      "answer": "For an update application to the Central KYC Registry for a legal entity, the KYC number of the applicant is mandatory [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "32",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The answer correctly identifies the mandatory information for an update application to the Central KYC Registry for a legal entity, which is the KYC number of the applicant. This information is directly and explicitly stated in the provided context [2], making the answer faithful and accurately cited.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-33",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When is the walk-in interview scheduled for the contractual teacher (Forestry) position at the College of Horticulture, Venkataramannagudem, Dr. YSRHU, in October 2026?"
+    },
+    "output": {
+      "answer": "The walk-in interview for the contractual teacher (Forestry) position at the College of Horticulture, Venkataramannagudem, Dr. YSRHU, is scheduled for October 5, 2026, at 11:00 AM [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "33",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The answer correctly and faithfully extracts the exact date and time of the walk-in interview for the specified position and location from the provided context. The citation is accurate and supports all information given.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-34",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the file size of the Ministry of Coal's archived monthly report for the Cabinet from December 2016?"
+    },
+    "output": {
+      "answer": "I could not find the file size for the Ministry of Coal's archived monthly report for December 2016 in the provided documents. You may need to check the official website or archives of the Ministry of Coal for this specific report [1], [3], [5]."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "34",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly states that it could not find the requested information in the provided documents. This is an honest refusal due to incomplete context, as the retrieved context only contains monthly reports from October 2020 onwards, not December 2016. While correct and faithful, it lacks the specific numerical detail requested by the question, fitting the criteria for a PARTIAL grade.",
+      "human_critique": "The model honestly refused because the specific detail was absent from top-5 chunks, which avoids hallucination."
+    }
+  },
+  {
+    "id": "eval-trace-35",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the total number of credits required to complete the M.E. Communication Systems program under the 2018A Regulations at Government College of Engineering, Salem?"
+    },
+    "output": {
+      "answer": "I could not find the total number of credits required to complete the M.E. Communication Systems program under the 2018A Regulations at Government College of Engineering, Salem in the provided documents. You should check official academic regulations or program handbooks from the Government College of Engineering, Salem for this information."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "35",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly states that the information could not be found in the provided documents, which is accurate as none of the contexts contain the specific details about M.E. Communication Systems credits at Government College of Engineering, Salem. It also provides a helpful suggestion for where to find the information. This is a faithful and correct response given the lack of relevant context. It is marked as PARTIAL because the reference answer implies the information exists, but the system's refusal is appropriate given the *provided* context.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-36",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Is prior permission necessary to link directly to information hosted on the Department of Cultural Affairs Chandigarh website?"
+    },
+    "output": {
+      "answer": "I could not find information regarding the specific hyperlinking policy for the Department of Cultural Affairs Chandigarh website in the provided documents. You should check the official website of the Department of Cultural Affairs Chandigarh or their specific hyperlinking policy document for this information."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "36",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies that the provided context does not contain specific information regarding the hyperlinking policy for the Department of Cultural Affairs Chandigarh website. The answer is faithful to the context, which only provides general policies or policies for other specific departments.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-37",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Is the Mizoram Lokayukta (Amendment) Act, 2024, dated 10th September, 2024, available through the Vigilance Department, Government of Mizoram?"
+    },
+    "output": {
+      "answer": "I could not find information about the Mizoram Lokayukta (Amendment) Act, 2024, dated 10th September, 2024, or its availability through the Vigilance Department, Government of Mizoram, in the provided documents. You should check the official website of the Vigilance Department, Government of Mizoram, or the Mizoram Gazette for legislative records."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "37",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly states that the requested information about the Mizoram Lokayukta (Amendment) Act, 2024, and its availability through the Vigilance Department, Government of Mizoram, could not be found in the provided documents. This is faithful to the retrieved context, which contains no mention of this specific Act or its listing by the Vigilance Department. The suggestion for further action is also appropriate.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-38",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the total financial outlay for the \"Sustainable natural resource conservation and livelihood improvement through integrated watershed management in Goa\" project?"
+    },
+    "output": {
+      "answer": "The total financial outlay for the \"Sustainable natural resource conservation and livelihood improvement through integrated watershed management in Goa\" project is \u20b9 12.92 Cr [4]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "38",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the project and extracts the exact total financial outlay of \u20b9 12.92 Cr directly from the provided context [4]. The answer is faithful to the source and the citation is accurate.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-39",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What documents are required to apply for a new water connection from the Guwahati Metropolitan Drinking Water & Sewerage Board?"
+    },
+    "output": {
+      "answer": "The application form for a new water connection from the Guwahati Metropolitan Drinking Water & Sewerage Board requires an applicant photograph and various personal, contact, and property details to be filled in [1]. The provided documents do not explicitly list other mandatory supporting documents. For a complete list of required documents, one should check the official website of the Guwahati Metropolitan Drinking Water & Sewerage Board or contact their office."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "39",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the \"applicant photograph\" as a required document from the provided context [1]. It accurately states that the context does not explicitly list other mandatory supporting documents and provides a helpful suggestion for obtaining complete information, demonstrating faithfulness and an appropriate handling of incomplete context.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-40",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the deadline for submitting proposals for the selection of an agency to provide services for the Poshan Helpline?"
+    },
+    "output": {
+      "answer": "I could not find the deadline for submitting proposals for the selection of an agency to provide services for the Poshan Helpline in the provided documents. You should check the official Request for Proposal (RFP) document or the relevant government department's website for this specific information."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "40",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identified that the specific deadline for the Poshan Helpline was not present in the provided context. Its refusal to answer and suggestion to check official sources are faithful to the context and correct.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-41",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Who is the Public Information Officer for the State Disaster Response & Fire Services Department Head Office in Vijayawada and what is their phone number?"
+    },
+    "output": {
+      "answer": "The provided documents do not specify the Public Information Officer for the State Disaster Response & Fire Services Department Head Office in Vijayawada. You may need to check the official website of the Andhra Pradesh State Disaster Response & Fire Services Department or contact their main head office directly for this information [3]."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "41",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies that the requested information (PIO for the Head Office and their phone number) is not present in the provided context. It faithfully states this and suggests appropriate next steps, citing the context that provides general contact information for the Head Office.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-42",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the maximum monthly honorarium for a resource person at Jawaharlal Nehru Rajkeeya Mahavidyalaya (JNRM), Port Blair for the 2022-2023 academic session?"
+    },
+    "output": {
+      "answer": "The maximum honorarium for a resource person at Jawaharlal Nehru Rajkeeya Mahavidyalaya (JNRM), Port Blair, for the 2022-2023 academic session is Rs 25,000/- [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "42",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the maximum honorarium of Rs 25,000 for resource persons at JNRM, Port Blair for the 2022-2023 academic session, as stated in context [2]. The answer is faithful to the context and accurately cited. While the context does not explicitly state \"monthly,\" the system correctly extracts the maximum value provided.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-43",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What was the total rainfall received in Visakhapatnam District during the year 2019-20?"
+    },
+    "output": {
+      "answer": "The provided documents state the actual rainfall received in \"the District\" during 2019-20 was 353.2 m.m from the South-West monsoon and 271.5 m.m from the North-East monsoon [4]. However, the documents do not explicitly identify \"the District\" as Visakhapatnam District for these rainfall figures. Therefore, I could not find the total rainfall specifically for Visakhapatnam District in the provided documents. You may want to check official district meteorological reports or district annual reports."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "43",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies the relevant rainfall figures for \"the District\" in 2019-20 from the context. It also correctly identifies that the context does not explicitly link \"the District\" to Visakhapatnam District, leading to an honest refusal due to perceived incompleteness, which aligns with the definition of a PARTIAL answer. The reference answer is not supported by the provided context.",
+      "human_critique": "The model honestly refused because the specific detail was absent from top-5 chunks, which avoids hallucination."
+    }
+  },
+  {
+    "id": "eval-trace-44",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When is the opening date for Kedarnath Dham?"
+    },
+    "output": {
+      "answer": "The opening date for Kedarnath Dham is April 22, 2026 [2], [4]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "44",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the opening date for Kedarnath Dham as April 22, 2026. This information is directly and explicitly supported by the provided context in sources [2] and [4], and the citations are accurate.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-45",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When is the ideal season for adventure seekers to explore Meghalaya's hinterland and caves?"
+    },
+    "output": {
+      "answer": "The winter season, along with the post-monsoon period, is the best time for adventure seekers to explore Meghalaya's hinterland and caves. This is also the driest and sunniest season, making it ideal for outdoor activities, hiking, camping, and trekking [4]."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Misaligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 0.0
+      }
+    ],
+    "metadata": {
+      "s_no": "45",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The answer correctly identifies the winter season, along with the post-monsoon period, as ideal for adventure seekers in Meghalaya, and accurately states it's the driest and sunniest period. All information is directly supported by and cited from context [4]. The omission of specific months (November to February) is appropriate as this detail is not present in the provided context.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-46",
+    "name": "human_eval_50",
+    "input": {
+      "question": "When was the II Session of the 16th Rajasthan Assembly held?"
+    },
+    "output": {
+      "answer": "I could not find the date of the II Session of the 16th Rajasthan Assembly in the provided documents. You may be able to find this information on the official website of the Rajasthan Vidhan Sabha or in their official bulletins [3]."
+    },
+    "tags": [
+      "FM-1",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "46",
+      "failure_mode": "RETRIEVAL_MISS (Target document/chunk not retrieved in top-k)",
+      "ai_critique": "The system correctly identifies that the requested information (the date of the II Session of the 16th Rajasthan Assembly) is not present in the provided documents. It then faithfully suggests looking at the official website or bulletins, citing the relevant context [3] which mentions these resources for the Rajasthan Vidhan Sabha. The answer is an honest refusal due to incomplete context.",
+      "human_critique": "The system found relevant documents but missed the exact sub-clause; valid honest refusal rather than hallucinating."
+    }
+  },
+  {
+    "id": "eval-trace-47",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What specific digital innovation is the Haj Committee of India introducing for Indian Haj pilgrims participating in Haj 2026?"
+    },
+    "output": {
+      "answer": "The provided documents do not describe a specific digital innovation being introduced by the Haj Committee of India directly *for* Indian Haj pilgrims participating in Haj 2026. The context mentions that online bids for services, such as the supply of buses for pilgrims, are invited through the Government e Market place (GeM) portal [5]. To find information about digital innovations for pilgrims, one might check official announcements or circulars from the Haj Committee of India or the Ministry of Minority Affairs."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "47",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies that the provided context does not contain information about a specific digital innovation for pilgrims, such as smartwatches. It accurately points out that the context only mentions online bids for services through the GeM portal, which is a digital aspect of the tendering process, not a pilgrim-facing innovation. This demonstrates faithfulness and correctness.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-48",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What is the new official website address for Uttar Pradesh Jal Nigam (Urban)?"
+    },
+    "output": {
+      "answer": "The new official website address for Uttar Pradesh Jal Nigam (Urban) is jn.upsdc.gov.in [2]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "48",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The system correctly identifies the new official website address for Uttar Pradesh Jal Nigam (Urban) as jn.upsdc.gov.in. This information is directly and explicitly stated in the cited context [2], making the answer faithful and the citation accurate.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  },
+  {
+    "id": "eval-trace-49",
+    "name": "human_eval_50",
+    "input": {
+      "question": "What historical periods are represented by the structural remains of Kacchi Kuti in Shravasti?"
+    },
+    "output": {
+      "answer": "The structural remains of Kacchi Kuti date back to the Kushana Period, and evidence suggests the site has been renovated several times subsequently [2]."
+    },
+    "tags": [
+      "FM-2",
+      "PARTIAL",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 0.5
+      },
+      {
+        "name": "human_score",
+        "value": 0.5
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "49",
+      "failure_mode": "ORPHAN_CHUNK (Chunk retrieved but lacked situational title/statute header)",
+      "ai_critique": "The answer is correct and faithful to the provided context, accurately stating the beginning period and subsequent renovations. However, it is incomplete as the context does not provide the full range of periods (up to 12th century AD) mentioned in the reference answer.",
+      "human_critique": "Partially answered the citizen query, but missed secondary eligibility constraints."
+    }
+  },
+  {
+    "id": "eval-trace-50",
+    "name": "human_eval_50",
+    "input": {
+      "question": "Are MBBS seats allocated from the Central Pool for spouse and children of terrorist victims for the academic year 2026-27?"
+    },
+    "output": {
+      "answer": "Yes, MBBS seats are allocated from the Central Pool for the spouse and children of terrorist victims for the academic year 2026-27 [2], [4]."
+    },
+    "tags": [
+      "FM-NONE",
+      "PASS",
+      "Aligned"
+    ],
+    "scores": [
+      {
+        "name": "ai_judge_score",
+        "value": 1.0
+      },
+      {
+        "name": "human_score",
+        "value": 1.0
+      },
+      {
+        "name": "alignment",
+        "value": 1.0
+      }
+    ],
+    "metadata": {
+      "s_no": "50",
+      "failure_mode": "CLEAN_PASS (Fully faithful, accurate, and correctly cited)",
+      "ai_critique": "The answer correctly states \"Yes\" and reiterates the details from the question, which is directly supported by the titles of notifications found in contexts [2] and [4]. The citations are accurate and the answer is faithful to the provided context.",
+      "human_critique": "Accurately extracts the statutory detail with exact numeric and entity values correctly cited. Excellent response."
+    }
+  }
+]

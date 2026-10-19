@@ -1,0 +1,178 @@
+[
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b:free",
+    "status": "online",
+    "latency_sec": 1.434,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk\u2011in interview for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is scheduled for **04th June 2026** at 9:00\u202fAM [1].",
+    "name": "NVIDIA: Nemotron 3 Super (free)",
+    "context_length": 262144
+  },
+  {
+    "id": "openrouter/free",
+    "status": "online",
+    "latency_sec": 2.168,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk\u2011in interview for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is scheduled for **04th June 2026** at 9:00\u202fAM in the Auditorium, Training Department. [1]",
+    "name": "Free Models Router",
+    "context_length": 200000
+  },
+  {
+    "id": "poolside/laguna-s-2.1:free",
+    "status": "online",
+    "latency_sec": 2.368,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk-in date for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is 04th June 2026 at 9:00 AM. [1]",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "context_length": 262144
+  },
+  {
+    "id": "liquid/lfm-2.5-2.6b:free",
+    "status": "online",
+    "latency_sec": 3.44,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk-in interview date for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is **4th June 2026** at 9:00 AM [1]. This applies to all graduates in the General Stream, i",
+    "name": "LiquidAI: LFM2.5-2.6B (free)",
+    "context_length": 65536
+  },
+  {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "status": "online",
+    "latency_sec": 4.096,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk-in date for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is 04th June 2026 at 9:00 AM [1].",
+    "name": "NVIDIA: Nemotron 3 Ultra (free)",
+    "context_length": 1000000
+  },
+  {
+    "id": "apodex/apodex-1.1-mini:free",
+    "status": "online",
+    "latency_sec": 4.458,
+    "correct": true,
+    "has_citation": true,
+    "score": 10.0,
+    "sample_output": "The walk-in interview for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is scheduled for 04th June 2026 at 9:00 AM at the Auditorium, Training Department [1].",
+    "name": "Apodex: Apodex 1.1 Mini (free)",
+    "context_length": 262144
+  },
+  {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "status": "online",
+    "latency_sec": 6.1,
+    "correct": true,
+    "has_citation": true,
+    "score": 9.0,
+    "sample_output": "The walk-in interview for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is scheduled for 04th June 2026 at 9:00 AM. [1]",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "context_length": 1000000
+  },
+  {
+    "id": "dots-studio/dots-3-note-preview:free",
+    "status": "online",
+    "latency_sec": 17.109,
+    "correct": true,
+    "has_citation": true,
+    "score": 8.0,
+    "sample_output": "Based on the provided context, the walk-in date for B.Sc (Electronics) graduate apprentices at HAL, Hyderabad is 04th June 2026 at 9:00 AM [1].",
+    "name": "Dots Studio: Dots3-Note Preview (free)",
+    "context_length": 512000
+  },
+  {
+    "id": "cohere/north-mini-code:free",
+    "status": "online",
+    "latency_sec": 2.401,
+    "correct": false,
+    "has_citation": true,
+    "score": 6.0,
+    "sample_output": "The walk\u2011in interview for B.Sc\u202f(Electronics) graduate apprentices is scheduled for **04\u202fJune\u202f2026 at 9:00\u202fAM** at the Auditorium, Training Department, HAL Hyderabad\u202f[1].",
+    "name": "Cohere: North Mini Code (free)",
+    "context_length": 256000
+  },
+  {
+    "id": "nvidia/nemotron-3.5-content-safety:free",
+    "status": "online",
+    "latency_sec": 4.812,
+    "correct": false,
+    "has_citation": false,
+    "score": 3.0,
+    "sample_output": "User Safety: safe",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+    "context_length": 128000
+  },
+  {
+    "id": "thinkingmachines/inkling-small:free",
+    "status": "error_403",
+    "latency_sec": 0.123,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "{\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+    "name": "Thinking Machines: Inkling Small (free)",
+    "context_length": 1048576
+  },
+  {
+    "id": "thinkingmachines/inkling:free",
+    "status": "error_403",
+    "latency_sec": 0.131,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "{\"error\":{\"message\":\"thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding",
+    "name": "Thinking Machines: Inkling (free)",
+    "context_length": 1048576
+  },
+  {
+    "id": "google/gemma-4-31b-it:free",
+    "status": "rate_limited",
+    "latency_sec": 0.564,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "Upstream rate limit (429)",
+    "name": "Google: Gemma 4 31B (free)",
+    "context_length": 262144
+  },
+  {
+    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "status": "exception",
+    "latency_sec": 0.585,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "'choices'",
+    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "context_length": 256000
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "status": "rate_limited",
+    "latency_sec": 0.592,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "Upstream rate limit (429)",
+    "name": "Google: Gemma 4 26B A4B  (free)",
+    "context_length": 262144
+  },
+  {
+    "id": "poolside/laguna-xs-2.1:free",
+    "status": "rate_limited",
+    "latency_sec": 0.774,
+    "correct": false,
+    "has_citation": false,
+    "score": 0.0,
+    "sample_output": "Upstream rate limit (429)",
+    "name": "Poolside: Laguna XS 2.1 (free)",
+    "context_length": 262144
+  }
+]

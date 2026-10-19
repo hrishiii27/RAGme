@@ -1,0 +1,136 @@
+{
+  "stage_A_chunking_sweep": [
+    {
+      "config": "fixed-256-32",
+      "n_docs": 6000,
+      "n_chunks": 70679,
+      "index_secs": 371,
+      "recall@5": 0.7667,
+      "recall@10": 0.8267,
+      "hit@1": 0.56,
+      "mrr": 0.662,
+      "ndcg@10": 0.6998
+    },
+    {
+      "config": "fixed-512-64",
+      "n_docs": 6000,
+      "n_chunks": 36483,
+      "index_secs": 219,
+      "recall@5": 0.7267,
+      "recall@10": 0.76,
+      "hit@1": 0.5067,
+      "mrr": 0.5964,
+      "ndcg@10": 0.6343
+    },
+    {
+      "config": "recursive-1000-100",
+      "n_docs": 6000,
+      "n_chunks": 64147,
+      "index_secs": 372,
+      "recall@5": 0.7733,
+      "recall@10": 0.84,
+      "hit@1": 0.5733,
+      "mrr": 0.6723,
+      "ndcg@10": 0.7095
+    },
+    {
+      "config": "recursive-1500-150",
+      "n_docs": 6000,
+      "n_chunks": 43532,
+      "index_secs": 243,
+      "recall@5": 0.7267,
+      "recall@10": 0.7867,
+      "hit@1": 0.56,
+      "mrr": 0.6387,
+      "ndcg@10": 0.6713
+    }
+  ],
+  "stage_C_retrieval_sweep": [
+    {
+      "config": "dense-only",
+      "search_time_s": 1.0,
+      "recall@5": 0.7733,
+      "recall@10": 0.84,
+      "hit@1": 0.5733,
+      "mrr": 0.6723,
+      "ndcg@10": 0.7095
+    },
+    {
+      "config": "bm25-only",
+      "search_time_s": 10.6,
+      "recall@5": 0.9467,
+      "recall@10": 0.96,
+      "hit@1": 0.8067,
+      "mrr": 0.8612,
+      "ndcg@10": 0.8845
+    },
+    {
+      "config": "hybrid-rrf",
+      "search_time_s": 10.8,
+      "recall@5": 0.9333,
+      "recall@10": 0.96,
+      "hit@1": 0.7267,
+      "mrr": 0.819,
+      "ndcg@10": 0.8539
+    },
+    {
+      "config": "hybrid-rrf-mmr",
+      "search_time_s": 12.1,
+      "recall@5": 0.8067,
+      "recall@10": 0.9667,
+      "hit@1": 0.5733,
+      "mrr": 0.6781,
+      "ndcg@10": 0.746
+    }
+  ],
+  "stage_E_human_ai_calibration": {
+    "dataset": "data/golden/seed_grading.csv",
+    "sample_size": 20,
+    "exact_agreement": "80.0% (16/20)",
+    "pass_not_pass_agreement": "80.0% (16/20)",
+    "cohens_kappa": 0.29,
+    "key_discovery": "Base LLM judge was too lenient on polite refusals without actionable redirection. Calibrated rubric penalizes vague refusals and mandates specific portal/department names."
+  },
+  "stage_F_prompt_tournament": [
+    {
+      "Technique": "Zero-Shot",
+      "Pass Rate": "92.0%",
+      "Correctness (/5)": "4.92",
+      "Faithfulness (/5)": "5.00",
+      "Citations (/5)": "5.00",
+      "Redirection (/5)": "4.88",
+      "Follow-ups (/5)": "4.92",
+      "Composite (/25)": "24.72"
+    },
+    {
+      "Technique": "Few-Shot (Learned)",
+      "Pass Rate": "100.0%",
+      "Correctness (/5)": "5.00",
+      "Faithfulness (/5)": "5.00",
+      "Citations (/5)": "5.00",
+      "Redirection (/5)": "4.88",
+      "Follow-ups (/5)": "4.96",
+      "Composite (/25)": "24.84"
+    },
+    {
+      "Technique": "Hidden CoT",
+      "Pass Rate": "92.0%",
+      "Correctness (/5)": "5.00",
+      "Faithfulness (/5)": "5.00",
+      "Citations (/5)": "4.92",
+      "Redirection (/5)": "4.76",
+      "Follow-ups (/5)": "5.00",
+      "Composite (/25)": "24.68"
+    },
+    {
+      "Technique": "Few-Shot + CoT",
+      "Pass Rate": "96.0%",
+      "Correctness (/5)": "4.88",
+      "Faithfulness (/5)": "4.92",
+      "Citations (/5)": "5.00",
+      "Redirection (/5)": "4.92",
+      "Follow-ups (/5)": "4.92",
+      "Composite (/25)": "24.64"
+    }
+  ]
+}
